@@ -1,0 +1,188 @@
+const DIALOGS = [
+{t:"Kennismaken", uk:"Знайомство", lines:[
+["A","Hallo, ik ben Anna. Hoe heet jij?","Привіт, я Анна. Як тебе звати?"],
+["B","Hoi Anna, ik heet Mark. Leuk je te ontmoeten!","Привіт, Анно, мене звати Марк. Приємно познайомитися!"],
+["A","Insgelijks. Waar kom je vandaan?","Взаємно. Звідки ти?"],
+["B","Ik kom uit Nederland, uit Utrecht. En jij?","Я з Нідерландів, з Утрехта. А ти?"],
+["A","Ik kom uit Oekraïne. Ik woon nu in Amsterdam.","Я з України. Зараз живу в Амстердамі."],
+["B","Wat doe je hier?","Чим ти тут займаєшся?"],
+["A","Ik werk in een kantoor en ik leer Nederlands.","Я працюю в офісі і вчу нідерландську."],
+["B","Je spreekt al goed Nederlands!","Ти вже добре говориш нідерландською!"],
+["A","Dank je wel! Het is soms moeilijk.","Дякую! Іноді це складно."]],
+tip:"«Waar kom je vandaan?» — найчастіше питання при знайомстві. Відповідь: «Ik kom uit ...»."},
+{t:"In het café", uk:"У кафе", lines:[
+["A","Goedemiddag! Wat wilt u drinken?","Добрий день! Що будете пити?"],
+["B","Ik wil graag een koffie met melk, alstublieft.","Я б хотів каву з молоком, будь ласка."],
+["A","Wilt u er iets bij eten?","Бажаєте щось до неї з'їсти?"],
+["B","Ja, een broodje kaas graag.","Так, бутерброд із сиром, будь ласка."],
+["A","Komt eraan. Nog iets anders?","Зараз буде. Ще щось?"],
+["B","Nee, dat is alles. Mag ik de rekening?","Ні, це все. Можна рахунок?"],
+["A","Dat is zes euro vijftig. Pinnen of contant?","Шість євро п'ятдесят. Карткою чи готівкою?"],
+["B","Pinnen, graag.","Карткою, будь ласка."]],
+tip:"«Ik wil graag...» звучить ввічливо. «Ik wil...» без graag — грубувато."},
+{t:"In de supermarkt", uk:"У супермаркеті", lines:[
+["A","Pardon, waar vind ik de melk?","Перепрошую, де знайти молоко?"],
+["B","De melk staat achterin, naast de kaas.","Молоко стоїть у глибині, поруч із сиром."],
+["A","En hebben jullie ook vers brood?","А у вас є свіжий хліб?"],
+["B","Ja, het brood ligt bij de ingang.","Так, хліб лежить біля входу."],
+["A","Dank u wel. Hoeveel kosten de appels?","Дякую. Скільки коштують яблука?"],
+["B","Twee euro per kilo. Ze zijn vandaag in de aanbieding.","Два євро за кіло. Сьогодні вони по акції."],
+["A","Mooi! Dan neem ik er twee kilo.","Чудово! Тоді візьму два кілограми."]],
+tip:"Зверни увагу: staan (стояти) — для пляшок, liggen (лежати) — для хліба, фруктів."},
+{t:"De weg vragen", uk:"Питаємо дорогу", lines:[
+["A","Sorry, mag ik u iets vragen? Waar is het station?","Вибачте, можна вас запитати? Де вокзал?"],
+["B","Het station? Dat is niet ver. Ga hier rechtdoor.","Вокзал? Це недалеко. Ідіть тут прямо."],
+["B","Bij het stoplicht gaat u links.","Біля світлофора поверніть ліворуч."],
+["A","En dan?","А потім?"],
+["B","Dan de brug over, en het station is rechts.","Потім через міст, і вокзал праворуч."],
+["A","Is het ver lopen?","Пішки далеко?"],
+["B","Nee, ongeveer tien minuten.","Ні, приблизно десять хвилин."],
+["A","Hartelijk bedankt!","Щиро дякую!"]],
+tip:"«Mag ik u iets vragen?» — чарівна фраза, щоб почати розмову з незнайомцем."},
+{t:"Bij de huisarts", uk:"У сімейного лікаря", lines:[
+["A","Goedemorgen, wat is er aan de hand?","Доброго ранку, що сталося?"],
+["B","Ik voel me niet lekker. Ik heb hoofdpijn en keelpijn.","Мені недобре. Болить голова і горло."],
+["A","Hoe lang heeft u dat al?","Як давно це у вас?"],
+["B","Sinds drie dagen. Ik heb ook koorts.","Три дні. У мене також температура."],
+["A","U bent verkouden. Drink veel water en rust goed uit.","Ви застуджені. Пийте багато води і добре відпочивайте."],
+["B","Moet ik medicijnen nemen?","Мені треба приймати ліки?"],
+["A","Neem paracetamol als het nodig is. Kom terug als het niet beter wordt.","Приймайте парацетамол, якщо треба. Приходьте ще, якщо не покращає."]],
+tip:"Нідерландські лікарі часто радять просто paracetamol і відпочинок — не дивуйся."},
+{t:"Een afspraak maken", uk:"Запис по телефону", lines:[
+["A","Goedemiddag, met de tandartspraktijk.","Добрий день, стоматологічна клініка."],
+["B","Hallo, met Olena Kovalenko. Ik wil graag een afspraak maken.","Добрий день, це Олена Коваленко. Я хотіла б записатися."],
+["A","Natuurlijk. Kunt u volgende week dinsdag?","Звичайно. Вам підходить наступний вівторок?"],
+["B","Dinsdag kan ik niet, ik moet werken. Kan het ook op donderdag?","У вівторок не можу, мушу працювати. А в четвер можна?"],
+["A","Donderdag om half vier?","У четвер о пів на четверту?"],
+["B","Half vier, dus 15:30? Ja, dat is prima.","Пів на четверту, тобто 15:30? Так, чудово."],
+["A","Goed, tot donderdag!","Добре, до четверга!"]],
+tip:"По телефону голландці представляються «met + ім'я»: «Met Olena» = «Це Олена»."},
+{t:"Op het station", uk:"На вокзалі", lines:[
+["A","Goedendag, ik wil graag een kaartje naar Rotterdam.","Добрий день, мені квиток до Роттердама."],
+["B","Enkele reis of retour?","В один бік чи туди й назад?"],
+["A","Retour, alstublieft. Hoe laat gaat de volgende trein?","Туди й назад, будь ласка. О котрій наступний потяг?"],
+["B","Om tien over twee, van spoor vijf.","О 14:10, з колії п'ять."],
+["A","Moet ik overstappen?","Мені треба робити пересадку?"],
+["B","Nee, het is een directe trein.","Ні, це прямий потяг."]],
+tip:"«tien over twee» = 10 хвилин після другої. «tien voor twee» = за 10 хв друга."},
+{t:"Wat heb je gedaan?", uk:"Що ти робив? (минулий час)", lines:[
+["A","Hoi! Wat heb je dit weekend gedaan?","Привіт! Що ти робив на вихідних?"],
+["B","Ik heb veel gefietst. Zaterdag ben ik naar het strand gegaan.","Я багато катався на велосипеді. У суботу я їздив на пляж."],
+["A","Leuk! Was het lekker weer?","Класно! Була гарна погода?"],
+["B","Ja, de zon scheen. En jij?","Так, світило сонце. А ти?"],
+["A","Ik ben thuis gebleven. Ik heb gekookt en een film gekeken.","Я залишився вдома. Готував і дивився фільм."],
+["B","Gezellig! Welke film heb je gezien?","Затишно! Який фільм ти бачив?"],
+["A","Een Nederlandse film, met ondertitels natuurlijk.","Нідерландський фільм, звісно, з субтитрами."]],
+tip:"Рух (gaan, komen, blijven) → zijn: «ik ben gegaan». Більшість інших → hebben: «ik heb gekookt»."},
+{t:"Op het werk", uk:"На роботі", lines:[
+["A","Goedemorgen! Heb je even tijd?","Доброго ранку! Маєш хвилинку?"],
+["B","Ja hoor, wat is er?","Так, звісно, що таке?"],
+["A","De vergadering begint om tien uur, niet om negen.","Нарада починається о десятій, а не о дев'ятій."],
+["B","O, goed dat je het zegt. Moet ik iets voorbereiden?","О, добре, що сказав. Мені щось треба підготувати?"],
+["A","Ja, kun je de cijfers van vorige maand meenemen?","Так, можеш взяти цифри за минулий місяць?"],
+["B","Geen probleem. Zullen we daarna samen lunchen?","Без проблем. Пообідаємо потім разом?"],
+["A","Gezellig, graag!","Із задоволенням!"]],
+tip:"«Ja hoor» — дружнє «так, звісно». hoor пом'якшує фразу."}
+];
+
+const GRAMMAR = [
+{t:"De чи het?", body:`<p>У нідерландській два артиклі: <b>de</b> (чоловічий і жіночий рід) і <b>het</b> (середній). Приблизно 2/3 іменників мають <b>de</b>.</p>
+<ul><li>Усі слова в множині — <b>de</b>: het kind → de kinderen</li>
+<li>Зменшувальні на <b>-je</b> — завжди <b>het</b>: het meisje, het broodje</li>
+<li>Слова на <b>-ing</b>, <b>-heid</b> — <b>de</b>: de vergadering</li>
+<li>Мови, метали та інфінітив як іменник — <b>het</b>: het Nederlands, het eten</li>
+<li>Неозначений артикль один для всіх: <b>een</b></li></ul>`,
+ex:[["het huis — de huizen","дім — доми"],["het meisje","дівчинка"],["de vergadering","нарада"]],
+tip:"Вчи слово тільки разом з артиклем. Фарбуй: de — синім, het — червоним. Мозок запам'ятає колір.",
+q:{q:"Який артикль: ___ broodje?",o:["de","het"],a:1}},
+{t:"Порядок слів: дієслово на 2-му місці", body:`<p>Головне правило: <b>дієслово завжди стоїть другим</b>. Якщо речення починається не з підмета, підмет іде <b>після</b> дієслова (інверсія).</p>`,
+ex:[["Ik werk morgen.","Я працюю завтра."],["Morgen werk ik.","Завтра я працюю."],["In Amsterdam woon ik.","В Амстердамі я живу."]],
+tip:"Уяви дієслово як «стовпчик» на 2-й позиції: усе інше обертається навколо нього.",
+q:{q:"Як правильно?",o:["Vandaag ik ga naar school.","Vandaag ga ik naar school."],a:1}},
+{t:"Питання", body:`<p>Питання без питального слова: <b>дієслово на початок</b>. З питальним словом: питальне слово + дієслово + підмет. Увага: у питанні з <b>jij</b> після дієслова відпадає -t.</p>`,
+ex:[["Werk jij morgen?","Ти працюєш завтра?"],["Waar woon je?","Де ти живеш?"],["Spreekt u Nederlands?","Ви говорите нідерландською?"]],
+tip:"jij werkt → werk jij? Закінчення -t «втікає», коли jij стоїть позаду.",
+q:{q:"Оберіть правильне питання:",o:["Woont jij hier?","Woon jij hier?"],a:1}},
+{t:"Заперечення: niet і geen", body:`<p><b>geen</b> — заперечує іменник з een або без артикля. <b>niet</b> — усе інше (дієслово, прикметник, означений іменник).</p>`,
+ex:[["Ik heb geen auto.","У мене немає машини."],["Ik werk niet.","Я не працюю."],["Het is niet duur.","Це не дорого."]],
+tip:"Якщо можна сказати «een + слово» — став geen. Een auto → geen auto.",
+q:{q:"Ik drink ___ koffie.",o:["niet","geen"],a:1}},
+{t:"Теперішній час", body:`<p>Основа = інфінітив без <b>-en</b>. ik + основа, jij/hij + основа + <b>t</b>, wij/jullie/zij + інфінітив.</p>
+<p>Правопис: <b>werken → ik werk</b>, але <b>maken → ik maak</b> (довгий голосний зберігається подвоєнням), <b>leven → ik leef</b> (v → f).</p>`,
+ex:[["ik woon, jij woont, wij wonen","я живу, ти живеш, ми живемо"],["ik ben, jij bent, hij is","я є, ти є, він є"],["ik heb, jij hebt, hij heeft","я маю, ти маєш, він має"]],
+tip:"Якщо основа вже закінчується на -t (zitten → ik zit), друге t не додаємо: hij zit.",
+q:{q:"Hij ___ in Utrecht. (wonen)",o:["woon","woont","wonen"],a:1}},
+{t:"Відокремлювані дієслова", body:`<p>Префікси <b>op-, af-, mee-, uit-, aan-, terug-</b> у реченні відриваються і йдуть <b>у кінець</b>.</p>`,
+ex:[["opstaan → Ik sta om 7 uur op.","вставати → Я встаю о 7."],["meenemen → Neem je paraplu mee!","брати з собою → Візьми парасольку!"],["afspreken → We spreken morgen af.","домовлятися → Ми домовляємося завтра."]],
+tip:"Наголос падає на префікс (OPstaan) — це знак, що він відокремлюється.",
+q:{q:"Ik ___ morgen vroeg ___. (opstaan)",o:["opsta … —","sta … op","sta … opstaan"],a:1}},
+{t:"Модальні дієслова", body:`<p><b>kunnen</b> (могти), <b>willen</b> (хотіти), <b>moeten</b> (мусити), <b>mogen</b> (мати дозвіл), <b>zullen</b> (пропозиція, майбутнє). Модальне — на 2-му місці, інфінітив — <b>у кінці</b>.</p>`,
+ex:[["Ik kan goed zwemmen.","Я добре вмію плавати."],["Wij moeten morgen werken.","Ми мусимо завтра працювати."],["Mag ik hier zitten?","Можна мені тут сісти?"],["Zullen we gaan?","Ходімо?"]],
+tip:"Форми: ik kan, jij kunt; ik wil, jij wilt; ik mag, jij mag; ik moet. Zullen we...? = пропозиція «а давай...?»",
+q:{q:"Ik wil een kaartje ___.",o:["koop","kopen","koopt"],a:1}},
+{t:"Минулий час: perfectum", body:`<p><b>hebben/zijn + дієприкметник</b> (у кінці). Утворення: <b>ge + основа + t/d</b>.</p>
+<p>Правило <b>'t kofschip</b>: якщо основа закінчується на t, k, f, s, ch, p — додаємо <b>-t</b>, інакше <b>-d</b>. werken → gewerkt, wonen → gewoond.</p>
+<p>Дієслова руху й зміни стану беруть <b>zijn</b>: gaan, komen, blijven, worden.</p>`,
+ex:[["Ik heb gewerkt.","Я працював."],["Wij hebben gekookt.","Ми готували."],["Zij is naar huis gegaan.","Вона пішла додому."],["Ik heb een film gezien.","Я подивився фільм."]],
+tip:"Приголосні 't kofschip: t, k, f, s, ch, p. «Кавовий корабель» — уяви корабель, що везе каву: на ньому всі -t.",
+q:{q:"Wij hebben gisteren ___. (fietsen)",o:["gefietsd","gefietst","fietsen"],a:1}},
+{t:"Множина", body:`<p>Більшість слів: <b>+en</b> (het boek → boeken). Слова на -el, -er, -em, -je і багато запозичень: <b>+s</b> (de tafel → tafels, het meisje → meisjes).</p>`,
+ex:[["de fiets → de fietsen","велосипед → велосипеди"],["de lepel → de lepels","ложка → ложки"],["het kind → de kinderen","дитина → діти (виняток)"]],
+tip:"Довгий голосний у відкритому складі пишеться одною літерою: de straat → de straten.",
+q:{q:"Множина: de tafel →",o:["tafelen","tafels"],a:1}},
+{t:"Зменшувальні -je", body:`<p>Нідерландці обожнюють зменшувальні. Це не тільки «маленьке», а й «миле, неформальне». Завжди <b>het</b>.</p>`,
+ex:[["het huis → het huisje","дім → будиночок"],["het brood → het broodje","хліб → булочка"],["even een biertje?","по пивку?"]],
+tip:"Зменшувальне робить фразу дружньою: «een kopje koffie» звучить тепліше, ніж «een kop koffie».",
+q:{q:"Артикль у «___ kopje»:",o:["de","het"],a:1}},
+{t:"Прикметник: -e чи без?", body:`<p>Перед іменником прикметник отримує <b>-e</b>. Виняток: <b>het</b>-слово в однині з <b>een</b> або без артикля — без -e.</p>`,
+ex:[["de mooie fiets","гарний велосипед"],["een mooi huis","гарний дім"],["het mooie huis","той гарний дім"]],
+tip:"Запам'ятай одну фразу-зразок: «een groot huis, de grote stad». Решта — за аналогією.",
+q:{q:"een ___ kind (klein)",o:["klein","kleine"],a:0}}
+];
+
+const SOUNDS = [
+{s:"g / ch",how:"Хрипкий звук у горлі, як українське «х», але глибше. Ніколи не «ґ»!",ex:["goed","gezellig","acht","morgen"]},
+{s:"sch",how:"«с» + горлове «х»: «сх». Не «ш»!",ex:["school","schoon","Scheveningen"]},
+{s:"ui",how:"Близько до «ей» з округленими губами, ніби «ау»+«ей». Тренуй: huis.",ex:["huis","tuin","uit","ui"]},
+{s:"ij / ei",how:"Звучать однаково — як «ей» з відкритим ротом, ближче до «ай».",ex:["mijn","wijn","klein","ijs"]},
+{s:"oe",how:"Звичайне українське «у».",ex:["goed","boek","moeder","voet"]},
+{s:"uu / u",how:"Як німецьке ü: скажи «і», а губи зроби як для «у».",ex:["huur","muur","duur","nu"]},
+{s:"eu",how:"Як німецьке ö: скажи «е» з губами для «о».",ex:["neus","deur","keuken","leuk"]},
+{s:"ie",how:"Довге «і».",ex:["drie","bier","fiets","zien"]},
+{s:"aa / a",how:"aa — довге «а», a — коротке. Від цього змінюється значення!",ex:["man","maan","tak","taak"]},
+{s:"-en у кінці",how:"У розмові n зникає: «werken» звучить як «верке».",ex:["werken","lopen","eten","kinderen"]},
+{s:"w",how:"Між «в» і англійським w, губи злегка торкаються.",ex:["water","wit","waar","wonen"]},
+{s:"v / z на початку",how:"Часто оглушуються: v ≈ «ф», z ≈ «с» (особливо на півночі).",ex:["vader","vis","zon","zee"]}
+];
+
+const HACKS = [
+["Артикль — частина слова","Ніколи не вчи «huis», вчи «het huis». Через рік скажеш спасибі."],
+["20 хвилин щодня > 3 години в неділю","Мозок закріплює слова уві сні. Короткі щоденні сесії працюють у 3–4 рази краще."],
+["Інтервальні повторення","Цей курс сам повертає слова: через 1, 2, 4, 7 і 14 днів. Просто відкривай вкладку «Сьогодні»."],
+["Говори вголос","Повтори кожне слово після озвучки 3 рази. Слухова й м'язова пам'ять разом — найсильніша."],
+["Shadowing (тінь)","Увімкни діалог і говори одночасно з диктором, копіюючи інтонацію. 5 хвилин на день — і акцент м'якшає."],
+["Використовуй англійську й німецьку","Water, appel, boek, huis — схожі на English/Deutsch. Шукай «родичів» — половина слів вивчиться сама."],
+["Наклейки вдома","Підпиши стікерами речі: de deur, het raam, de koelkast. Бачиш 20 разів на день — пам'ятаєш назавжди."],
+["Переключи телефон на Nederlands","Ти й так знаєш, де кнопки. За тиждень вивчиш 50 слів інтерфейсу."],
+["Слухай NPO Radio і подкасти","«Zeg het maar», «NOS Journaal in makkelijke taal» — новини простою мовою для A1–A2."],
+["Не бійся помилок","Голландці часто переходять на англійську. Скажи: «Ik wil graag Nederlands oefenen» — і вони підуть назустріч."],
+["Фрази, а не слова","Вчи блоками: «Ik heb zin in...», «Mag ik...?», «Hoe zeg je ... in het Nederlands?»"],
+["Ментальні образи","bang = боїться «бах!»; lopen = «лопаті-ноги» йдуть. Що абсурдніше, то краще запам'ятовується."],
+["Правило 2 хвилин","Немає настрою? Пообіцяй собі лише 2 хвилини карток. Зазвичай залишаєшся на 15."]
+];
+
+const FALSE_FRIENDS = [
+["de bank","диван (і банк)","не тільки банк"],
+["slim","розумний","не «худий» (англ. slim)"],
+["de rok","спідниця","не «рок»"],
+["bellen","дзвонити (телефоном)","не «белькотіти»"],
+["lopen","іти пішки","не «бігти» (нім. laufen)"],
+["het meer","озеро","і «більше»"],
+["eng","страшний, моторошний","не «англійський»"],
+["brutaal","нахабний","не «брутальний»"],
+["de kast","шафа","не «каста»"],
+["de map","папка","не «мапа»"],
+["raar","дивний","не «рідкісний» (англ. rare)"],
+["de room","вершки","не «кімната» (англ. room)"],
+["doen","робити","не «done»"]
+];

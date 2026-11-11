@@ -35,6 +35,7 @@
 | `src/emoji.js` | Картинки до слів і тем |
 | `src/extract.js` | Збирає всі фрази для озвучки у `src/tts/items.json` |
 | `src/gtts.py` | Записує аудіо голосами Google Chirp 3 HD у `src/tts/gmp3/` |
+| `src/native2.py` | Знаходить і завантажує записи носіїв з Wikimedia Commons (потрібен OAuth-ключ у змінній `WTOK`) |
 | `src/pack.py` | Обрізає тишу, вирівнює гучність, пакує в `src/audio/*.json` |
 | `src/gen.py` | Запасний варіант: офлайн-голоси Piper |
 | `src/build.py` | Збирає `index.html` |
@@ -49,7 +50,7 @@ python3 pack.py        # потрібен ffmpeg
 python3 build.py       # створює ../index.html
 ```
 
-Озвучка: Google Chirp 3 HD, голоси `nl-NL-Chirp3-HD-Kore` (жіночий) і `nl-NL-Chirp3-HD-Charon` (чоловічий).
+Озвучка: **живі носії мови** для більшості слів (записи Lingua Libre і Wikimedia Commons за вільними ліцензіями CC BY-SA / CC BY / CC0; автори — на сторінці «Подяки» в курсі та в `src/tts/native.json`), решта — Google Chirp 3 HD, голоси `nl-NL-Chirp3-HD-Kore` (жіночий) і `nl-NL-Chirp3-HD-Charon` (чоловічий).
 Ключ API передається тільки через змінну `GKEY` і ніколи не зберігається в репозиторії.
 
 Запасний офлайн-варіант — `gen.py` з голосами Piper (`nl-rdh-medium`, `nl-mls_7432-low`) з релізу

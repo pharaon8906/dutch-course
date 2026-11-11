@@ -1,0 +1,422 @@
+## t6|A0|👨‍👩‍👧|Mijn familie|Моя родина
+Ik heet Sara. | Мене звати Сара.
+Ik ben twintig jaar. | Мені двадцять років.
+Ik woon met mijn familie in Gouda. | Я живу з родиною в Гауді.
+
+Mijn vader heet Peter. | Мого тата звати Петер.
+Hij is vijftig jaar. | Йому п'ятдесят років.
+Hij werkt in een winkel. | Він працює в магазині.
+Mijn moeder heet Anja. | Мою маму звати Аня.
+Zij is lerares. | Вона вчителька.
+
+Ik heb een broer en een zus. | У мене є брат і сестра.
+Mijn broer heet Tim. | Мого брата звати Тім.
+Hij is zestien jaar en hij speelt graag voetbal. | Йому шістнадцять, і він любить грати у футбол.
+Mijn zus heet Lisa. | Мою сестру звати Ліза.
+Zij is tien jaar. | Їй десять років.
+Lisa heeft een hond. | У Лізи є собака.
+
+Mijn opa en oma wonen in Rotterdam. | Мої дідусь і бабуся живуть у Роттердамі.
+Op zondag gaan we naar hen toe. | У неділю ми їдемо до них.
+Oma maakt altijd soep. | Бабуся завжди варить суп.
+Ik hou van mijn familie. | Я люблю свою родину.
+? Скільки років Сарі? | 20 ; 16 ; 10 | 0
+? Хто працює в магазині? | Мама ; Тато ; Брат | 1
+? Що робить бабуся в неділю? | Варить суп ; Грає у футбол ; Працює | 0
+
+## t7|A0|🏠|Mijn huis|Мій дім
+Ik woon in een huis in een klein dorp. | Я живу в будинку в маленькому селі.
+Het huis is oud, maar mooi. | Будинок старий, але гарний.
+Het heeft een rode deur. | У нього червоні двері.
+
+Beneden is de woonkamer. | Унизу вітальня.
+In de woonkamer staan een bank, een tafel en vier stoelen. | У вітальні стоять диван, стіл і чотири стільці.
+De keuken is naast de woonkamer. | Кухня поруч із вітальнею.
+In de keuken koken we en drinken we koffie. | На кухні ми готуємо і п'ємо каву.
+
+Boven zijn drie slaapkamers en een badkamer. | Нагорі три спальні і ванна.
+Mijn slaapkamer is klein. | Моя спальня маленька.
+Er staan een bed, een kast en een bureau. | Там стоять ліжко, шафа і письмовий стіл.
+Het raam is groot. | Вікно велике.
+Ik zie de tuin. | Я бачу сад.
+
+Achter het huis is een tuin. | За будинком є сад.
+Er staan bloemen en een appelboom. | Там ростуть квіти і яблуня.
+In de zomer zitten we in de tuin. | Улітку ми сидимо в саду.
+Ik vind mijn huis gezellig. | Мені затишно в моєму домі.
+? Якого кольору двері? | Червоні ; Сині ; Білі | 0
+? Скільки спалень нагорі? | Дві ; Три ; Чотири | 1
+? Що росте в саду? | Яблуня ; Груша ; Слива | 0
+
+## t8|A0|🛒|In de supermarkt|У супермаркеті
+Het is zaterdag. | Субота.
+Ik ga naar de supermarkt. | Я йду в супермаркет.
+Ik heb een lijstje. | У мене є список.
+
+Ik pak een mandje. | Я беру кошик.
+Eerst koop ik groente: tomaten, uien en een komkommer. | Спочатку я купую овочі: помідори, цибулю й огірок.
+Dan koop ik fruit: appels en bananen. | Потім фрукти: яблука й банани.
+Ik heb ook melk, kaas en brood nodig. | Мені також потрібні молоко, сир і хліб.
+
+De kaas is in de aanbieding. | Сир по акції.
+Twee halen, één betalen! | Два береш — за один платиш!
+Dat is goedkoop. | Це дешево.
+Ik neem twee stukken. | Я беру два шматки.
+
+Bij de kassa is het druk. | Біля каси багато людей.
+Ik wacht vijf minuten. | Я чекаю п'ять хвилин.
+De caissière vraagt: „Wilt u een tas?” | Касирка питає: «Вам потрібен пакет?»
+„Nee, dank u, ik heb een tas,” zeg ik. | «Ні, дякую, у мене є сумка», — кажу я.
+Ik betaal met mijn pinpas. | Я плачу карткою.
+Het kost achttien euro. | Це коштує вісімнадцять євро.
+? Що сьогодні по акції? | Хліб ; Сир ; Молоко | 1
+? Скільки вона чекає біля каси? | 5 хвилин ; 10 хвилин ; 1 хвилину | 0
+? Як вона платить? | Готівкою ; Карткою ; Телефоном | 1
+
+## t9|A0|🧑|Mijn vriend Tom|Мій друг Том
+Dit is mijn vriend Tom. | Це мій друг Том.
+Tom komt uit Engeland. | Том з Англії.
+Hij woont nu in Leiden. | Тепер він живе в Лейдені.
+
+Tom is lang en hij heeft kort, bruin haar. | Том високий, у нього коротке каштанове волосся.
+Hij draagt altijd een bril. | Він завжди носить окуляри.
+Hij is grappig en heel aardig. | Він смішний і дуже милий.
+
+Tom studeert geschiedenis aan de universiteit. | Том вивчає історію в університеті.
+Hij leest veel boeken. | Він читає багато книжок.
+Hij spreekt Engels, Frans en een beetje Nederlands. | Він говорить англійською, французькою і трохи нідерландською.
+
+Op woensdag spelen we samen tennis. | У середу ми разом граємо в теніс.
+Tom wint bijna altijd. | Том майже завжди виграє.
+Daarna drinken we thee in een café. | Потім ми п'ємо чай у кафе.
+Tom drinkt thee met melk, want dat doen Engelsen. | Том п'є чай з молоком, бо так роблять англійці.
+Ik drink thee zonder melk. | Я п'ю чай без молока.
+Tom is mijn beste vriend. | Том мій найкращий друг.
+? Звідки Том? | З Англії ; З Франції ; З Нідерландів | 0
+? Що він вивчає? | Мови ; Історію ; Математику | 1
+? Коли вони грають у теніс? | У понеділок ; У середу ; У суботу | 1
+
+## t10|A0|🛌|Mijn weekend|Мої вихідні
+Ik hou van het weekend. | Я люблю вихідні.
+Op zaterdag slaap ik lang. | У суботу я довго сплю.
+Ik sta om tien uur op. | Я встаю о десятій.
+
+Ik ontbijt met mijn man. | Я снідаю з чоловіком.
+We eten eieren en brood. | Ми їмо яйця і хліб.
+Daarna gaan we wandelen in het bos. | Потім ми йдемо гуляти в ліс.
+Het bos is groot en stil. | Ліс великий і тихий.
+
+'s Middags doe ik boodschappen. | Вдень я ходжу по продукти.
+'s Avonds komen vrienden eten. | Увечері приходять друзі на вечерю.
+Ik kook pasta met groente. | Я готую пасту з овочами.
+We drinken wijn en we praten veel. | Ми п'ємо вино і багато розмовляємо.
+
+Op zondag is het rustig. | У неділю спокійно.
+Ik lees een boek op de bank. | Я читаю книжку на дивані.
+Mijn man kijkt voetbal op tv. | Мій чоловік дивиться футбол по телевізору.
+Om negen uur ga ik naar bed. | О дев'ятій я лягаю спати.
+Maandag moet ik weer werken. | У понеділок мені знову на роботу.
+? О котрій вона встає в суботу? | О 8 ; О 10 ; О 12 | 1
+? Що вона готує для друзів? | Суп ; Пасту ; Рибу | 1
+? Що робить чоловік у неділю? | Читає ; Дивиться футбол ; Готує | 1
+
+## t11|A0|🏫|Op school|У школі
+Mijn zoon Daan is zeven jaar. | Моєму синові Даану сім років.
+Hij zit in groep vier. | Він у четвертій групі (другому класі).
+Zijn school is dichtbij ons huis. | Його школа близько від нашого дому.
+
+Daan gaat elke dag met de fiets naar school. | Даан щодня їздить до школи на велосипеді.
+De school begint om half negen. | Школа починається о пів на дев'яту.
+Zijn juf heet Marieke. | Його вчительку звати Маріке.
+Zij is jong en heel lief. | Вона молода і дуже лагідна.
+
+In de klas zitten vijfentwintig kinderen. | У класі двадцять п'ять дітей.
+Daan leert lezen, schrijven en rekenen. | Даан вчиться читати, писати і рахувати.
+Hij vindt rekenen leuk. | Йому подобається математика.
+Lezen vindt hij moeilijk. | Читання йому дається важко.
+
+Om twaalf uur eten de kinderen hun brood in de klas. | О дванадцятій діти їдять свої бутерброди в класі.
+Daarna spelen ze buiten. | Потім вони граються надворі.
+Op woensdag is de school om twaalf uur uit. | У середу школа закінчується о дванадцятій.
+Dan haal ik Daan op. | Тоді я забираю Даана.
+? У якій групі Даан? | 3 ; 4 ; 7 | 1
+? Що Даанові подобається? | Читати ; Рахувати ; Писати | 1
+? Коли закінчується школа в середу? | О 12 ; О 15 ; О 8:30 | 0
+
+## t12|A0|🐱|Mijn kat Pluis|Моя кішка Пухнастик
+Ik heb een kat. | У мене є кішка.
+Ze heet Pluis. | Її звати Плейс (Пухнастик).
+Pluis is drie jaar. | Плейс три роки.
+
+Pluis is wit met zwarte vlekken. | Плейс біла з чорними плямами.
+Ze heeft groene ogen. | У неї зелені очі.
+Ze is klein, maar heel slim. | Вона маленька, але дуже розумна.
+
+'s Ochtends wil Pluis eten. | Вранці Плейс хоче їсти.
+Ze roept: „Miauw!” | Вона кличе: «Няв!»
+Ik geef haar vis uit een blikje. | Я даю їй рибу з бляшанки.
+
+Overdag slaapt Pluis veel. | Удень Плейс багато спить.
+Ze ligt graag in de zon bij het raam. | Вона любить лежати на сонці біля вікна.
+Soms speelt ze met een bal. | Іноді вона грається з м'ячиком.
+
+'s Avonds zit Pluis op mijn schoot. | Увечері Плейс сидить у мене на колінах.
+Ik aai haar en ze spint. | Я її гладжу, і вона муркоче.
+Pluis is mijn beste vriendin. | Плейс моя найкраща подруга.
+? Якого кольору очі в кішки? | Зелені ; Сині ; Жовті | 0
+? Що кішка їсть уранці? | М'ясо ; Рибу ; Молоко | 1
+? Де вона любить лежати? | На ліжку ; На сонці біля вікна ; У саду | 1
+
+## t13|A0|🍽️|Eten en drinken|Їжа і напої
+In Nederland eet ik drie keer per dag. | У Нідерландах я їм тричі на день.
+
+Het ontbijt is om zeven uur. | Сніданок о сьомій.
+Ik eet brood met kaas of hagelslag. | Я їм хліб із сиром або шоколадною посипкою.
+Ik drink een kop thee. | Я п'ю чашку чаю.
+
+De lunch is om half één. | Обід о пів на першу.
+Ik eet een broodje en een appel. | Я їм бутерброд і яблуко.
+Ik drink een glas melk of water. | Я п'ю склянку молока або води.
+De Nederlandse lunch is klein en koud. | Нідерландський обід маленький і холодний.
+
+Het avondeten is om zes uur. | Вечеря о шостій.
+Dan eten we warm: aardappelen, groente en vlees of vis. | Тоді ми їмо гаряче: картоплю, овочі і м'ясо або рибу.
+Soms eten we pasta of rijst. | Іноді ми їмо пасту або рис.
+Op vrijdag eten we vaak patat. | У п'ятницю ми часто їмо картоплю фрі.
+
+Na het eten drink ik koffie. | Після їжі я п'ю каву.
+Met een koekje, natuurlijk! | З печивом, звісно!
+Eet smakelijk! | Смачного!
+? О котрій вечеря? | О 18:00 ; О 20:00 ; О 12:30 | 0
+? Яким є нідерландський обід? | Великий і гарячий ; Маленький і холодний ; Солодкий | 1
+? Що вони часто їдять у п'ятницю? | Рибу ; Картоплю фрі ; Суп | 1
+
+## t14|A0|🏙️|Mijn stad Utrecht|Моє місто Утрехт
+Ik woon in Utrecht. | Я живу в Утрехті.
+Utrecht ligt in het midden van Nederland. | Утрехт розташований у центрі Нідерландів.
+Het is een oude en mooie stad. | Це старе і гарне місто.
+
+In het centrum staat een hoge toren. | У центрі стоїть висока вежа.
+Hij heet de Dom. | Вона називається Дом.
+Je kunt naar boven lopen. | На неї можна піднятися пішки.
+Dat zijn vierhonderdvijfenzestig treden! | Це чотириста шістдесят п'ять сходинок!
+
+In Utrecht zijn veel grachten. | В Утрехті багато каналів.
+Langs het water zijn cafés en restaurants. | Уздовж води кафе і ресторани.
+In de zomer zitten de mensen buiten. | Улітку люди сидять надворі.
+
+Utrecht heeft een groot station. | В Утрехті великий вокзал.
+Er is ook een grote fietsenstalling. | Є також великий велопаркінг.
+Er staan meer dan twaalfduizend fietsen! | Там стоїть понад дванадцять тисяч велосипедів!
+Veel studenten wonen hier. | Тут живе багато студентів.
+Ik vind Utrecht een fijne stad. | Мені подобається Утрехт.
+? Як називається вежа? | Дом ; Тор ; Кейс | 0
+? Скільки сходинок на вежі? | 465 ; 100 ; 1200 | 0
+? Скільки велосипедів у велопаркінгу? | Понад 12 000 ; 500 ; 2 000 | 0
+
+## t15|A0|📅|Mijn week|Мій тиждень
+Mijn week is druk. | Мій тиждень насичений.
+
+Op maandag en dinsdag werk ik in een hotel. | У понеділок і вівторок я працюю в готелі.
+Ik maak de kamers schoon. | Я прибираю номери.
+Op woensdag heb ik Nederlandse les. | У середу в мене урок нідерландської.
+De les is van negen tot twaalf. | Урок з дев'ятої до дванадцятої.
+
+Op donderdag werk ik weer in het hotel. | У четвер я знову працюю в готелі.
+Op vrijdag ga ik naar de markt. | У п'ятницю я йду на ринок.
+Daar koop ik groente en fruit. | Там я купую овочі і фрукти.
+
+Op zaterdag ga ik zwemmen met mijn dochter. | У суботу я йду плавати з донькою.
+Zij zwemt al heel goed. | Вона вже дуже добре плаває.
+Op zondag bel ik mijn familie in Oekraïne. | У неділю я дзвоню родині в Україну.
+We praten een uur. | Ми розмовляємо годину.
+Daarna kook ik en ik maak mijn huiswerk. | Потім я готую і роблю домашнє завдання.
+Zondag is mijn favoriete dag. | Неділя мій улюблений день.
+? Де вона працює? | У школі ; У готелі ; На ринку | 1
+? Коли урок нідерландської? | У середу ; У п'ятницю ; У неділю | 0
+? Що вона робить у неділю? | Плаває ; Дзвонить родині ; Працює | 1
+
+## t16|A0|🥐|Bij de bakker|У пекарні
+Elke ochtend ga ik naar de bakker. | Щоранку я ходжу до пекарні.
+De bakkerij is op de hoek van mijn straat. | Пекарня на розі моєї вулиці.
+Het ruikt daar heerlijk. | Там чудово пахне.
+
+De bakker heet meneer Jansen. | Пекаря звати пан Янсен.
+Hij is oud en vriendelijk. | Він старий і привітний.
+Hij begint om vier uur 's nachts! | Він починає о четвертій ночі!
+
+„Goedemorgen! Wat mag het zijn?” vraagt hij. | «Доброго ранку! Що бажаєте?» — питає він.
+„Een volkorenbrood, alstublieft,” zeg ik. | «Цільнозерновий хліб, будь ласка», — кажу я.
+„Gesneden?” | «Нарізати?»
+„Ja, graag. En twee croissants.” | «Так, будь ласка. І два круасани.»
+
+„Dat is vier euro vijftig.” | «Це чотири євро п'ятдесят.»
+Ik betaal en ik zeg: „Tot morgen!” | Я плачу і кажу: «До завтра!»
+Thuis eet ik een croissant met jam. | Удома я їм круасан з джемом.
+Lekker! | Смачно!
+? Де пекарня? | На розі вулиці ; Біля вокзалу ; У центрі | 0
+? О котрій починає пекар? | О 4 ночі ; О 6 ранку ; О 8 ранку | 0
+? Скільки коштує покупка? | €4,50 ; €5,40 ; €2,50 | 0
+
+## t17|A0|👕|Mijn kleren|Мій одяг
+Het is koud vandaag. | Сьогодні холодно.
+Ik trek warme kleren aan. | Я вдягаю теплий одяг.
+
+Ik draag een spijkerbroek en een dikke trui. | Я вдягаю джинси і товстий светр.
+De trui is blauw. | Светр синій.
+Mijn oma heeft hem gemaakt. | Його зробила моя бабуся.
+
+Ik draag ook een jas, een sjaal en een muts. | Я також вдягаю куртку, шарф і шапку.
+De jas is zwart en lang. | Куртка чорна і довга.
+Mijn schoenen zijn bruin. | Мої черевики коричневі.
+
+Mijn zus draagt altijd mooie jurken. | Моя сестра завжди носить гарні сукні.
+Zij houdt van roze en geel. | Вона любить рожевий і жовтий.
+Ik hou meer van donkere kleuren. | Я більше люблю темні кольори.
+
+In de winkel koop ik nieuwe handschoenen. | У магазині я купую нові рукавички.
+Ze zijn grijs en zacht. | Вони сірі й м'які.
+Nu heb ik geen koude handen meer. | Тепер у мене більше не мерзнуть руки.
+? Якого кольору светр? | Синій ; Червоний ; Сірий | 0
+? Хто зробив светр? | Мама ; Бабуся ; Сестра | 1
+? Що вона купує в магазині? | Шапку ; Рукавички ; Черевики | 1
+
+## t18|A0|🌧️|Het weer vandaag|Погода сьогодні
+Ik kijk uit het raam. | Я дивлюся у вікно.
+De lucht is grijs. | Небо сіре.
+Het regent. | Іде дощ.
+
+Op de radio zeggen ze: „Vandaag is het tien graden.” | По радіо кажуть: «Сьогодні десять градусів.»
+„Het regent de hele dag en het waait hard.” | «Дощ іде цілий день і дме сильний вітер.»
+Dat is echt Nederlands weer! | Це справжня нідерландська погода!
+
+Ik pak mijn regenjas en mijn laarzen. | Я беру дощовик і гумові чоботи.
+Een paraplu neem ik niet mee. | Парасольку я не беру.
+Met veel wind gaat die snel kapot. | Від сильного вітру вона швидко ламається.
+
+Ik fiets naar mijn werk. | Я їду на роботу велосипедом.
+De wind komt van voren. | Вітер дме в обличчя.
+Dat is zwaar! | Це важко!
+
+Maar 's middags stopt de regen. | Але вдень дощ припиняється.
+De zon komt. | Виходить сонце.
+Er is een regenboog! | З'являється веселка!
+? Скільки сьогодні градусів? | 10 ; 20 ; 5 | 0
+? Чому вона не бере парасольку? | Вона її загубила ; Вітер її ламає ; Дощу немає | 1
+? Що з'являється вдень? | Сніг ; Веселка ; Туман | 1
+
+## t19|A0|📱|Mijn telefoon|Мій телефон
+Mijn telefoon is heel belangrijk voor mij. | Мій телефон для мене дуже важливий.
+Ik gebruik hem de hele dag. | Я користуюся ним цілий день.
+
+'s Ochtends maakt hij mij wakker. | Уранці він мене будить.
+Ik lees het nieuws en het weer. | Я читаю новини і погоду.
+In de bus luister ik muziek. | В автобусі я слухаю музику.
+
+Op mijn werk stuur ik e-mails. | На роботі я надсилаю листи.
+Met mijn vrienden app ik. | З друзями я листуюся в месенджері.
+Mijn moeder bel ik met video. | Мамі я дзвоню по відео.
+Dan zie ik haar gezicht. | Тоді я бачу її обличчя.
+
+Ik leer ook Nederlands op mijn telefoon. | Я також вчу нідерландську на телефоні.
+Elke dag tien minuten. | Щодня по десять хвилин.
+
+Maar 's avonds leg ik mijn telefoon weg. | Але ввечері я відкладаю телефон.
+Ik lees dan een boek. | Тоді я читаю книжку.
+Dat is beter voor mijn ogen. | Це краще для моїх очей.
+En ik slaap beter. | І я краще сплю.
+? Що вона робить в автобусі? | Читає ; Слухає музику ; Спить | 1
+? Як вона дзвонить мамі? | По відео ; Звичайним дзвінком ; Не дзвонить | 0
+? Що вона робить увечері? | Дивиться відео ; Читає книжку ; Працює | 1
+
+## t20|A0|🎂|Een verjaardag|День народження
+Vandaag is mijn moeder jarig. | Сьогодні в моєї мами день народження.
+Ze wordt zestig jaar. | Їй виповнюється шістдесят.
+
+Om drie uur komt de familie. | О третій приходить родина.
+Iedereen zegt: „Gefeliciteerd!” | Усі кажуть: «Вітаю!»
+Ook tegen mij: „Gefeliciteerd met je moeder!” | І мені теж: «Вітаю з мамою!»
+Dat is een Nederlandse gewoonte. | Це нідерландський звичай.
+
+We zitten in een kring in de woonkamer. | Ми сидимо колом у вітальні.
+Er is koffie en appeltaart met slagroom. | Є кава і яблучний пиріг зі збитими вершками.
+Mijn moeder krijgt veel cadeaus: bloemen, een boek en een mooie sjaal. | Мама отримує багато подарунків: квіти, книжку і гарний шарф.
+
+Later zingen we een lied. | Пізніше ми співаємо пісню.
+„Lang zal ze leven!” | «Хай вона живе довго!»
+Mijn moeder lacht. | Мама сміється.
+Om zes uur eten we samen. | О шостій ми разом вечеряємо.
+Het is een gezellige dag. | Це затишний день.
+? Скільки років мамі? | 50 ; 60 ; 70 | 1
+? Що кажуть усі? | Вітаю! ; Смачного! ; До побачення! | 0
+? Що є до кави? | Торт з шоколадом ; Яблучний пиріг ; Печиво | 1
+
+## t21|A0|🌳|In het park|У парку
+Het is zondag en de zon schijnt. | Неділя, світить сонце.
+Ik ga met mijn kinderen naar het park. | Я йду з дітьми в парк.
+
+Het park is groot en groen. | Парк великий і зелений.
+Er is een vijver met eenden. | Там є ставок з качками.
+De kinderen geven de eenden brood. | Діти годують качок хлібом.
+
+Er is ook een speeltuin. | Є також дитячий майданчик.
+Mijn zoon gaat op de schommel. | Мій син гойдається на гойдалці.
+Mijn dochter speelt in het zand. | Моя донька грається в піску.
+
+Ik zit op een bankje en ik lees. | Я сиджу на лавці і читаю.
+Naast mij zit een oude man. | Поруч зі мною сидить старий чоловік.
+Hij zegt: „Mooi weer, hè?” | Він каже: «Гарна погода, правда?»
+„Ja, heerlijk!” zeg ik. | «Так, чудова!» — кажу я.
+
+Om vier uur kopen we een ijsje. | О четвертій ми купуємо морозиво.
+Dan gaan we moe en blij naar huis. | Потім ми втомлені й щасливі йдемо додому.
+? Що діти дають качкам? | Хліб ; Морозиво ; Траву | 0
+? Що робить донька? | Гойдається ; Грається в піску ; Читає | 1
+? Що вони купують о четвертій? | Каву ; Морозиво ; Квіти | 1
+
+## t22|A0|🏘️|Mijn buurman Henk|Мій сусід Генк
+Mijn buurman heet Henk. | Мого сусіда звати Генк.
+Hij is tachtig jaar. | Йому вісімдесят років.
+Hij woont alleen. | Він живе сам.
+
+Henk heeft een kleine hond. | У Генка маленький песик.
+De hond heet Bram. | Песика звати Брам.
+Elke ochtend loopt Henk met Bram door de straat. | Щоранку Генк гуляє з Брамом вулицею.
+
+Henk is altijd vrolijk. | Генк завжди веселий.
+Hij zegt elke dag: „Goedemorgen, buurvrouw!” | Він щодня каже: «Доброго ранку, сусідко!»
+Soms drinken we samen koffie. | Іноді ми разом п'ємо каву.
+Hij vertelt over vroeger. | Він розповідає про минуле.
+
+Henk kan niet goed lopen. | Генк погано ходить.
+Daarom doe ik soms boodschappen voor hem. | Тому я іноді купую для нього продукти.
+Hij geeft mij dan bloemen uit zijn tuin. | Тоді він дає мені квіти зі свого саду.
+Henk helpt mij met mijn Nederlands. | Генк допомагає мені з нідерландською.
+Hij is een goede buurman. | Він добрий сусід.
+? Скільки років Генку? | 70 ; 80 ; 90 | 1
+? Як звати песика? | Брам ; Генк ; Плейс | 0
+? Що Генк дає авторці? | Гроші ; Квіти ; Книжки | 1
+
+## t23|A0|🚲|Mijn nieuwe fiets|Мій новий велосипед
+Ik heb een nieuwe fiets! | У мене новий велосипед!
+Hij is rood en heel mooi. | Він червоний і дуже гарний.
+
+In Nederland heeft iedereen een fiets. | У Нідерландах у кожного є велосипед.
+Er zijn meer fietsen dan mensen. | Велосипедів більше, ніж людей.
+Je kunt overal fietsen. | Їздити можна скрізь.
+Er zijn veel fietspaden. | Є багато велодоріжок.
+
+Mijn fiets heeft drie versnellingen. | У мого велосипеда три передачі.
+Er zit een mandje voorop. | Спереду є кошик.
+Daar zet ik mijn tas in. | Туди я кладу свою сумку.
+
+Ik koop ook twee goede sloten. | Я також купую два добрі замки.
+In Amsterdam stelen ze veel fietsen. | В Амстердамі крадуть багато велосипедів.
+
+Elke dag fiets ik naar mijn werk. | Щодня я їжджу на роботу велосипедом.
+Het is twintig minuten. | Це двадцять хвилин.
+Fietsen is gezond en gratis. | Їздити велосипедом корисно і безкоштовно.
+Ik ben blij met mijn nieuwe fiets. | Я задоволена своїм новим велосипедом.
+? Якого кольору велосипед? | Червоний ; Синій ; Чорний | 0
+? Що є спереду? | Кошик ; Ліхтар ; Дзвоник | 0
+? Скільки замків вона купує? | Один ; Два ; Три | 1

@@ -1,0 +1,438 @@
+## t24|A1|🚆|In de trein|У потязі
+Elke dag reis ik met de trein van Haarlem naar Amsterdam. | Щодня я їжджу потягом з Гарлема до Амстердама.
+De reis duurt vijftien minuten. | Поїздка триває п'ятнадцять хвилин.
+Ik check in met mijn bankpas bij het poortje. | Я відмічаюся банківською карткою біля турнікета.
+
+De trein vertrekt om tien over acht van spoor drie. | Потяг відправляється о 8:10 з колії три.
+Meestal is hij op tijd, maar soms heeft hij vertraging. | Зазвичай він приходить вчасно, але іноді запізнюється.
+Dan hoor ik een stem: „Wij verontschuldigen ons voor het ongemak.” | Тоді я чую голос: «Перепрошуємо за незручності».
+
+In de ochtend is de trein vol. | Вранці потяг переповнений.
+Veel mensen staan. | Багато людей стоїть.
+Ik zoek altijd een plek in de stiltecoupé. | Я завжди шукаю місце у «тихому вагоні».
+Daar mag je niet bellen en niet hard praten. | Там не можна дзвонити і голосно розмовляти.
+Ik lees een boek of ik kijk naar buiten. | Я читаю книжку або дивлюся у вікно.
+
+Buiten zie ik weilanden, koeien en molens. | За вікном я бачу луки, корів і млини.
+Nederland is heel plat. | Нідерланди дуже пласкі.
+Bij het station Amsterdam Centraal stap ik uit. | На станції Амстердам-Центральний я виходжу.
+Ik vergeet niet uit te checken. | Я не забуваю відмітитися на виході.
+Anders betaal je te veel! | Інакше заплатиш забагато!
+? Скільки триває поїздка? | 5 хвилин ; 15 хвилин ; 50 хвилин | 1
+? Що не можна робити в тихому вагоні? | Читати ; Дзвонити ; Їсти | 1
+? Що треба не забути на виході? | Купити квиток ; Відмітитися ; Показати паспорт | 1
+
+## t25|A1|🩺|Bij de huisarts|У сімейного лікаря
+Sinds een week heb ik pijn in mijn rug. | Уже тиждень у мене болить спина.
+Ik bel de huisarts om acht uur 's ochtends. | Я дзвоню сімейному лікарю о восьмій ранку.
+Dan is het spreekuur. | Тоді час для записів.
+
+De assistente vraagt: „Wat zijn uw klachten?” | Асистентка питає: «На що скаржитеся?»
+Ik vertel over mijn rug. | Я розповідаю про спину.
+„U kunt vandaag om twee uur komen,” zegt ze. | «Можете прийти сьогодні о другій», — каже вона.
+
+In de wachtkamer zitten nog drie mensen. | У приймальні сидять ще троє людей.
+Na tien minuten roept de dokter mijn naam. | Через десять хвилин лікар називає моє ім'я.
+Ze is jong en vriendelijk. | Вона молода і привітна.
+Ze stelt veel vragen. | Вона ставить багато питань.
+„Werkt u veel achter de computer?” | «Ви багато працюєте за комп'ютером?»
+„Ja, acht uur per dag,” zeg ik. | «Так, вісім годин на день», — кажу я.
+
+De dokter onderzoekt mijn rug. | Лікарка оглядає мою спину.
+„Het is niet ernstig,” zegt ze. | «Нічого серйозного», — каже вона.
+„U moet meer bewegen en elk uur even pauze nemen.” | «Вам треба більше рухатися і щогодини робити коротку перерву».
+Ze geeft me oefeningen mee. | Вона дає мені вправи.
+Als het niet beter wordt, kan ik naar de fysiotherapeut. | Якщо не покращає, я можу піти до фізіотерапевта.
+? Що болить? | Голова ; Спина ; Нога | 1
+? О котрій вона може прийти? | О 8 ; О 2 ; О 10 | 1
+? Що радить лікарка? | Більше рухатися ; Пити ліки ; Більше спати | 0
+
+## t26|A1|🔑|Een nieuw appartement|Нова квартира
+Vorige maand ben ik verhuisd. | Минулого місяця я переїхала.
+Nu woon ik in een appartement op de derde verdieping. | Тепер я живу в квартирі на третьому поверсі.
+Er is geen lift, dus ik loop elke dag de trap op. | Ліфта немає, тож я щодня підіймаюся сходами.
+
+Het appartement heeft twee kamers, een keuken en een badkamer. | У квартирі дві кімнати, кухня і ванна.
+De woonkamer is licht, want er zijn grote ramen. | Вітальня світла, бо там великі вікна.
+Ik heb uitzicht op een park. | У мене вид на парк.
+
+De huur is achthonderd euro per maand. | Оренда — вісімсот євро на місяць.
+Dat is veel, maar normaal in deze stad. | Це багато, але нормально для цього міста.
+Gas, water en licht betaal ik apart. | Газ, воду і світло я оплачую окремо.
+
+Ik moet nog veel kopen. | Мені ще багато чого треба купити.
+Ik heb een bed en een tafel, maar nog geen bank. | У мене є ліжко і стіл, але ще немає дивана.
+Op internet vind ik een tweedehands bank voor vijftig euro. | В інтернеті я знаходжу вживаний диван за п'ятдесят євро.
+Mijn buurman helpt mij om hem naar boven te dragen. | Сусід допомагає мені занести його нагору.
+
+Ik moet me ook inschrijven bij de gemeente. | Мені також треба зареєструватися в муніципалітеті.
+Ik maak een afspraak via de website. | Я записуюся через сайт.
+Nu voelt het appartement echt als mijn huis. | Тепер квартира справді відчувається як мій дім.
+? На якому поверсі квартира? | На першому ; На третьому ; На п'ятому | 1
+? Скільки коштує оренда? | €500 ; €800 ; €1000 | 1
+? Скільки коштує вживаний диван? | €50 ; €150 ; €500 | 0
+
+## t27|A1|💼|Mijn werkdag|Мій робочий день
+Ik werk als kok in een restaurant in Den Haag. | Я працюю кухарем у ресторані в Гаазі.
+Mijn werkdag begint om twee uur 's middags. | Мій робочий день починається о другій.
+
+Eerst kijk ik welke producten er zijn. | Спершу я дивлюся, які є продукти.
+Dan maak ik met mijn collega's alles klaar: groente snijden, saus maken, vlees marineren. | Потім з колегами я все готую: ріжу овочі, роблю соус, маріную м'ясо.
+Om vijf uur eten wij samen. | О п'ятій ми разом їмо.
+Dat noemen we het personeelseten. | Це називається «їжа для персоналу».
+
+Om zes uur komen de eerste gasten. | О шостій приходять перші гості.
+Dan wordt het druk in de keuken. | Тоді на кухні стає гаряче.
+De ober roept de bestellingen. | Офіціант вигукує замовлення.
+Ik moet snel en goed werken. | Я мушу працювати швидко і добре.
+Soms is het stressvol, maar ik vind het leuk. | Іноді це напружено, але мені подобається.
+
+Mijn chef is streng, maar eerlijk. | Мій шеф суворий, але справедливий.
+Hij leert mij veel. | Він багато мене вчить.
+Om elf uur maken we de keuken schoon. | Об одинадцятій ми прибираємо кухню.
+Ik ben om half twaalf klaar. | О пів на дванадцяту я закінчую.
+Dan fiets ik moe, maar tevreden naar huis. | Тоді я їду додому втомлений, але задоволений.
+? Ким він працює? | Офіціантом ; Кухарем ; Шефом | 1
+? Що вони роблять о п'ятій? | Їдять разом ; Прибирають ; Йдуть додому | 0
+? О котрій він закінчує? | 23:00 ; 23:30 ; 00:30 | 1
+
+## t28|A1|✉️|Een brief van school|Лист зі школи
+Mijn dochter neemt een brief mee van school. | Моя донька приносить лист зі школи.
+Ik lees hem langzaam, want hij is in het Nederlands. | Я читаю його повільно, бо він нідерландською.
+
+„Beste ouders,” staat er. | «Шановні батьки», — написано там.
+„Volgende week vrijdag gaan we op schoolreis naar de dierentuin.” | «Наступної п'ятниці ми їдемо на шкільну екскурсію до зоопарку.»
+„We vertrekken om half negen met de bus en we zijn om drie uur terug.” | «Ми вирушаємо о пів на дев'яту автобусом і повертаємося о третій.»
+
+„Geef uw kind een lunchpakket en iets te drinken mee.” | «Дайте дитині з собою обід і щось попити.»
+„Snoep is niet toegestaan.” | «Цукерки не дозволені.»
+„De reis kost vijftien euro.” | «Поїздка коштує п'ятнадцять євро.»
+„U kunt betalen via de app van de school.” | «Сплатити можна через застосунок школи.»
+
+„We zoeken nog drie ouders die mee willen gaan.” | «Ми ще шукаємо трьох батьків, які хочуть поїхати з нами.»
+„Wilt u helpen? Stuur dan een bericht aan juf Sanne.” | «Хочете допомогти? Напишіть вчительці Санне.»
+
+Ik wil graag mee. | Я хочу поїхати.
+Dan kan ik ook Nederlands oefenen met de andere ouders. | Тоді я зможу практикувати нідерландську з іншими батьками.
+Ik stuur juf Sanne een bericht. | Я пишу вчительці Санне.
+Zij antwoordt snel: „Fijn, dank u wel!” | Вона швидко відповідає: «Чудово, дякую!»
+? Куди їдуть діти? | До музею ; До зоопарку ; На пляж | 1
+? Що не можна брати? | Воду ; Цукерки ; Бутерброди | 1
+? Скільки коштує поїздка? | €5 ; €15 ; €50 | 1
+
+## t29|A1|👵|Koken met oma|Готуємо з бабусею
+Mijn Nederlandse schoonmoeder heet Riet. | Мою нідерландську свекруху звати Ріт.
+Ze kookt heel goed. | Вона дуже добре готує.
+Vandaag leert ze mij een typisch Nederlands gerecht: stamppot. | Сьогодні вона вчить мене типовій нідерландській страві — стампот.
+
+„Stamppot eten we vooral in de winter,” zegt Riet. | «Стампот ми їмо переважно взимку», — каже Ріт.
+„Het is makkelijk en goedkoop.” | «Це просто і дешево.»
+Eerst schillen we een kilo aardappelen. | Спершу ми чистимо кілограм картоплі.
+We koken ze twintig minuten in water met zout. | Варимо її двадцять хвилин у солоній воді.
+
+Daarna snijden we boerenkool heel fijn. | Потім дуже дрібно ріжемо кучеряву капусту (кейл).
+Riet bakt ook een rookworst. | Ріт також підсмажує копчену ковбасу.
+Als de aardappelen gaar zijn, stampen we ze fijn. | Коли картопля готова, ми товчемо її.
+We doen er de boerenkool, wat melk en boter bij. | Додаємо капусту, трохи молока і масла.
+
+„Nu nog peper en zout,” zegt Riet. | «Тепер ще перець і сіль», — каже Ріт.
+We maken een kuiltje in de stamppot en daar komt jus in. | Робимо ямку в стампоті і наливаємо туди підливу.
+Het ruikt heerlijk. | Пахне чудово.
+Ik proef en ik zeg: „Dit lijkt op Oekraïens eten!” | Я куштую і кажу: «Це схоже на українську їжу!»
+Riet lacht. | Ріт сміється.
+? Коли зазвичай їдять стампот? | Влітку ; Узимку ; На Різдво | 1
+? Скільки хвилин варять картоплю? | 10 ; 20 ; 40 | 1
+? На що схожа ця страва? | На українську їжу ; На італійську ; На китайську | 0
+
+## t30|A1|🚦|Fietsen in Nederland|Велосипедом по Нідерландах
+In Nederland zijn er speciale regels voor fietsers. | У Нідерландах є спеціальні правила для велосипедистів.
+Ik moest ze leren toen ik hier kwam wonen. | Мені довелося їх вивчити, коли я сюди переїхала.
+
+Je fietst altijd rechts op het fietspad. | Їдеш завжди праворуч по велодоріжці.
+Als er geen fietspad is, fiets je rechts op de weg. | Якщо велодоріжки немає, їдеш праворуч по дорозі.
+Bij een rood stoplicht moet je stoppen. | На червоне світло треба зупинитися.
+Veel mensen doen dat niet, maar het is wel de regel. | Багато людей так не роблять, але таке правило.
+
+Als je afslaat, steek je je hand uit. | Коли повертаєш, витягуєш руку.
+'s Avonds moet je licht hebben: wit voor en rood achter. | Увечері в тебе має бути світло: біле спереду і червоне ззаду.
+Zonder licht kun je een boete krijgen. | Без світла можна отримати штраф.
+
+Je mag niet bellen met je telefoon in je hand. | Не можна розмовляти по телефону, тримаючи його в руці.
+Die boete is meer dan honderd euro! | Цей штраф понад сто євро!
+Een helm is niet verplicht. | Шолом не обов'язковий.
+De meeste Nederlanders dragen geen helm. | Більшість нідерландців не носять шолома.
+
+Pas op voor trams en voor toeristen. | Остерігайся трамваїв і туристів.
+Toeristen lopen vaak op het fietspad! | Туристи часто ходять велодоріжкою!
+? З якого боку їздять? | Ліворуч ; Праворуч ; Посередині | 1
+? Яке світло має бути ззаду? | Біле ; Червоне ; Жовте | 1
+? Чи обов'язковий шолом? | Так ; Ні ; Тільки для дітей | 1
+
+## t31|A1|🌷|Een dagje Amsterdam|День в Амстердамі
+Op zaterdag gaan mijn vriendin en ik naar Amsterdam. | У суботу ми з подругою їдемо до Амстердама.
+We nemen de trein om negen uur. | Ми сідаємо на потяг о дев'ятій.
+
+Eerst lopen we naar de Dam. | Спершу ми йдемо пішки до площі Дам.
+Daar staat het Koninklijk Paleis. | Там стоїть Королівський палац.
+Er zijn veel toeristen en duiven. | Там багато туристів і голубів.
+
+Dan maken we een rondvaart door de grachten. | Потім ми робимо прогулянку каналами на човні.
+De gids vertelt over de oude huizen. | Гід розповідає про старі будинки.
+Ze zijn smal en hoog, en sommige staan scheef! | Вони вузькі й високі, а деякі стоять криво!
+Bovenaan zit een haak. | Нагорі є гак.
+Daarmee trokken mensen vroeger meubels naar binnen. | Ним раніше затягували меблі всередину.
+
+Om één uur lunchen we in een klein café. | О першій ми обідаємо в маленькому кафе.
+Ik bestel een broodje kroket. | Я замовляю булочку з крокетом.
+Daarna bezoeken we het Rijksmuseum. | Потім ми відвідуємо Рейксмузей.
+We zien de beroemde schilderijen van Rembrandt. | Ми бачимо знамениті картини Рембрандта.
+
+'s Avonds zijn we moe, maar blij. | Увечері ми втомлені, але щасливі.
+In de trein naar huis maken we al plannen voor de volgende keer. | У потязі додому ми вже плануємо наступний раз.
+? Що стоїть на площі Дам? | Музей ; Королівський палац ; Вокзал | 1
+? Навіщо гак на будинках? | Для прикраси ; Щоб затягувати меблі ; Для квітів | 1
+? Чиї картини вони бачать? | Ван Гога ; Рембрандта ; Пікассо | 1
+
+## t32|A1|📚|De bibliotheek|Бібліотека
+Ik ga elke week naar de bibliotheek. | Я щотижня ходжу до бібліотеки.
+Een abonnement kost maar veertig euro per jaar. | Абонемент коштує лише сорок євро на рік.
+Voor kinderen is het gratis. | Для дітей безкоштовно.
+
+In de bibliotheek leen ik boeken in makkelijk Nederlands. | У бібліотеці я беру книжки простою нідерландською.
+Er is een speciale kast met boeken voor taalleerders. | Там є спеціальна шафа з книжками для тих, хто вчить мову.
+De verhalen zijn kort en de zinnen zijn simpel. | Оповідання короткі, а речення прості.
+
+Op dinsdagavond is er een taalcafé. | У вівторок увечері там мовне кафе.
+Vrijwilligers praten met mensen die Nederlands leren. | Волонтери розмовляють з людьми, які вчать нідерландську.
+We drinken koffie en praten over allerlei onderwerpen. | Ми п'ємо каву і говоримо на різні теми.
+Vorige week ging het over vakanties. | Минулого тижня йшлося про відпустки.
+
+Mijn kinderen lenen prentenboeken en strips. | Мої діти беруть книжки з картинками і комікси.
+Mijn zoon leest graag over dinosaurussen. | Мій син любить читати про динозаврів.
+
+Je kunt in de bibliotheek ook gratis printen en computers gebruiken. | У бібліотеці також можна безкоштовно друкувати і користуватися комп'ютерами.
+Er werkt een medewerker die helpt met formulieren van de gemeente. | Там працює співробітник, який допомагає з бланками муніципалітету.
+De bibliotheek is voor mij een tweede huis. | Бібліотека для мене другий дім.
+? Скільки коштує абонемент для дітей? | €40 ; Безкоштовно ; €10 | 1
+? Коли мовне кафе? | У понеділок ; У вівторок увечері ; У суботу | 1
+? Про що любить читати син? | Про динозаврів ; Про машини ; Про космос | 0
+
+## t33|A1|⚽|Sporten|Спорт
+Ik wil gezonder leven. | Я хочу жити здоровіше.
+Daarom ben ik lid geworden van een sportschool. | Тому я записався до спортзалу.
+Ik ga drie keer per week. | Я ходжу тричі на тиждень.
+
+Op maandag en donderdag doe ik krachttraining. | У понеділок і четвер я роблю силові тренування.
+Een trainer heeft een schema voor mij gemaakt. | Тренер склав для мене програму.
+In het begin had ik overal spierpijn! | Спочатку в мене все боліло!
+
+Op zaterdag ga ik hardlopen in het park met een groep. | У суботу я бігаю в парку з групою.
+We lopen vijf kilometer. | Ми пробігаємо п'ять кілометрів.
+De groep is gezellig en niemand is heel snel. | Група приємна, і ніхто не біжить дуже швидко.
+Na het lopen drinken we samen koffie. | Після пробіжки ми разом п'ємо каву.
+
+Mijn dochter zit op hockey. | Моя донька займається хокеєм на траві.
+Hockey is heel populair in Nederland. | Хокей на траві дуже популярний у Нідерландах.
+Ze traint op woensdag en op zaterdag speelt ze een wedstrijd. | Вона тренується в середу, а в суботу грає матч.
+
+Mijn man kijkt liever naar sport op tv. | Мій чоловік краще дивиться спорт по телевізору.
+Hij is fan van Ajax. | Він уболіває за «Аякс».
+Ik zeg: „Kom ook eens mee hardlopen!” | Я кажу: «Ходи якось бігати зі мною!»
+Hij zegt: „Misschien volgend jaar.” | Він каже: «Можливо, наступного року».
+? Скільки разів на тиждень він ходить у спортзал? | 2 ; 3 ; 5 | 1
+? Скільки кілометрів бігає група? | 3 ; 5 ; 10 | 1
+? Яким спортом займається донька? | Футболом ; Хокеєм на траві ; Плаванням | 1
+
+## t34|A1|💇|Naar de kapper|До перукаря
+Mijn haar is te lang. | У мене задовге волосся.
+Ik bel de kapper om een afspraak te maken. | Я дзвоню перукарю, щоб записатися.
+„Kan ik donderdag om vier uur komen?” | «Можна мені прийти в четвер о четвертій?»
+„Ja, dat kan. Wat is uw naam?” | «Так, можна. Як ваше ім'я?»
+
+Op donderdag ben ik op tijd bij de kapper. | У четвер я вчасно приходжу до перукаря.
+Ik krijg eerst een kopje koffie. | Спершу мені пропонують каву.
+Dan wast de kapster mijn haar. | Потім перукарка миє мені голову.
+
+„Hoe wilt u het hebben?” vraagt ze. | «Як ви хочете?» — питає вона.
+Ik laat haar een foto op mijn telefoon zien. | Я показую їй фото на телефоні.
+„Zo kort, maar met een pony,” zeg ik. | «Отак коротко, але з гривкою», — кажу я.
+
+Ze knipt heel voorzichtig. | Вона стриже дуже обережно.
+Ondertussen praten we over het weer en over vakanties. | Тим часом ми говоримо про погоду і відпустки.
+Na een half uur kijk ik in de spiegel. | Через пів години я дивлюся в дзеркало.
+Ik ben heel tevreden. | Я дуже задоволена.
+Het kost veertig euro. | Це коштує сорок євро.
+Ik geef twee euro fooi. | Я даю два євро чайових.
+? Коли вона записалася? | У четвер о 4 ; У вівторок о 2 ; У п'ятницю о 4 | 0
+? Що вона показує перукарці? | Журнал ; Фото на телефоні ; Малюнок | 1
+? Скільки чайових вона дає? | €1 ; €2 ; €5 | 1
+
+## t35|A1|👑|Koningsdag|День короля
+Op 27 april is het Koningsdag. | 27 квітня — День короля.
+Dan viert Nederland de verjaardag van de koning. | Тоді Нідерланди святкують день народження короля.
+Het is een vrije dag. | Це вихідний день.
+
+Iedereen draagt oranje kleren. | Усі вдягають помаранчевий одяг.
+Oranje is de kleur van de koninklijke familie. | Помаранчевий — колір королівської родини.
+Overal hangen vlaggen. | Скрізь висять прапори.
+
+In elke stad is er een vrijmarkt. | У кожному місті є «вільний ринок».
+Mensen verkopen oude spullen op straat: speelgoed, boeken, kleren. | Люди продають на вулиці старі речі: іграшки, книжки, одяг.
+Kinderen spelen muziek of verkopen zelfgemaakte koekjes. | Діти грають музику або продають саморобне печиво.
+Ik koop een lamp voor twee euro. | Я купую лампу за два євро.
+
+In Amsterdam is het heel druk. | В Амстердамі дуже людно.
+Er zijn boten vol mensen op de grachten. | На каналах повно човнів з людьми.
+Er is overal muziek en mensen dansen op straat. | Скрізь музика, і люди танцюють на вулиці.
+
+De koning bezoekt elk jaar een andere stad. | Король щороку відвідує інше місто.
+Je kunt dat op tv zien. | Це можна побачити по телевізору.
+'s Avonds zijn de straten vol afval. | Увечері вулиці повні сміття.
+Maar de volgende ochtend is alles weer schoon. | Але наступного ранку все знову чисто.
+? Коли День короля? | 5 травня ; 27 квітня ; 1 січня | 1
+? Якого кольору одяг? | Червоний ; Помаранчевий ; Синій | 1
+? Що вона купує на ринку? | Лампу ; Книжку ; Іграшку | 0
+
+## t36|A1|🎁|Sinterklaas|Сінтерклас
+In december vieren Nederlanders Sinterklaas. | У грудні нідерландці святкують Сінтерклас.
+Sinterklaas is een oude man met een lange witte baard. | Сінтерклас — старий чоловік з довгою білою бородою.
+Hij draagt een rode mantel en hij rijdt op een wit paard. | Він носить червону мантію і їздить на білому коні.
+
+Midden november komt hij met een boot uit Spanje. | У середині листопада він припливає на кораблі з Іспанії.
+Dat is op tv te zien. | Це показують по телевізору.
+Kinderen zetten hun schoen bij de verwarming. | Діти ставлять свій черевик біля батареї.
+Ze zingen liedjes en leggen een wortel in de schoen voor het paard. | Вони співають пісеньки і кладуть у черевик моркву для коня.
+De volgende ochtend zit er een klein cadeautje in. | Наступного ранку там лежить маленький подаруночок.
+
+Op 5 december is pakjesavond. | 5 грудня — вечір подарунків.
+De familie zit samen en krijgt cadeaus. | Родина збирається разом і отримує подарунки.
+Volwassenen schrijven vaak grappige gedichten voor elkaar. | Дорослі часто пишуть одне одному смішні вірші.
+
+Er is ook speciaal snoep: pepernoten, chocoladeletters en marsepein. | Є й особливі солодощі: імбирне печиво, шоколадні літери і марципан.
+Ik krijg altijd de letter van mijn naam in chocolade. | Я завжди отримую шоколадну першу літеру свого імені.
+Voor mij is Sinterklaas het gezelligste feest van het jaar. | Для мене Сінтерклас — найзатишніше свято року.
+? Звідки припливає Сінтерклас? | З Італії ; З Іспанії ; З Бельгії | 1
+? Що діти кладуть у черевик для коня? | Цукор ; Моркву ; Яблуко | 1
+? Коли вечір подарунків? | 25 грудня ; 5 грудня ; 1 грудня | 1
+
+## t37|A1|🏖️|Een dag aan zee|День біля моря
+In juli was het heel warm. | У липні було дуже спекотно.
+Daarom gingen we naar het strand in Zandvoort. | Тому ми поїхали на пляж у Зандворт.
+
+We namen de trein, want met de auto staan er lange files. | Ми їхали потягом, бо на машині величезні затори.
+Het strand was vol mensen. | Пляж був повний людей.
+We zochten een plekje dichtbij het water. | Ми знайшли місце біля води.
+
+De kinderen bouwden een groot zandkasteel. | Діти збудували великий замок з піску.
+Ik ging zwemmen. | Я пішов плавати.
+Het water was koud: maar zeventien graden! | Вода була холодна: лише сімнадцять градусів!
+Na vijf minuten kwam ik er al weer uit. | Через п'ять хвилин я вже вийшов.
+
+We aten patat met mayonaise bij een strandpaviljoen. | Ми їли картоплю фрі з майонезом у пляжному кафе.
+Daarna wandelden we langs de vloedlijn en zochten we schelpen. | Потім ми гуляли вздовж лінії прибою і шукали мушлі.
+Mijn dochter vond er twintig. | Моя донька знайшла двадцять.
+
+'s Middags kwam er veel wind. | Вдень піднявся сильний вітер.
+Het zand vloog in onze ogen. | Пісок летів нам в очі.
+Toen gingen we naar huis. | Тоді ми поїхали додому.
+We waren moe en een beetje verbrand, maar het was een mooie dag. | Ми були втомлені й трохи обгоріли, але день був гарний.
+? Чому вони поїхали потягом? | Немає машини ; На машині затори ; Дешевше | 1
+? Яка була вода? | 17 градусів ; 25 градусів ; 10 градусів | 0
+? Скільки мушель знайшла донька? | 10 ; 20 ; 30 | 1
+
+## t38|A1|♻️|Afval scheiden|Сортування сміття
+In Nederland scheiden we ons afval. | У Нідерландах ми сортуємо сміття.
+Dat was voor mij in het begin moeilijk. | Спочатку мені це було важко.
+Nu doe ik het zonder na te denken. | Тепер я роблю це не замислюючись.
+
+Er zijn verschillende bakken. | Є різні баки.
+In de groene bak gaat gft: groente-, fruit- en tuinafval. | У зелений бак іде органіка: залишки овочів, фруктів і садове сміття.
+In de blauwe bak gaat papier en karton. | У синій бак ідуть папір і картон.
+Plastic, blik en pakken melk gaan in een oranje zak. | Пластик, бляшанки і пакети з-під молока йдуть в помаранчевий мішок.
+
+Glas breng je naar de glasbak in de straat. | Скло відносиш до контейнера для скла на вулиці.
+Daar mag je 's avonds niet meer komen, want het maakt veel lawaai. | Туди не можна ходити пізно ввечері, бо дуже шумно.
+Oude kleren breng je naar een kledingcontainer. | Старий одяг відносиш до контейнера для одягу.
+
+Wat overblijft, gaat in de grijze bak. | Те, що залишилося, йде в сірий бак.
+Op de app van de gemeente staat wanneer welke bak wordt geleegd. | У застосунку муніципалітету написано, коли який бак вивозять.
+Je moet de bak de avond ervoor aan de straat zetten. | Бак треба виставити на вулицю напередодні ввечері.
+Als je het verkeerd doet, kun je soms een boete krijgen. | Якщо зробиш неправильно, іноді можна отримати штраф.
+Mijn buren helpen me als ik twijfel. | Сусіди допомагають мені, коли я сумніваюся.
+? Що йде в синій бак? | Органіка ; Папір ; Скло | 1
+? Куди йдуть пакети з-під молока? | У сірий бак ; В помаранчевий мішок ; У зелений бак | 1
+? Де дізнатися, коли вивозять бак? | У застосунку муніципалітету ; У газеті ; У сусіда | 0
+
+## t39|A1|🛍️|Boodschappen online|Покупки онлайн
+Sinds de geboorte van mijn zoon doe ik mijn boodschappen online. | Відколи народився син, я купую продукти онлайн.
+Dat scheelt veel tijd. | Це економить багато часу.
+
+Ik open de app van de supermarkt op zondagavond. | Я відкриваю застосунок супермаркету в неділю ввечері.
+Ik kies de producten die ik nodig heb: melk, brood, luiers, groente en vlees. | Я обираю потрібні продукти: молоко, хліб, підгузки, овочі і м'ясо.
+De app onthoudt wat ik vaak koop. | Застосунок пам'ятає, що я часто купую.
+Dat is handig. | Це зручно.
+
+Daarna kies ik een tijd voor de bezorging. | Потім я обираю час доставки.
+Dinsdag tussen zes en zeven uur 's avonds is goed. | Вівторок з шостої до сьомої вечора — підходить.
+De bezorging kost vier euro. | Доставка коштує чотири євро.
+Als je meer dan honderd euro bestelt, is het goedkoper. | Якщо замовляєш більше ніж на сто євро, дешевше.
+
+Op dinsdag komt de bezorger met een elektrisch busje. | У вівторок кур'єр приїжджає на електричному фургоні.
+Hij draagt de tassen tot aan mijn deur. | Він доносить пакети до моїх дверей.
+Ik controleer alles. | Я все перевіряю.
+De tomaten zijn een beetje zacht. | Помідори трохи м'які.
+Ik meld dat in de app en ik krijg mijn geld terug. | Я повідомляю про це в застосунку і отримую гроші назад.
+Toch ga ik op zaterdag graag nog naar de markt. | Проте в суботу я все одно люблю ходити на ринок.
+? Коли вона робить замовлення? | У неділю ввечері ; У понеділок ; У п'ятницю | 0
+? Скільки коштує доставка? | €2 ; €4 ; €10 | 1
+? Що не так із помідорами? | Їх немає ; Вони трохи м'які ; Вони дорогі | 1
+
+## t40|A1|🤝|Een nieuwe collega|Новий колега
+Op mijn werk is een nieuwe collega begonnen. | На моїй роботі почав працювати новий колега.
+Hij heet Ahmed en hij komt uit Marokko. | Його звати Ахмед, і він з Марокко.
+Hij woont al tien jaar in Nederland en spreekt goed Nederlands. | Він живе в Нідерландах уже десять років і добре говорить нідерландською.
+
+Mijn baas vraagt mij om Ahmed te helpen. | Мій начальник просить мене допомогти Ахмедові.
+Ik laat hem het kantoor zien: de keuken, het kopieerapparaat en de vergaderruimte. | Я показую йому офіс: кухню, ксерокс і переговорну.
+Ik leg uit hoe het computersysteem werkt. | Я пояснюю, як працює комп'ютерна система.
+
+Om twaalf uur lunchen we samen in de kantine. | О дванадцятій ми разом обідаємо в їдальні.
+Ahmed vertelt over zijn familie. | Ахмед розповідає про свою родину.
+Hij heeft drie kinderen en hij houdt van voetbal. | У нього троє дітей, і він любить футбол.
+Ik vertel over Oekraïne. | Я розповідаю про Україну.
+Hij stelt veel vragen en luistert goed. | Він ставить багато питань і уважно слухає.
+
+Na een week weet Ahmed al alles. | Через тиждень Ахмед уже все знає.
+Hij helpt nu zelfs mij met moeilijke Nederlandse woorden! | Тепер він навіть допомагає мені зі складними нідерландськими словами!
+Op vrijdag nemen collega's soms taart mee. | У п'ятницю колеги іноді приносять торт.
+Ahmed neemt Marokkaanse koekjes mee. | Ахмед приносить марокканське печиво.
+Iedereen vindt ze heerlijk. | Усім воно дуже смакує.
+? Звідки Ахмед? | З Туреччини ; З Марокко ; З Сирії | 1
+? Скільки в нього дітей? | Двоє ; Троє ; Четверо | 1
+? Що приносить Ахмед у п'ятницю? | Торт ; Марокканське печиво ; Фрукти | 1
+
+## t41|A1|🌻|Mijn volkstuin|Мій городик
+Ik woon in een appartement zonder tuin. | Я живу в квартирі без саду.
+Daarom huur ik een volkstuin aan de rand van de stad. | Тому я орендую ділянку на околиці міста.
+Het kost honderd euro per jaar. | Це коштує сто євро на рік.
+
+Mijn tuintje is tien bij tien meter. | Мій садок десять на десять метрів.
+Ik kweek tomaten, sla, bonen en aardbeien. | Я вирощую помідори, салат, квасолю і полуницю.
+Er staan ook zonnebloemen. | Там також ростуть соняшники.
+Ze zijn al twee meter hoog! | Вони вже два метри заввишки!
+
+In het voorjaar zaai ik de zaadjes. | Навесні я сію насіння.
+In de zomer moet ik vaak water geven. | Улітку мені треба часто поливати.
+Als ik op vakantie ben, helpt mijn tuinbuurman. | Коли я у відпустці, допомагає сусід по ділянці.
+
+Op de volkstuin zijn mensen uit veel landen. | На ділянках люди з багатьох країн.
+We ruilen groente en geven elkaar tips. | Ми обмінюємося овочами і даємо одне одному поради.
+Een Turkse buurvrouw leerde me hoe je paprika's kweekt. | Сусідка-турчанка навчила мене вирощувати перець.
+Ik leerde haar borsjt koken. | Я навчила її варити борщ.
+
+In de herfst oogst ik de laatste groente. | Восени я збираю останні овочі.
+Ik maak soep en jam voor de winter. | Я роблю суп і варення на зиму.
+De volkstuin is mijn plek om te ontspannen. | Ділянка — моє місце для відпочинку.
+? Скільки коштує ділянка? | €100 на рік ; €100 на місяць ; Безкоштовно | 0
+? Що вже два метри заввишки? | Помідори ; Соняшники ; Квасоля | 1
+? Чого авторка навчила сусідку? | Варити борщ ; Вирощувати перець ; Пекти хліб | 0

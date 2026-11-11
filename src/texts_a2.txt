@@ -1,0 +1,454 @@
+## t42|A2|👔|Een sollicitatiegesprek|Співбесіда
+Twee weken geleden zag ik een vacature voor een baan als administratief medewerker. | Два тижні тому я побачила вакансію адміністративного працівника.
+Ik schreef een motivatiebrief en stuurde mijn cv. | Я написала мотиваційний лист і надіслала резюме.
+Na een paar dagen werd ik gebeld voor een gesprek. | Через кілька днів мені подзвонили і запросили на співбесіду.
+
+Ik was heel zenuwachtig. | Я дуже нервувала.
+Ik oefende de avond ervoor met mijn taalcoach. | Напередодні ввечері я тренувалася з мовним коучем.
+Ze zei: „Vertel eerlijk wat je kunt, en ook wat je nog wilt leren.” | Вона сказала: «Чесно розкажи, що ти вмієш і чого ще хочеш навчитися».
+
+Het gesprek was met twee mensen: de manager en iemand van personeelszaken. | Співбесіда була з двома людьми: менеджеркою і працівником відділу кадрів.
+Ze vroegen waarom ik deze baan wilde. | Вони спитали, чому я хочу цю роботу.
+Ik vertelde dat ik in Oekraïne tien jaar op een kantoor had gewerkt. | Я розповіла, що в Україні десять років працювала в офісі.
+Daarna vroegen ze naar mijn sterke en zwakke punten. | Потім вони спитали про мої сильні і слабкі сторони.
+Ik zei dat ik nauwkeurig ben, maar dat mijn Nederlands nog beter moet. | Я сказала, що я уважна до деталей, але моя нідерландська має стати ще кращою.
+
+De manager glimlachte en zei dat eerlijkheid belangrijk is. | Менеджерка всміхнулася і сказала, що чесність важлива.
+Aan het einde mocht ik zelf vragen stellen. | Наприкінці я могла поставити свої питання.
+Ik vroeg naar de werktijden en of ik een cursus kon volgen. | Я спитала про робочий час і чи можна пройти курс.
+Ze zeiden dat het bedrijf een taalcursus betaalt. | Вони сказали, що компанія оплачує мовний курс.
+
+Een week later belden ze me. | Через тиждень мені подзвонили.
+Ik had de baan! | Мене взяли!
+Ik begin volgende maand met een contract voor een jaar. | Я починаю наступного місяця з контрактом на рік.
+? Для якої посади була співбесіда? | Продавця ; Адміністративного працівника ; Вчителя | 1
+? Що вона назвала своєю слабкою стороною? | Мову ; Пунктуальність ; Комп'ютер | 0
+? Що оплачує компанія? | Квиток на поїзд ; Мовний курс ; Обіди | 1
+
+## t43|A2|🎒|Het Nederlandse onderwijs|Нідерландська освіта
+Toen mijn kinderen hier naar school gingen, moest ik het Nederlandse onderwijs leren begrijpen. | Коли мої діти пішли тут до школи, мені довелося розібратися в нідерландській освіті.
+Het is anders dan in Oekraïne. | Вона відрізняється від української.
+
+Kinderen gaan vanaf vier jaar naar de basisschool. | Діти йдуть до початкової школи з чотирьох років.
+De basisschool heeft acht groepen. | У початковій школі вісім груп.
+Groep één en twee zijn een soort kleuterklas, met veel spelen. | Перша і друга групи — щось на зразок дитсадка, з великою кількістю ігор.
+Vanaf groep drie leren kinderen lezen en schrijven. | З третьої групи діти вчаться читати й писати.
+
+In groep acht maken de kinderen een eindtoets. | У восьмій групі діти складають випускний тест.
+Samen met het advies van de leraar bepaalt die naar welke middelbare school een kind gaat. | Разом з порадою вчителя він визначає, в яку середню школу піде дитина.
+Er zijn drie hoofdniveaus: vmbo, havo en vwo. | Є три основні рівні: vmbo, havo і vwo.
+Vmbo is praktisch en duurt vier jaar. | Vmbo — практичний рівень і триває чотири роки.
+Havo duurt vijf jaar en bereidt voor op een hogeschool. | Havo триває п'ять років і готує до вищої професійної школи.
+Vwo duurt zes jaar en is voor de universiteit. | Vwo триває шість років і готує до університету.
+
+Wat mij verbaasde: kinderen krijgen op de basisschool weinig huiswerk. | Мене здивувало: у початковій школі діти отримують мало домашніх завдань.
+De school vindt het belangrijk dat kinderen ook buiten spelen en zelfstandig worden. | Школа вважає важливим, щоб діти також гралися надворі і ставали самостійними.
+Ouders hebben twee keer per jaar een gesprek met de leraar, het tienminutengesprek. | Двічі на рік батьки мають розмову з учителем — «десятихвилинну розмову».
+Daar hoor je hoe het met je kind gaat. | Там дізнаєшся, як справи в дитини.
+? З якого віку йдуть до початкової школи? | З 4 ; З 6 ; З 7 | 0
+? Скільки триває vwo? | 4 роки ; 5 років ; 6 років | 2
+? Що здивувало авторку? | Мало домашніх завдань ; Шкільна форма ; Довгі уроки | 0
+
+## t44|A2|🏡|Wonen in een kleine stad|Життя в маленькому місті
+Drie jaar geleden verhuisden we van Amsterdam naar Zutphen, een kleine stad in het oosten. | Три роки тому ми переїхали з Амстердама до Зютфена, маленького міста на сході.
+Veel vrienden vonden dat een rare keuze. | Багатьом друзям це здалося дивним вибором.
+
+In Amsterdam woonden we met vier personen in een appartement van zestig vierkante meter. | В Амстердамі ми вчотирьох жили в квартирі на шістдесят квадратних метрів.
+De huur was hoog en de kinderen hadden geen ruimte om te spelen. | Оренда була висока, а дітям не було де гратися.
+In Zutphen hebben we een rijtjeshuis met een tuin, voor minder geld. | У Зютфені в нас таунхаус із садом, і дешевше.
+
+Het leven is hier rustiger. | Життя тут спокійніше.
+Ik ken mijn buren en de kinderen spelen buiten op straat. | Я знаю сусідів, а діти граються надворі на вулиці.
+In de winkels zeggen mensen gedag en hebben ze tijd voor een praatje. | У магазинах люди вітаються і мають час поговорити.
+Dat helpt enorm met mijn Nederlands. | Це дуже допомагає з нідерландською.
+
+Natuurlijk zijn er ook nadelen. | Звісно, є й недоліки.
+Er zijn minder banen en minder culturele activiteiten. | Тут менше роботи і культурних заходів.
+Mijn man reist elke dag een uur met de trein naar zijn werk. | Мій чоловік щодня їде годину потягом на роботу.
+En 's avonds na tien uur is het centrum bijna leeg. | А ввечері після десятої центр майже порожній.
+
+Toch hebben we geen spijt. | Проте ми не шкодуємо.
+In het weekend fietsen we langs de rivier de IJssel of door de bossen. | На вихідних ми їздимо велосипедами вздовж річки Ейссел або лісами.
+De natuur is prachtig. | Природа чудова.
+Voor ons gezin is dit de juiste plek. | Для нашої родини це правильне місце.
+? Куди переїхала родина? | До Роттердама ; До Зютфена ; До Утрехта | 1
+? Що допомагає з мовою? | Розмови в магазинах ; Телевізор ; Курси | 0
+? Який недолік назвала авторка? | Менше роботи ; Погана погода ; Дорогі продукти | 0
+
+## t45|A2|🥗|Gezond leven|Здоровий спосіб життя
+Vorig jaar voelde ik me vaak moe en had ik weinig energie. | Минулого року я часто почувалася втомленою і мала мало енергії.
+De huisarts zei dat ik gezonder moest leven. | Сімейний лікар сказав, що мені треба жити здоровіше.
+Hij gaf me drie adviezen: beter eten, meer bewegen en beter slapen. | Він дав мені три поради: краще їсти, більше рухатися і краще спати.
+
+Eerst veranderde ik mijn eten. | Спершу я змінила харчування.
+Ik at veel brood en dronk veel frisdrank. | Я їла багато хліба і пила багато газованки.
+Nu eet ik elke dag twee stuks fruit en veel groente. | Тепер я щодня з'їдаю два фрукти і багато овочів.
+In plaats van frisdrank drink ik water of thee. | Замість газованки я п'ю воду або чай.
+Ik kook vaker zelf, in plaats van kant-en-klare maaltijden te kopen. | Я частіше готую сама замість того, щоб купувати готові страви.
+
+Daarna ging ik meer bewegen. | Потім я почала більше рухатися.
+Ik neem nu de fiets in plaats van de bus. | Тепер я їжджу велосипедом замість автобуса.
+Twee keer per week doe ik yoga in een buurthuis. | Двічі на тиждень я займаюся йогою в будинку культури.
+Het kost maar vijf euro per les. | Це коштує лише п'ять євро за заняття.
+
+Slapen was het moeilijkst. | Найважче було зі сном.
+Ik keek altijd tot laat naar mijn telefoon. | Я завжди допізна дивилася в телефон.
+Nu leg ik hem om tien uur in de keuken. | Тепер о десятій я залишаю його на кухні.
+Ik lees een boek en ga om elf uur slapen. | Я читаю книжку і лягаю спати об одинадцятій.
+
+Na drie maanden voelde ik het verschil. | Через три місяці я відчула різницю.
+Ik heb meer energie en ik ben vrolijker. | У мене більше енергії, і я веселіша.
+? Скільки порад дав лікар? | Дві ; Три ; П'ять | 1
+? Що вона п'є замість газованки? | Сік ; Воду або чай ; Каву | 1
+? Що було найважче? | Їжа ; Спорт ; Сон | 2
+
+## t46|A2|🫶|Mijn eerste Nederlandse vriendin|Моя перша нідерландська подруга
+Toen ik net in Nederland woonde, voelde ik me vaak eenzaam. | Коли я тільки переїхала до Нідерландів, я часто почувалася самотньою.
+Ik kende alleen andere Oekraïners. | Я знала тільки інших українців.
+
+Op een dag zat ik in het park met mijn dochter. | Одного дня я сиділа в парку з донькою.
+Een vrouw met een zoontje van dezelfde leeftijd kwam naast me zitten. | Жінка із синочком того ж віку сіла поруч зі мною.
+De kinderen begonnen samen te spelen. | Діти почали гратися разом.
+Zij vroeg in het Engels waar ik vandaan kwam. | Вона спитала англійською, звідки я.
+Ik antwoordde in mijn slechte Nederlands. | Я відповіла своєю поганою нідерландською.
+
+Ze heette Femke en ze was heel geduldig. | Її звали Фемке, і вона була дуже терплячою.
+Ze sprak langzaam en herhaalde dingen als ik ze niet begreep. | Вона говорила повільно і повторювала, коли я не розуміла.
+We spraken af om de volgende week weer naar het park te gaan. | Ми домовилися наступного тижня знову прийти в парк.
+
+Sindsdien zien we elkaar bijna elke week. | Відтоді ми бачимося майже щотижня.
+Femke legt me Nederlandse gewoontes uit. | Фемке пояснює мені нідерландські звичаї.
+Ik leer haar Oekraïense recepten. | Я вчу її українських рецептів.
+Ze vindt varenyky heerlijk! | Їй дуже смакують вареники!
+
+Vorige maand vierde ik mijn verjaardag. | Минулого місяця я святкувала день народження.
+Femke kwam met haar man en ze bracht een zelfgemaakte taart. | Фемке прийшла з чоловіком і принесла саморобний торт.
+Ze zei: „Je Nederlands is zo veel beter geworden!” | Вона сказала: «Твоя нідерландська стала набагато кращою!»
+Dat was het mooiste cadeau. | Це був найкращий подарунок.
+? Де вони познайомилися? | У школі ; У парку ; На роботі | 1
+? Чого авторка вчить Фемке? | Українських рецептів ; Української мови ; Танців | 0
+? Що було найкращим подарунком? | Торт ; Слова про її нідерландську ; Квіти | 1
+
+## t47|A2|🙌|Een dag als vrijwilliger|День волонтером
+Elke zaterdag werk ik als vrijwilliger bij de Voedselbank. | Щосуботи я працюю волонтером у Продовольчому банку.
+De Voedselbank geeft gratis eten aan gezinnen met weinig geld. | Продовольчий банк безкоштовно дає їжу родинам з малим доходом.
+Supermarkten en bedrijven geven producten die ze niet meer kunnen verkopen. | Супермаркети і компанії віддають продукти, які вже не можуть продати.
+
+Om negen uur begin ik in het magazijn. | О дев'ятій я починаю на складі.
+Ik controleer de datum op de producten. | Я перевіряю дату на продуктах.
+Daarna sorteer ik alles: groente, brood, zuivel en houdbare producten. | Потім я все сортую: овочі, хліб, молочне і продукти тривалого зберігання.
+We maken pakketten voor ongeveer honderd gezinnen. | Ми збираємо пакунки приблизно для ста родин.
+
+Om twaalf uur komen de klanten. | О дванадцятій приходять клієнти.
+Ze laten hun pasje zien en krijgen een pakket. | Вони показують картку і отримують пакунок.
+Sommige mensen schamen zich een beetje. | Декому трохи соромно.
+Daarom is het belangrijk om vriendelijk te zijn en een praatje te maken. | Тому важливо бути привітними і поговорити.
+
+Mijn collega's zijn heel verschillend. | Мої колеги дуже різні.
+Er is een gepensioneerde leraar, een student en een vrouw uit Syrië. | Є вчитель на пенсії, студент і жінка із Сирії.
+We werken hard, maar we lachen ook veel. | Ми важко працюємо, але й багато сміємося.
+
+Vrijwilligerswerk is goed voor mijn Nederlands en voor mijn netwerk. | Волонтерство корисне для моєї нідерландської і для кола знайомств.
+Maar het belangrijkste is dat ik anderen kan helpen. | Але найголовніше — що я можу допомагати іншим.
+Ik weet hoe het is om hulp nodig te hebben. | Я знаю, як це — потребувати допомоги.
+? Що дає Продовольчий банк? | Одяг ; Безкоштовну їжу ; Гроші | 1
+? Для скількох родин збирають пакунки? | 50 ; 100 ; 200 | 1
+? Що найголовніше для авторки? | Мова ; Допомагати іншим ; Знайомства | 1
+
+## t48|A2|🏥|De zorg in Nederland|Медицина в Нідерландах
+Het Nederlandse zorgsysteem was in het begin verwarrend voor mij. | Нідерландська система охорони здоров'я спершу мене збивала з пантелику.
+
+Iedereen die in Nederland woont en werkt, moet een zorgverzekering hebben. | Кожен, хто живе і працює в Нідерландах, мусить мати медичне страхування.
+Je betaalt elke maand een premie, meestal tussen de honderdveertig en honderdtachtig euro. | Щомісяця ти сплачуєш внесок, зазвичай від 140 до 180 євро.
+Daarnaast is er een eigen risico. | Крім того, є власний ризик (франшиза).
+Dat betekent dat je de eerste kosten van het jaar zelf betaalt. | Це означає, що перші витрати за рік ти оплачуєш сам.
+Als je weinig verdient, kun je zorgtoeslag krijgen. | Якщо мало заробляєш, можна отримати допомогу на страхування.
+
+De huisarts is altijd je eerste stap. | Сімейний лікар — завжди перший крок.
+Je kunt niet zomaar naar een specialist of het ziekenhuis gaan. | Не можна просто так піти до вузького спеціаліста чи в лікарню.
+Je hebt een verwijzing van de huisarts nodig. | Потрібне направлення від сімейного лікаря.
+Een bezoek aan de huisarts is gratis en valt niet onder het eigen risico. | Візит до сімейного лікаря безкоштовний і не входить у франшизу.
+
+'s Avonds en in het weekend bel je de huisartsenpost. | Увечері і на вихідних дзвониш у чергову службу сімейних лікарів.
+Bij een echt noodgeval bel je 112. | У справжній надзвичайній ситуації дзвониш 112.
+
+Nederlandse artsen schrijven minder snel medicijnen voor dan ik gewend was. | Нідерландські лікарі виписують ліки рідше, ніж я звикла.
+Vaak zeggen ze: „Even afwachten.” | Часто кажуть: «Почекаймо».
+Eerst vond ik dat vervelend. | Спочатку мене це дратувало.
+Nu begrijp ik dat het lichaam zichzelf vaak kan genezen. | Тепер я розумію, що організм часто може вилікуватися сам.
+? Хто перший крок у лікуванні? | Лікарня ; Сімейний лікар ; Аптека | 1
+? Чи безкоштовний візит до сімейного лікаря? | Так ; Ні ; Тільки для дітей | 0
+? Який номер у надзвичайній ситуації? | 911 ; 112 ; 101 | 1
+
+## t49|A2|🌊|Leven met water|Життя з водою
+Ongeveer een kwart van Nederland ligt onder de zeespiegel. | Близько чверті Нідерландів лежить нижче рівня моря.
+Zonder dijken zou een groot deel van het land onder water staan. | Без дамб велика частина країни була б під водою.
+
+Al eeuwenlang strijden Nederlanders tegen het water. | Уже століттями нідерландці борються з водою.
+Vroeger gebruikten ze windmolens om water uit de polders te pompen. | Раніше вони використовували вітряки, щоб відкачувати воду з польдерів.
+Een polder is een stuk land dat vroeger water was. | Польдер — це ділянка землі, яка раніше була водою.
+Nu doen elektrische gemalen dat werk. | Тепер цю роботу виконують електричні насосні станції.
+
+In 1953 was er een vreselijke overstroming in Zeeland. | У 1953 році в Зеландії була жахлива повінь.
+Meer dan achttienhonderd mensen kwamen om het leven. | Загинуло понад тисячу вісімсот людей.
+Daarna bouwde Nederland de Deltawerken. | Після цього Нідерланди збудували «Дельта-споруди».
+Dat zijn enorme dammen en stormvloedkeringen. | Це величезні дамби і штормові бар'єри.
+Ze behoren tot de grootste waterwerken ter wereld. | Вони належать до найбільших гідротехнічних споруд у світі.
+
+Door klimaatverandering stijgt de zeespiegel. | Через зміну клімату рівень моря підвищується.
+Daarom zoekt Nederland nieuwe oplossingen. | Тому Нідерланди шукають нові рішення.
+Rivieren krijgen meer ruimte, en er worden drijvende huizen gebouwd. | Річкам дають більше простору, і будують плавучі будинки.
+Nederlandse ingenieurs helpen nu ook andere landen met hun waterproblemen. | Нідерландські інженери тепер допомагають і іншим країнам з проблемами води.
+Er is een bekend gezegde: „God schiep de aarde, maar de Nederlanders schiepen Nederland.” | Є відомий вислів: «Бог створив землю, а нідерландці створили Нідерланди».
+? Яка частина країни нижче рівня моря? | Чверть ; Половина ; Десята | 0
+? Що таке польдер? | Вітряк ; Земля, що раніше була водою ; Дамба | 1
+? Коли була велика повінь? | 1953 ; 1903 ; 1993 | 0
+
+## t50|A2|🚉|Reizen met het ov|Подорожі громадським транспортом
+In Nederland reis je met het openbaar vervoer, kortweg ov. | У Нідерландах подорожують громадським транспортом, коротко «ov».
+Trein, bus, tram en metro werken met hetzelfde systeem. | Потяг, автобус, трамвай і метро працюють за однією системою.
+
+Vroeger had iedereen een ov-chipkaart. | Раніше в усіх була ov-chipkaart.
+Nu kun je ook inchecken met je bankpas of je telefoon. | Тепер можна також відмічатися банківською карткою або телефоном.
+Bij het begin van je reis houd je de pas tegen een paaltje. | На початку поїздки прикладаєш картку до стовпчика.
+Aan het einde check je uit. | Наприкінці відмічаєшся на виході.
+Vergeet je dat, dan betaal je het maximale tarief. | Якщо забудеш — заплатиш максимальний тариф.
+
+De trein is niet goedkoop. | Потяг недешевий.
+Daarom hebben veel mensen een abonnement. | Тому в багатьох є абонемент.
+Met een daluren-abonnement krijg je veertig procent korting buiten de spits. | З абонементом на непікові години отримуєш сорок відсотків знижки поза годинами пік.
+De spits is tussen half zeven en negen uur 's ochtends en tussen vier en half zeven 's middags. | Години пік — з пів на сьому до дев'ятої ранку і з четвертої до пів на сьому вечора.
+
+Op de website van de NS zie je de reisplanner. | На сайті NS є планувальник поїздок.
+Daar staat ook of er werkzaamheden zijn. | Там також видно, чи є ремонтні роботи.
+In het weekend rijden er soms bussen in plaats van treinen. | На вихідних іноді замість потягів курсують автобуси.
+Het ov in Nederland is meestal punctueel, maar bij sneeuw of storm gaat het vaak mis. | Громадський транспорт у Нідерландах зазвичай пунктуальний, але під час снігу чи бурі часто бувають збої.
+Dan is de fiets toch het betrouwbaarst! | Тоді велосипед таки найнадійніший!
+? Що буде, якщо не відмітитися на виході? | Нічого ; Максимальний тариф ; Штраф 100 євро | 1
+? Яку знижку дає абонемент поза годинами пік? | 20% ; 40% ; 50% | 1
+? Що найнадійніше під час снігу? | Потяг ; Автобус ; Велосипед | 2
+
+## t51|A2|🎄|Kerst en oud en nieuw|Різдво і Новий рік
+Na Sinterklaas komt al snel Kerstmis. | Після Сінтерклаасу дуже скоро Різдво.
+In Nederland zijn er twee kerstdagen: 25 en 26 december. | У Нідерландах два різдвяні дні: 25 і 26 грудня.
+Op eerste kerstdag eten veel families uitgebreid samen. | На перший день Різдва багато родин разом довго і смачно їдять.
+
+Een populaire traditie is gourmetten. | Популярна традиція — «гурметтен».
+Iedereen bakt op een klein grillplaatje op tafel zijn eigen stukjes vlees, vis en groente. | Кожен на маленькому грилі на столі смажить свої шматочки м'яса, риби й овочів.
+Het duurt uren, en dat is precies de bedoeling: lang en gezellig tafelen. | Це триває годинами, і саме в цьому сенс: довго й затишно сидіти за столом.
+
+Op 31 december is het oudjaarsavond. | 31 грудня — переддень Нового року.
+Dan eten Nederlanders oliebollen. | Тоді нідерландці їдять «олібол».
+Dat zijn gefrituurde bollen deeg met rozijnen en poedersuiker. | Це смажені кульки тіста з родзинками і цукровою пудрою.
+Om middernacht wensen mensen elkaar een gelukkig nieuwjaar. | Опівночі люди бажають одне одному щасливого Нового року.
+Er wordt veel vuurwerk afgestoken. | Запускають багато феєрверків.
+
+Vuurwerk is wel een discussiepunt. | Утім, феєрверки — предмет суперечок.
+Elk jaar raken mensen gewond en dieren worden bang. | Щороку люди отримують травми, а тварини лякаються.
+Daarom hebben steeds meer gemeenten een vuurwerkverbod. | Тому дедалі більше муніципалітетів забороняють феєрверки.
+Op 1 januari springen duizenden mensen in de koude zee. | 1 січня тисячі людей стрибають у холодне море.
+Dat heet de nieuwjaarsduik. | Це називається новорічне пірнання.
+Ik heb het één keer gedaan en nooit meer! | Я зробила це один раз — і більше ніколи!
+? Скільки різдвяних днів у Нідерландах? | Один ; Два ; Три | 1
+? Що таке олібол? | Пиріг ; Смажені кульки тіста ; Суп | 1
+? Що роблять 1 січня? | Пірнають у море ; Ходять у гості ; Запускають феєрверки | 0
+
+## t52|A2|🌱|Duurzaam leven|Екологічний спосіб життя
+Steeds meer Nederlanders proberen duurzaam te leven. | Дедалі більше нідерландців намагаються жити екологічно.
+Ook ons gezin doet mee. | Наша родина теж долучається.
+
+Vorig jaar hebben we zonnepanelen op ons dak laten leggen. | Минулого року ми поставили на дах сонячні панелі.
+Die wekken genoeg stroom op voor bijna het hele jaar. | Вони виробляють достатньо електрики майже на весь рік.
+De investering was groot, maar onze energierekening is veel lager. | Вкладення були великі, але рахунок за енергію набагато менший.
+
+We eten twee dagen per week geen vlees. | Два дні на тиждень ми не їмо м'яса.
+Ik koop groente van het seizoen, het liefst van de boer uit de buurt. | Я купую сезонні овочі, найкраще від фермера неподалік.
+Kleren koop ik vaak tweedehands in de kringloopwinkel. | Одяг я часто купую вживаний у секонд-хенді.
+Dat is goedkoper en beter voor het milieu. | Це дешевше і краще для довкілля.
+
+Voor korte afstanden pakken we altijd de fiets. | На короткі відстані ми завжди беремо велосипед.
+We hebben geen tweede auto meer. | Другої машини в нас більше немає.
+Als we een auto nodig hebben, huren we een deelauto via een app. | Коли потрібна машина, ми беремо в оренду машину з каршерингу через застосунок.
+
+Natuurlijk zijn we niet perfect. | Звісно, ми не ідеальні.
+We vliegen nog één keer per jaar naar familie. | Ми все ще раз на рік летимо до родини.
+Maar ik denk dat elke kleine stap telt. | Але я думаю, що кожен маленький крок має значення.
+Onze kinderen leren het zo van jongs af aan. | Наші діти вчаться цього змалку.
+? Що вони поставили на дах? | Антену ; Сонячні панелі ; Вітряк | 1
+? Де вона купує одяг? | У торговому центрі ; У секонд-хенді ; Онлайн | 1
+? Як вони беруть машину, коли треба? | Каршеринг через застосунок ; Таксі ; Позичають у сусіда | 0
+
+## t53|A2|📝|Werken in Nederland|Робота в Нідерландах
+Wie in Nederland gaat werken, krijgt te maken met veel regels en afspraken. | Хто починає працювати в Нідерландах, стикається з багатьма правилами і домовленостями.
+
+Een arbeidscontract kan tijdelijk of vast zijn. | Трудовий договір може бути тимчасовим або безстроковим.
+Een tijdelijk contract is vaak voor een half jaar of een jaar. | Тимчасовий договір часто на пів року або рік.
+Na een aantal tijdelijke contracten heb je recht op een vast contract. | Після кількох тимчасових договорів маєш право на безстроковий.
+
+Je salaris krijg je meestal aan het einde van de maand. | Зарплату зазвичай отримуєш наприкінці місяця.
+Op je loonstrook zie je hoeveel belasting en premies er worden ingehouden. | На розрахунковому листку видно, скільки утримують податків і внесків.
+In mei krijg je vakantiegeld: acht procent van je jaarsalaris. | У травні отримуєш відпускні: вісім відсотків річної зарплати.
+
+Bij een fulltime baan heb je minstens twintig vakantiedagen per jaar. | На повній ставці маєш щонайменше двадцять днів відпустки на рік.
+Veel Nederlanders werken parttime, vooral ouders met jonge kinderen. | Багато нідерландців працюють неповний день, особливо батьки з маленькими дітьми.
+
+Als je ziek bent, meld je je 's ochtends vroeg ziek bij je leidinggevende. | Коли захворів, рано вранці повідомляєш керівникові.
+Je werkgever betaalt het eerste jaar minstens zeventig procent van je loon door. | Роботодавець перший рік виплачує щонайменше сімдесят відсотків зарплати.
+
+De werkcultuur is informeel. | Робоча культура неформальна.
+Iedereen noemt de baas bij de voornaam. | Усі звертаються до начальника на ім'я.
+In vergaderingen mag iedereen zijn mening geven, ook als die anders is. | На нарадах кожен може висловити свою думку, навіть якщо вона інша.
+Om vijf uur gaan de meeste mensen naar huis. | О п'ятій більшість людей іде додому.
+Werk en privé zijn duidelijk gescheiden. | Робота і особисте життя чітко розділені.
+? Коли виплачують відпускні? | У травні ; У грудні ; У січні | 0
+? Скільки щонайменше днів відпустки? | 10 ; 20 ; 30 | 1
+? Як звертаються до начальника? | На ім'я ; Пане директоре ; На прізвище | 0
+
+## t54|A2|🔧|Een probleem met de verhuurder|Проблема з орендодавцем
+Afgelopen winter ging de verwarming in mijn appartement kapot. | Минулої зими в моїй квартирі зламалося опалення.
+Het was buiten min vijf graden en binnen werd het steeds kouder. | Надворі було мінус п'ять, а всередині ставало дедалі холодніше.
+
+Ik belde meteen mijn verhuurder. | Я одразу подзвонила орендодавцеві.
+Hij nam niet op, dus ik stuurde een e-mail. | Він не відповів, тож я надіслала лист.
+Ik beschreef het probleem en vroeg om een snelle reparatie. | Я описала проблему і попросила швидко полагодити.
+Na twee dagen had ik nog steeds geen antwoord. | Через два дні відповіді все ще не було.
+
+Mijn buurvrouw zei dat ik bij het Juridisch Loket advies kon vragen. | Сусідка сказала, що я можу звернутися по пораду до безкоштовної юридичної служби.
+Dat is gratis. | Це безкоштовно.
+De medewerker legde uit dat een verhuurder verplicht is om grote gebreken op te lossen. | Співробітник пояснив, що орендодавець зобов'язаний усувати великі несправності.
+Verwarming hoort daar zeker bij. | Опалення до них точно належить.
+Hij hielp me een officiële brief te schrijven. | Він допоміг мені написати офіційного листа.
+
+In de brief gaf ik de verhuurder een termijn van drie dagen. | У листі я дала орендодавцеві строк три дні.
+Ik schreef ook dat ik anders naar de Huurcommissie zou gaan. | Я також написала, що інакше звернуся до Орендної комісії.
+
+De volgende dag belde de verhuurder. | Наступного дня подзвонив орендодавець.
+Hij verontschuldigde zich en stuurde een monteur. | Він вибачився і надіслав майстра.
+Binnen een paar uur was de verwarming gerepareerd. | За кілька годин опалення полагодили.
+Ik heb geleerd dat je als huurder rechten hebt, en dat je die moet kennen. | Я зрозуміла, що в орендаря є права, і їх треба знати.
+? Що зламалося? | Холодильник ; Опалення ; Двері | 1
+? Хто допоміг написати лист? | Сусідка ; Юридична служба ; Друг | 1
+? Який строк вона дала орендодавцеві? | 1 день ; 3 дні ; Тиждень | 1
+
+## t55|A2|🌷|De geschiedenis van de tulp|Історія тюльпана
+De tulp is het symbool van Nederland, maar de bloem komt oorspronkelijk niet uit Nederland. | Тюльпан — символ Нідерландів, але походить ця квітка не звідси.
+Tulpen groeiden in het wild in Centraal-Azië. | Тюльпани росли в дикій природі в Центральній Азії.
+Via Turkije kwamen ze in de zestiende eeuw naar Europa. | Через Туреччину вони потрапили до Європи в шістнадцятому столітті.
+
+Een botanicus, Carolus Clusius, plantte de eerste tulpen in Leiden rond 1593. | Ботанік Кароль Клузіус посадив перші тюльпани в Лейдені приблизно 1593 року.
+De bloemen waren nieuw en exotisch. | Квіти були новими й екзотичними.
+Rijke mensen wilden ze graag hebben. | Багаті люди дуже хотіли їх мати.
+
+In de zeventiende eeuw werden tulpenbollen extreem duur. | У сімнадцятому столітті цибулини тюльпанів стали надзвичайно дорогими.
+Voor één bijzondere bol betaalde iemand evenveel als voor een huis aan de gracht! | За одну особливу цибулину хтось заплатив стільки ж, як за будинок на каналі!
+Mensen kochten en verkochten bollen alleen om er geld aan te verdienen. | Люди купували і продавали цибулини лише заради заробітку.
+Dit noemen we de tulpenmanie. | Це називають тюльпаноманією.
+In 1637 stortte de markt plotseling in en verloren veel mensen hun geld. | У 1637 році ринок раптом обвалився, і багато людей втратили гроші.
+
+Toch bleef de tulp populair. | Проте тюльпан лишився популярним.
+Tegenwoordig is Nederland de grootste tulpenproducent ter wereld. | Сьогодні Нідерланди — найбільший виробник тюльпанів у світі.
+In het voorjaar komen miljoenen toeristen naar de kleurrijke bollenvelden. | Навесні мільйони туристів приїжджають подивитися на барвисті поля.
+Het bekendste park is de Keukenhof bij Lisse. | Найвідоміший парк — Кейкенгоф біля Ліссе.
+? Звідки походить тюльпан? | З Нідерландів ; З Центральної Азії ; З Америки | 1
+? Коли обвалився ринок тюльпанів? | 1593 ; 1637 ; 1953 | 1
+? Як називається найвідоміший парк? | Кейкенгоф ; Вондел ; Дом | 0
+
+## t56|A2|🗣️|Taal leren met de buren|Вчу мову із сусідами
+Toen ik mijn inburgeringscursus afrondde, sprak ik nog niet vloeiend. | Коли я закінчила інтеграційний курс, я ще не говорила вільно.
+In de klas leerde ik grammatica, maar buiten de klas sprak ik weinig Nederlands. | На уроках я вчила граматику, але поза класом мало говорила нідерландською.
+
+Daarom bedacht ik een plan. | Тому я придумала план.
+Ik hing een briefje op in de hal van ons flatgebouw. | Я повісила оголошення в холі нашого багатоквартирного будинку.
+Er stond: „Wie wil met mij Nederlands praten? Ik kook Oekraïens eten als bedankje!” | Там було написано: «Хто хоче говорити зі мною нідерландською? На подяку приготую українську їжу!»
+
+Binnen een week reageerden vier buren. | За тиждень відгукнулися четверо сусідів.
+Nu hebben we elke donderdagavond een taaltafel bij mij thuis. | Тепер щочетверга ввечері в мене вдома мовний столик.
+We praten over het nieuws, over onze kinderen en over de buurt. | Ми говоримо про новини, дітей і наш район.
+Als ik een fout maak, verbeteren ze me op een vriendelijke manier. | Коли я помиляюся, вони привітно мене виправляють.
+
+Een van de buren, meneer De Vries, is gepensioneerd leraar. | Один із сусідів, пан Де Фріс, — вчитель на пенсії.
+Hij neemt soms een krantenartikel mee dat we samen lezen. | Він іноді приносить газетну статтю, яку ми читаємо разом.
+Een andere buurvrouw leert me spreekwoorden. | Інша сусідка вчить мене прислів'їв.
+Mijn favoriete is: „Oefening baart kunst.” | Моє улюблене: «Вправа народжує майстерність».
+
+Door de taaltafel is mijn Nederlands veel beter geworden. | Завдяки мовному столику моя нідерландська стала набагато кращою.
+Maar ik heb er ook vrienden aan overgehouden. | А ще я знайшла друзів.
+Het flatgebouw voelt nu echt als een gemeenschap. | Будинок тепер справді відчувається як спільнота.
+? Де вона повісила оголошення? | У бібліотеці ; У холі будинку ; У школі | 1
+? Коли мовний столик? | Щочетверга ввечері ; Щонеділі ; Щопонеділка | 0
+? Що означає її улюблене прислів'я? | Вправа народжує майстерність ; Час — гроші ; Тихіше їдеш — далі будеш | 0
+
+## t57|A2|📨|Post van de overheid|Листи від держави
+In Nederland krijg je veel officiële post. | У Нідерландах отримуєш багато офіційних листів.
+Steeds vaker komt die digitaal, via de Berichtenbox van MijnOverheid. | Дедалі частіше вони приходять в електронному вигляді, через поштову скриньку MijnOverheid.
+Om in te loggen heb je een DigiD nodig. | Щоб увійти, потрібен DigiD.
+
+Een DigiD is je digitale identiteit. | DigiD — це твоя цифрова особа.
+Je vraagt hem aan op internet en je krijgt een activeringscode per post. | Його замовляють в інтернеті, а код активації приходить поштою.
+Met de DigiD-app kun je veilig inloggen bij de gemeente, de Belastingdienst en je zorgverzekeraar. | З застосунком DigiD можна безпечно входити на сайти муніципалітету, податкової і страховика.
+
+De Belastingdienst stuurt bijvoorbeeld brieven over toeslagen. | Податкова, наприклад, надсилає листи про допомоги.
+Toeslagen zijn bijdragen voor huur, zorg of kinderopvang. | Допомоги — це внески на оренду, медицину чи догляд за дітьми.
+Het is belangrijk om wijzigingen op tijd door te geven. | Важливо вчасно повідомляти про зміни.
+Als je meer gaat verdienen en dat niet meldt, moet je later geld terugbetalen. | Якщо почнеш заробляти більше і не повідомиш, потім доведеться повертати гроші.
+
+Brieven van de overheid zijn vaak lang en ingewikkeld. | Листи від держави часто довгі й складні.
+Mijn tip: lees eerst wat er van je gevraagd wordt en voor welke datum. | Моя порада: спершу прочитай, що від тебе хочуть і до якої дати.
+Begrijp je iets niet, ga dan naar het spreekuur in de bibliotheek. | Якщо щось незрозуміло, сходи на консультацію в бібліотеку.
+Daar helpen vrijwilligers gratis met formulieren en brieven. | Там волонтери безкоштовно допомагають з бланками і листами.
+Gooi nooit een brief weg zonder hem te lezen! | Ніколи не викидай лист, не прочитавши!
+? Що потрібно, щоб увійти в MijnOverheid? | Паспорт ; DigiD ; Банківська картка | 1
+? Що буде, якщо не повідомити про більший заробіток? | Нічого ; Доведеться повертати гроші ; Отримаєш більше допомоги | 1
+? Де допомагають з листами безкоштовно? | У бібліотеці ; У банку ; У податковій | 0
+
+## t58|A2|🩺|Mijn droomberoep|Моя омріяна професія
+Al sinds mijn jeugd wilde ik verpleegkundige worden. | Ще з дитинства я хотіла стати медсестрою.
+In Oekraïne heb ik vijftien jaar in een ziekenhuis gewerkt. | В Україні я п'ятнадцять років працювала в лікарні.
+Toen ik in Nederland kwam, mocht ik dat werk niet meteen doen. | Коли я приїхала до Нідерландів, я не могла одразу виконувати цю роботу.
+
+Om in Nederland als verpleegkundige te werken, moet je in het BIG-register staan. | Щоб працювати медсестрою в Нідерландах, треба бути в реєстрі BIG.
+Daarvoor moest ik mijn diploma laten erkennen. | Для цього мені довелося визнати свій диплом.
+Dat was een lange procedure met veel documenten. | Це була довга процедура з багатьма документами.
+
+Ik moest ook een taalexamen op niveau B2 halen. | Мені також треба було скласти мовний іспит рівня B2.
+Medische woorden in het Nederlands waren in het begin moeilijk. | Медичні слова нідерландською спершу були важкими.
+Ik leerde elke dag twintig nieuwe termen. | Я щодня вчила двадцять нових термінів.
+Ondertussen werkte ik als zorgassistent in een verpleeghuis. | Тим часом я працювала помічницею по догляду в будинку престарілих.
+Daar leerde ik hoe de zorg hier werkt en hoe je met patiënten praat. | Там я дізналася, як тут працює догляд і як говорити з пацієнтами.
+
+In Nederland is de verhouding tussen arts en verpleegkundige gelijkwaardiger. | У Нідерландах стосунки між лікарем і медсестрою більш рівноправні.
+Verpleegkundigen nemen zelf veel beslissingen. | Медсестри самі ухвалюють багато рішень.
+Dat vind ik prettig. | Мені це подобається.
+
+Na twee jaar was het eindelijk zover. | Через два роки нарешті все вдалося.
+Ik kreeg mijn BIG-registratie en een baan in het ziekenhuis van mijn stad. | Я отримала реєстрацію BIG і роботу в лікарні свого міста.
+Op mijn eerste werkdag huilde ik van blijdschap. | У перший робочий день я плакала від щастя.
+? Скільки років вона працювала в Україні? | 5 ; 10 ; 15 | 2
+? Який рівень мови був потрібен? | A2 ; B1 ; B2 | 2
+? Де вона працювала, поки чекала? | У будинку престарілих ; В аптеці ; У школі | 0
+
+## t59|A2|🧭|Een weekend in Gent|Вихідні в Генті
+Vorige maand gingen we een weekend naar Gent, in België. | Минулого місяця ми поїхали на вихідні до Гента в Бельгії.
+Vanuit Rotterdam is het maar twee uur met de trein. | З Роттердама це лише дві години потягом.
+
+In het noorden van België, in Vlaanderen, spreken ze ook Nederlands. | На півночі Бельгії, у Фландрії, теж говорять нідерландською.
+Maar het klinkt anders. | Але звучить вона інакше.
+De Vlamingen spreken zachter en gebruiken andere woorden. | Фламандці говорять м'якше і вживають інші слова.
+Een Nederlander zegt „lekker”, een Vlaming zegt vaak „smakelijk”. | Нідерландець каже «lekker», а фламандець часто — «smakelijk».
+En „Alstublieft” betekent in België ook „graag gedaan”. | А «Alstublieft» у Бельгії означає також «нема за що».
+
+Gent is een prachtige middeleeuwse stad. | Гент — чудове середньовічне місто.
+We bezochten het Gravensteen, een kasteel midden in de stad. | Ми відвідали Гравенстен — замок посеред міста.
+Daarna maakten we een boottocht over de Leie. | Потім ми покаталися човном по річці Лейє.
+
+Natuurlijk aten we Belgische frieten in een frituur. | Звісно, ми їли бельгійську картоплю фрі в закусочній.
+De Belgen zijn er trots op, want ze bakken ze twee keer. | Бельгійці нею пишаються, бо смажать її двічі.
+'s Avonds dronken we Belgisch bier op een terras. | Увечері ми пили бельгійське пиво на терасі.
+Er zijn honderden soorten! | Його сотні видів!
+
+Op zondag kochten we chocolade voor onze collega's. | У неділю ми купили шоколад для колег.
+Het was een kort, maar heerlijk weekend. | Це були короткі, але чудові вихідні.
+We willen snel terug, misschien naar Brugge. | Ми хочемо швидко повернутися, можливо, до Брюгге.
+? Скільки їхати потягом з Роттердама? | 1 година ; 2 години ; 4 години | 1
+? Чому бельгійська картопля фрі особлива? | Її смажать двічі ; Вона солодка ; Вона з сиром | 0
+? Що вони купили колегам? | Пиво ; Шоколад ; Сувеніри | 1

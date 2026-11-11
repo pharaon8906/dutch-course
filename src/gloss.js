@@ -1,4 +1,4 @@
-const GLOSS_RAW = `'s|скорочення від des: 's ochtends — вранці
+let GLOSS_RAW = `'s|скорочення від des: 's ochtends — вранці
 aardappelen|картопля (мн.)
 aardig|милий
 acht|вісім

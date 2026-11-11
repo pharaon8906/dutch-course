@@ -1,7 +1,7 @@
 const fs=require('fs');
-const src=['words.js','content.js','emoji.js','content2.js','content3.js','texts.js','gloss.js'].map(f=>fs.readFileSync(f,'utf8')).join('\n');
-eval(src+';globalThis.D={RAW,DIALOGS,GRAMMAR2,SOUNDS,FALSE_FRIENDS,EXPR_RAW,NEW_DIALOGS,ALPHABET,PHONICS,TEXTS}');
-const {RAW,DIALOGS,GRAMMAR2,SOUNDS,FALSE_FRIENDS,EXPR_RAW,NEW_DIALOGS,ALPHABET,PHONICS,TEXTS}=D;
+const src=['words.js','content.js','emoji.js','content2.js','content3.js','texts.js','texts_more.js','gloss.js','gloss2.js','wex.js'].map(f=>fs.readFileSync(f,'utf8')).join('\n');
+eval(src+';globalThis.D={WEX,RAW,DIALOGS,GRAMMAR2,SOUNDS,FALSE_FRIENDS,EXPR_RAW,NEW_DIALOGS,ALPHABET,PHONICS,TEXTS}');
+const {WEX,RAW,DIALOGS,GRAMMAR2,SOUNDS,FALSE_FRIENDS,EXPR_RAW,NEW_DIALOGS,ALPHABET,PHONICS,TEXTS}=D;
 const clean=t=>t.replace(/\s\/\s/g,', ').replace(/\s*[→—]\s*/g,', ').replace(/\(.*?\)/g,'').replace(/\.\.\.|…|___/g,'').replace(/[„”“"]/g,'').replace(/\s+/g,' ').replace(/^,\s*|,\s*$/g,'').trim();
 const old=fs.existsSync('tts/items.json')?JSON.parse(fs.readFileSync('tts/items.json')):[];
 const oldId=new Map(old.map(o=>[o.k,o.id]));let next=Math.max(-1,...old.map(o=>o.id))+1;
@@ -18,6 +18,7 @@ PHONICS.forEach(g=>g.items.forEach(it=>{it.ex.forEach(([w])=>add(w.replace(/-/g,
 FALSE_FRIENDS.forEach(f=>add(f[0],'m','x'));
 ['Ik wil graag ...','Mag ik ...?','Hoeveel kost het?','Waar is ...?','Kunt u dat herhalen?','Kunt u langzamer praten?','Hoe zeg je ... in het Nederlands?','Wat betekent dat?','Ik spreek een beetje Nederlands.','Ik wil graag Nederlands oefenen.','Achtentachtig angstige agenten aten achtentachtig ananassen','Scheveningen','Hallo! Welkom bij de cursus Nederlands.','Dit is mijn stem.','Hallo! Ik spreek Nederlands.'].forEach(t=>add(t,'m','x'));
 const tok=s=>(s.match(/'s|[A-Za-zÀ-ÿ]+(?:'s)?/g)||[]).map(x=>x.toLowerCase()).filter(x=>x!=="'s");
+Object.values(WEX).forEach(([nl,uk,v],i)=>add(nl,v,'e'+(i%8)));
 TEXTS.forEach(t=>t.p.flat().forEach(([nl])=>{add(nl,'m',t.id);tok(nl).forEach(w=>add(w,'m',t.id))}));
 const arr=[...items.values()].sort((a,b)=>a.id-b.id);
 fs.writeFileSync('tts/items.json',JSON.stringify(arr));

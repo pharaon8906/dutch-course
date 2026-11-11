@@ -92,6 +92,7 @@ os.makedirs('tts/native_mp3', exist_ok=True); os.makedirs('/tmp/nat_raw', exist_
 native = json.load(open('tts/native.json')) if os.path.exists('tts/native.json') else {}
 done = 0
 for w, title in sorted(first.items()):
+    if all(str(i) in native for i in want[w]): continue
     m = meta_by_title.get(title)
     if not m or not m['url']: continue
     raw = '/tmp/nat_raw/x.' + m['url'].rsplit('.', 1)[-1]

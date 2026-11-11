@@ -1,0 +1,488 @@
+## t20|A1|🚆|On the train|У потязі
+Every day I take the train from New Jersey to New York. | Щодня я їжджу потягом з Нью-Джерсі до Нью-Йорка.
+The trip takes forty minutes. | Поїздка триває сорок хвилин.
+I buy my ticket on an app on my phone. | Я купую квиток у застосунку на телефоні.
+
+The train leaves at seven fifteen from track three. | Потяг відправляється о 7:15 з колії три.
+It's usually on time, but sometimes it's late. | Зазвичай він приходить вчасно, але іноді запізнюється.
+Then a voice says: "We apologize for the delay." | Тоді голос каже: «Перепрошуємо за затримку».
+
+In the morning the train is crowded. | Вранці потяг переповнений.
+Many people stand. | Багато людей стоїть.
+I always look for a seat in the quiet car. | Я завжди шукаю місце в тихому вагоні.
+You can't make phone calls or talk loudly there. | Там не можна дзвонити і голосно розмовляти.
+I read a book or look out the window. | Я читаю книжку або дивлюся у вікно.
+
+The conductor comes and checks the tickets. | Приходить кондуктор і перевіряє квитки.
+I show him my phone. | Я показую йому телефон.
+At Penn Station I get off. | На станції Пенн я виходжу.
+It's very big and busy. | Вона дуже велика і людна.
+Then I walk ten minutes to my office. | Потім я йду десять хвилин пішки до офісу.
+? Скільки триває поїздка? | 14 хвилин ; 40 хвилин ; 4 години | 1
+? Що не можна робити в тихому вагоні? | Читати ; Дзвонити ; Їсти | 1
+? Як вона показує квиток? | На телефоні ; Паперовий ; Не показує | 0
+
+## t21|A1|🩺|At the doctor's office|У лікаря
+For a week I've had pain in my back. | Уже тиждень у мене болить спина.
+I call my doctor's office at eight in the morning. | Я дзвоню в кабінет свого лікаря о восьмій ранку.
+The receptionist asks: "What are your symptoms?" | Реєстраторка питає: «Які у вас симптоми?»
+I tell her about my back. | Я розповідаю про спину.
+"You can come today at two," she says. | «Можете прийти сьогодні о другій», — каже вона.
+
+At the office I fill out a form. | У кабінеті я заповнюю бланк.
+I also show my insurance card. | Я також показую картку медстрахування.
+In the waiting room there are three other people. | У приймальні ще троє людей.
+After twenty minutes a nurse calls my name. | Через двадцять хвилин медсестра називає моє ім'я.
+
+The doctor is young and friendly. | Лікарка молода і привітна.
+She asks many questions. | Вона ставить багато питань.
+"Do you sit at a computer a lot?" | «Ви багато сидите за комп'ютером?»
+"Yes, eight hours a day," I say. | «Так, вісім годин на день», — кажу я.
+
+She examines my back. | Вона оглядає мою спину.
+"It's nothing serious," she says. | «Нічого серйозного», — каже вона.
+"You should move more and take a short break every hour." | «Вам варто більше рухатися і щогодини робити коротку перерву».
+She gives me some exercises. | Вона дає мені вправи.
+If it doesn't get better, I can see a physical therapist. | Якщо не покращає, я можу піти до фізіотерапевта.
+? Що болить? | Голова ; Спина ; Нога | 1
+? Що вона показує в кабінеті? | Паспорт ; Картку медстрахування ; Права | 1
+? Що радить лікарка? | Більше рухатися ; Пити ліки ; Більше спати | 0
+
+## t22|A1|🔑|A new apartment|Нова квартира
+Last month I moved. | Минулого місяця я переїхала.
+Now I live in an apartment on the third floor. | Тепер я живу в квартирі на третьому поверсі.
+There's no elevator, so I take the stairs every day. | Ліфта немає, тож я щодня ходжу сходами.
+
+The apartment has one bedroom, a kitchen and a bathroom. | У квартирі одна спальня, кухня і ванна.
+The living room is bright because the windows are big. | Вітальня світла, бо вікна великі.
+I have a view of a park. | У мене вид на парк.
+
+The rent is fifteen hundred dollars a month. | Оренда — тисяча п'ятсот доларів на місяць.
+That's a lot, but it's normal in this city. | Це багато, але для цього міста нормально.
+I pay for electricity and internet separately. | За електрику та інтернет я плачу окремо.
+
+I still need to buy many things. | Мені ще треба багато чого купити.
+I have a bed and a table, but no sofa yet. | У мене є ліжко і стіл, але ще немає дивана.
+Online I find a used sofa for fifty dollars. | В інтернеті я знаходжу вживаний диван за п'ятдесят доларів.
+My neighbor helps me carry it upstairs. | Сусід допомагає мені занести його нагору.
+
+I also have to change my address. | Мені також треба змінити адресу.
+I do it on the post office website. | Я роблю це на сайті пошти.
+Now the apartment really feels like home. | Тепер квартира справді відчувається як дім.
+? На якому поверсі квартира? | На першому ; На третьому ; На п'ятому | 1
+? Скільки коштує оренда? | $500 ; $1500 ; $5000 | 1
+? Скільки коштує вживаний диван? | $50 ; $150 ; $500 | 0
+
+## t23|A1|💼|My workday|Мій робочий день
+I work as a cook in a restaurant in San Francisco. | Я працюю кухарем у ресторані в Сан-Франциско.
+My workday starts at two in the afternoon. | Мій робочий день починається о другій.
+
+First I check what products we have. | Спершу я дивлюся, які є продукти.
+Then I prepare everything with my coworkers: we cut vegetables, make sauces and marinate meat. | Потім з колегами все готуємо: ріжемо овочі, робимо соуси, маринуємо м'ясо.
+At five o'clock we eat together. | О п'ятій ми разом їмо.
+We call it "family meal". | Ми називаємо це «сімейна їжа».
+
+At six the first guests come. | О шостій приходять перші гості.
+Then the kitchen gets busy. | Тоді на кухні стає гаряче.
+The servers bring in the orders. | Офіціанти приносять замовлення.
+I have to work fast and well. | Я мушу працювати швидко і добре.
+Sometimes it's stressful, but I like it. | Іноді це напружено, але мені подобається.
+
+My chef is strict, but fair. | Мій шеф суворий, але справедливий.
+He teaches me a lot. | Він багато мене вчить.
+At eleven we clean the kitchen. | Об одинадцятій ми прибираємо кухню.
+I finish at eleven thirty. | Я закінчую о пів на дванадцяту.
+Then I take the bus home, tired but happy. | Потім їду автобусом додому, втомлений, але задоволений.
+? Ким він працює? | Офіціантом ; Кухарем ; Шефом | 1
+? Що вони роблять о п'ятій? | Їдять разом ; Прибирають ; Йдуть додому | 0
+? О котрій він закінчує? | 23:00 ; 23:30 ; 00:30 | 1
+
+## t24|A1|✉️|A note from school|Записка зі школи
+My daughter brings a note home from school. | Донька приносить додому записку зі школи.
+I read it slowly. | Я читаю її повільно.
+
+"Dear parents," it says. | «Шановні батьки», — написано там.
+"Next Friday we are going on a field trip to the zoo." | «Наступної п'ятниці ми їдемо на екскурсію до зоопарку».
+"We will leave at eight thirty by bus and come back at three." | «Ми вирушаємо о пів на дев'яту автобусом і повертаємося о третій».
+
+"Please give your child a packed lunch and something to drink." | «Будь ласка, дайте дитині з собою обід і щось попити».
+"Candy is not allowed." | «Цукерки заборонені».
+"The trip costs fifteen dollars." | «Поїздка коштує п'ятнадцять доларів».
+"Please sign the permission slip and send it back by Monday." | «Будь ласка, підпишіть дозвіл і поверніть до понеділка».
+
+"We are also looking for three parents to help." | «Ми також шукаємо трьох батьків на допомогу».
+"If you want to come, please email Ms. Garcia." | «Якщо хочете поїхати, напишіть міс Гарсії».
+
+I want to go. | Я хочу поїхати.
+Then I can practice English with the other parents. | Тоді я зможу практикувати англійську з іншими батьками.
+I send Ms. Garcia an email. | Я пишу міс Гарсії.
+She answers quickly: "Great, thank you so much!" | Вона швидко відповідає: «Чудово, дуже дякую!»
+? Куди їдуть діти? | До музею ; До зоопарку ; На пляж | 1
+? Що не можна брати? | Воду ; Цукерки ; Сендвічі | 1
+? Що треба підписати? | Дозвіл ; Договір ; Квиток | 0
+
+## t25|A1|🦃|Thanksgiving|День подяки
+Thanksgiving is a big holiday in the United States. | День подяки — велике свято в США.
+It's on the fourth Thursday of November. | Він припадає на четвертий четвер листопада.
+Families come together to say thank you for the good things in life. | Родини збираються, щоб подякувати за все добре в житті.
+
+This year my American friend Emily invited me. | Цього року мене запросила моя американська подруга Емілі.
+Her family lives in a big house in Ohio. | Її родина живе у великому будинку в Огайо.
+There were twenty people at the table! | За столом було двадцять людей!
+
+The main dish is a big roast turkey. | Головна страва — велика запечена індичка.
+There were also mashed potatoes, gravy, corn and cranberry sauce. | Ще було картопляне пюре, підлива, кукурудза і журавлинний соус.
+For dessert we had pumpkin pie with whipped cream. | На десерт був гарбузовий пиріг зі збитими вершками.
+
+Before dinner everybody said what they are thankful for. | Перед вечерею кожен розповів, за що вдячний.
+I said: "I'm thankful for my new friends in America." | Я сказала: «Я вдячна за нових друзів в Америці».
+Emily's grandmother hugged me. | Бабуся Емілі обійняла мене.
+
+After dinner the men watched football on TV. | Після вечері чоловіки дивилися футбол по телевізору.
+We ate too much and talked for hours. | Ми переїли і годинами розмовляли.
+It was a warm and cozy day. | Це був теплий і затишний день.
+? Коли День подяки? | Четвертий четвер листопада ; 4 липня ; 25 грудня | 0
+? Яка головна страва? | Курка ; Індичка ; Риба | 1
+? Який десерт? | Яблучний пиріг ; Гарбузовий пиріг ; Торт | 1
+
+## t26|A1|🚦|Driving in America|Водіння в Америці
+In the United States people drive on the right side of the road. | У США їздять правою стороною дороги.
+I had to learn some new rules when I came here. | Коли я сюди приїхала, мені довелося вивчити нові правила.
+
+Speed is in miles per hour, not kilometers. | Швидкість у милях на годину, а не в кілометрах.
+On the highway the limit is often sixty-five miles per hour. | На трасі обмеження часто шістдесят п'ять миль на годину.
+That's about a hundred and five kilometers per hour. | Це приблизно сто п'ять кілометрів на годину.
+
+At a red light you can usually turn right after you stop. | На червоне світло зазвичай можна повернути праворуч, після того як зупинилися.
+At a stop sign you must stop completely. | Біля знаку «стоп» треба зупинитися повністю.
+When a school bus stops, all cars must stop too. | Коли шкільний автобус зупиняється, усі машини теж мусять стояти.
+
+You can't use your phone in your hand while you drive. | Не можна користуватися телефоном у руці за кермом.
+Everybody in the car must wear a seat belt. | Усі в машині мусять бути пристебнуті.
+If the police stop you, stay in the car and keep your hands on the wheel. | Якщо зупинила поліція, залишайся в машині й тримай руки на кермі.
+
+Gas stations are often self-service. | Заправки часто самообслуговування.
+You pay at the pump with your card. | Платиш карткою прямо біля колонки.
+Driving here is easy, but the distances are long! | Їздити тут легко, але відстані великі!
+? Чи можна повернути праворуч на червоне? | Зазвичай так, після зупинки ; Ніколи ; Тільки вночі | 0
+? Що мусять робити машини, коли зупиняється шкільний автобус? | Їхати повільно ; Зупинитися ; Сигналити | 1
+? Як платять на заправці? | Карткою біля колонки ; Готівкою касиру ; Онлайн | 0
+
+## t27|A1|🌉|A day in San Francisco|День у Сан-Франциско
+On Saturday my friend and I spent a day in San Francisco. | У суботу ми з подругою провели день у Сан-Франциско.
+We took the train at nine o'clock. | Ми сіли на потяг о дев'ятій.
+
+First we walked to Fisherman's Wharf. | Спершу ми пішли до Рибальської пристані.
+There were many tourists and sea lions! | Там було багато туристів і морських левів!
+The sea lions were loud and funny. | Морські леви були гучні й кумедні.
+
+Then we took a famous cable car. | Потім ми проїхалися знаменитим канатним трамваєм.
+The streets in San Francisco are very steep. | Вулиці в Сан-Франциско дуже круті.
+The cable car goes up and down the hills. | Трамвай їздить вгору і вниз пагорбами.
+
+At one o'clock we had lunch in Chinatown. | О першій ми обідали в Чайнатауні.
+I ordered noodles with vegetables. | Я замовила локшину з овочами.
+After lunch we rented bikes. | Після обіду ми взяли напрокат велосипеди.
+We rode across the Golden Gate Bridge. | Ми проїхали по мосту Золоті Ворота.
+It's red and very long. | Він червоний і дуже довгий.
+It was windy and a little foggy. | Було вітряно і трохи туманно.
+
+In the evening we were tired, but happy. | Увечері ми були втомлені, але щасливі.
+On the train home we were already making plans for next time. | У потязі додому ми вже планували наступний раз.
+? Кого вони бачили на пристані? | Морських левів ; Пінгвінів ; Дельфінів | 0
+? Які вулиці в Сан-Франциско? | Пласкі ; Дуже круті ; Широкі | 1
+? Якого кольору міст Золоті Ворота? | Золотий ; Червоний ; Білий | 1
+
+## t28|A1|📚|The public library|Публічна бібліотека
+I go to the library every week. | Я щотижня ходжу до бібліотеки.
+A library card is free! | Читацький квиток безкоштовний!
+You only need an ID and proof of address. | Потрібні лише документ і підтвердження адреси.
+
+At the library I borrow books in easy English. | У бібліотеці я беру книжки простою англійською.
+There is a special shelf for English learners. | Там є спеціальна полиця для тих, хто вчить англійську.
+The stories are short and the sentences are simple. | Оповідання короткі, а речення прості.
+
+On Tuesday evenings there is a conversation group. | У вівторок увечері там розмовна група.
+Volunteers talk with people who are learning English. | Волонтери розмовляють з тими, хто вчить англійську.
+We drink coffee and talk about all kinds of topics. | Ми п'ємо каву і говоримо на різні теми.
+Last week we talked about holidays. | Минулого тижня ми говорили про свята.
+
+My children borrow picture books and comics. | Мої діти беруть книжки з картинками і комікси.
+My son loves books about dinosaurs. | Мій син обожнює книжки про динозаврів.
+
+At the library you can also use computers for free. | У бібліотеці також можна безкоштовно користуватися комп'ютерами.
+A librarian helps people with job applications. | Бібліотекар допомагає людям із заявами на роботу.
+For me the library is a second home. | Для мене бібліотека — другий дім.
+? Скільки коштує читацький квиток? | $40 ; Безкоштовно ; $10 | 1
+? Коли розмовна група? | У понеділок ; У вівторок увечері ; У суботу | 1
+? Про що любить читати син? | Про динозаврів ; Про машини ; Про космос | 0
+
+## t29|A1|🏋️|Working out|Спорт
+I want to live a healthier life. | Я хочу жити здоровіше.
+So I joined a gym. | Тому я записався в спортзал.
+I go three times a week. | Я ходжу тричі на тиждень.
+
+On Mondays and Thursdays I lift weights. | По понеділках і четвергах я піднімаю ваги.
+A trainer made a plan for me. | Тренер склав для мене план.
+At first everything hurt! | Спочатку все боліло!
+
+On Saturdays I go running in the park with a group. | По суботах я бігаю в парку з групою.
+We run three miles. | Ми пробігаємо три милі.
+The group is friendly and nobody is very fast. | Група дружня, і ніхто не біжить дуже швидко.
+After the run we have coffee together. | Після пробіжки ми разом п'ємо каву.
+
+My daughter plays soccer. | Моя донька грає у футбол.
+In America "football" is a different game! | В Америці «football» — зовсім інша гра!
+She practices on Wednesdays and plays a game on Saturdays. | Вона тренується по середах, а по суботах грає матч.
+
+My husband prefers to watch sports on TV. | Мій чоловік краще дивиться спорт по телевізору.
+He is a big fan of the Chicago Bulls. | Він великий фанат «Чикаго Буллз».
+I say: "Come running with me!" | Я кажу: «Ходи бігати зі мною!»
+He says: "Maybe next year." | Він каже: «Можливо, наступного року».
+? Скільки разів на тиждень він ходить у спортзал? | 2 ; 3 ; 5 | 1
+? Скільки миль бігає група? | 3 ; 5 ; 10 | 0
+? Як в Америці називають наш футбол? | Football ; Soccer ; Rugby | 1
+
+## t30|A1|💇|At the hair salon|У перукарні
+My hair is too long. | У мене задовге волосся.
+I call the hair salon to make an appointment. | Я дзвоню в перукарню, щоб записатися.
+"Can I come on Thursday at four?" | «Можна мені прийти в четвер о четвертій?»
+"Yes, that's fine. What's your name?" | «Так, підходить. Як ваше ім'я?»
+
+On Thursday I'm at the salon on time. | У четвер я вчасно в перукарні.
+First the stylist washes my hair. | Спершу стилістка миє мені голову.
+
+"What would you like today?" she asks. | «Що бажаєте сьогодні?» — питає вона.
+I show her a photo on my phone. | Я показую їй фото на телефоні.
+"This short, but with bangs," I say. | «Отак коротко, але з чубчиком», — кажу я.
+
+She cuts very carefully. | Вона стриже дуже обережно.
+Meanwhile we talk about the weather and vacations. | Тим часом ми говоримо про погоду і відпустки.
+After half an hour I look in the mirror. | Через пів години я дивлюся в дзеркало.
+I'm very happy with it. | Мені дуже подобається.
+It costs forty dollars. | Це коштує сорок доларів.
+In America you usually leave a tip. | В Америці зазвичай залишають чайові.
+I give her eight dollars. | Я даю їй вісім доларів.
+? Коли вона записалася? | У четвер о 4 ; У вівторок о 2 ; У п'ятницю о 4 | 0
+? Що вона показує стилістці? | Журнал ; Фото на телефоні ; Малюнок | 1
+? Скільки чайових вона дає? | $4 ; $8 ; $20 | 1
+
+## t31|A1|🎆|The Fourth of July|Четверте липня
+July fourth is Independence Day in the United States. | Четверте липня — День незалежності США.
+It's America's birthday. | Це день народження Америки.
+On this day in 1776 the country declared independence. | Цього дня в 1776 році країна проголосила незалежність.
+
+Everybody has the day off. | Усі мають вихідний.
+There are American flags everywhere. | Скрізь американські прапори.
+People wear red, white and blue. | Люди вдягають червоне, біле і синє.
+
+In the morning there is a parade in our town. | Вранці в нашому містечку парад.
+There is music and kids wave little flags. | Грає музика, а діти махають маленькими прапорцями.
+
+In the afternoon we have a barbecue in the backyard. | Удень у нас барбекю на задньому дворі.
+We grill hamburgers and hot dogs. | Ми смажимо гамбургери і хот-доги.
+We eat watermelon and corn on the cob. | Ми їмо кавун і варену кукурудзу.
+The neighbors come too. | Сусіди теж приходять.
+
+When it gets dark, we go to the park. | Коли темніє, ми йдемо в парк.
+There are big fireworks over the lake. | Над озером великий феєрверк.
+The children shout: "Wow!" | Діти кричать: «Вау!»
+It's my favorite American holiday. | Це моє улюблене американське свято.
+? Що святкують 4 липня? | Різдво ; День незалежності ; День подяки | 1
+? Що смажать на барбекю? | Рибу ; Гамбургери і хот-доги ; Овочі | 1
+? Де дивляться феєрверк? | У парку над озером ; Удома ; У центрі | 0
+
+## t32|A1|🎃|Halloween|Гелловін
+Halloween is on October thirty-first. | Гелловін — тридцять першого жовтня.
+It's a fun holiday, especially for children. | Це веселе свято, особливо для дітей.
+
+In October people decorate their houses. | У жовтні люди прикрашають будинки.
+They put pumpkins, skeletons and spiders in front of the door. | Перед дверима ставлять гарбузи, скелети і павуків.
+We carve faces into pumpkins and put a candle inside. | Ми вирізаємо на гарбузах обличчя і ставимо всередину свічку.
+That's called a jack-o'-lantern. | Це називається «джек-ліхтар».
+
+On Halloween children wear costumes. | На Гелловін діти вдягають костюми.
+My son was a pirate and my daughter was a cat. | Мій син був піратом, а донька — кішкою.
+In the evening they go from house to house. | Увечері вони ходять від будинку до будинку.
+They ring the doorbell and say: "Trick or treat!" | Вони дзвонять у двері і кажуть: «Солодощі або капость!»
+The neighbors give them candy. | Сусіди дають їм цукерки.
+
+After two hours their bags were full! | Через дві години їхні пакети були повні!
+At home we checked the candy. | Удома ми перевірили цукерки.
+They can eat a few pieces every day. | Вони можуть з'їдати по кілька штук щодня.
+The rest I hide in the closet. | Решту я ховаю в шафу.
+? Коли Гелловін? | 31 жовтня ; 1 листопада ; 31 грудня | 0
+? Ким був син? | Котом ; Піратом ; Скелетом | 1
+? Що кажуть діти біля дверей? | Happy Halloween! ; Trick or treat! ; Hello! | 1
+
+## t33|A1|🏖️|A day at the beach|День на пляжі
+In July it was very hot. | У липні було дуже спекотно.
+So we went to the beach in Santa Monica. | Тому ми поїхали на пляж у Санта-Моніці.
+
+We left early because of the traffic. | Ми виїхали рано через затори.
+The beach was full of people. | Пляж був повний людей.
+We found a spot near the water. | Ми знайшли місце біля води.
+
+The kids built a big sandcastle. | Діти збудували великий замок з піску.
+I went for a swim. | Я пішов поплавати.
+The water was cold: only sixty-five degrees! | Вода була холодна: лише шістдесят п'ять градусів!
+After five minutes I came out again. | Через п'ять хвилин я вже вийшов.
+
+We had fish tacos at a beach café. | Ми їли тако з рибою в пляжному кафе.
+Then we walked along the water and looked for shells. | Потім гуляли вздовж води і шукали мушлі.
+My daughter found twenty. | Донька знайшла двадцять.
+We also walked on the famous pier. | Ми також прогулялися знаменитим пірсом.
+
+In the afternoon it got windy. | Вдень піднявся вітер.
+Sand flew into our eyes. | Пісок летів нам в очі.
+So we went home. | Тож ми поїхали додому.
+We were tired and a little sunburned, but it was a great day. | Ми були втомлені й трохи обгоріли, але день був чудовий.
+? Чому вони виїхали рано? | Через затори ; Через спеку ; Через дітей | 0
+? Яка була вода? | 65 градусів ; 85 градусів ; 45 градусів | 0
+? Скільки мушель знайшла донька? | 10 ; 20 ; 30 | 1
+
+## t34|A1|♻️|Recycling|Сортування сміття
+In my city we separate our trash. | У моєму місті ми сортуємо сміття.
+At first it was difficult for me. | Спочатку мені було важко.
+Now I do it without thinking. | Тепер я роблю це не замислюючись.
+
+There are three bins. | Є три баки.
+The blue bin is for recycling: paper, cardboard, plastic bottles and cans. | Синій бак — для вторсировини: папір, картон, пластикові пляшки і бляшанки.
+The green bin is for food scraps and yard waste. | Зелений бак — для залишків їжі і садового сміття.
+Everything else goes in the black bin. | Усе інше йде в чорний бак.
+
+Glass bottles also go in the blue bin. | Скляні пляшки теж ідуть у синій бак.
+Old clothes you can bring to a donation center. | Старий одяг можна віднести в пункт пожертв.
+Batteries and old electronics need a special drop-off. | Батарейки і стара техніка потребують спеціального пункту прийому.
+
+The trash truck comes on Tuesday morning. | Сміттєвоз приїжджає у вівторок уранці.
+You have to put the bins at the curb the night before. | Баки треба виставити до бордюру напередодні ввечері.
+The city website has a calendar for pickup days. | На сайті міста є календар днів вивезення.
+If you put the wrong things in a bin, the truck may not take it. | Якщо покласти в бак не те, сміттєвоз може його не забрати.
+My neighbors help me when I'm not sure. | Сусіди допомагають, коли я не впевнена.
+? Що йде в синій бак? | Залишки їжі ; Папір і пляшки ; Батарейки | 1
+? Коли приїжджає сміттєвоз? | У вівторок уранці ; У п'ятницю ; Щодня | 0
+? Куди віднести старий одяг? | У чорний бак ; У пункт пожертв ; У синій бак | 1
+
+## t35|A1|🛍️|Shopping online|Покупки онлайн
+Since my son was born, I do my grocery shopping online. | Відколи народився син, я купую продукти онлайн.
+It saves a lot of time. | Це економить багато часу.
+
+On Sunday evening I open the supermarket app. | У неділю ввечері я відкриваю застосунок супермаркету.
+I choose what I need: milk, bread, diapers, vegetables and meat. | Обираю потрібне: молоко, хліб, підгузки, овочі і м'ясо.
+The app remembers what I often buy. | Застосунок пам'ятає, що я часто купую.
+That's very convenient. | Це дуже зручно.
+
+Then I choose a delivery time. | Потім обираю час доставки.
+Tuesday between six and seven p.m. is good. | Вівторок з шостої до сьомої вечора — підходить.
+Delivery costs five dollars. | Доставка коштує п'ять доларів.
+If you order more than a hundred dollars, it's free. | Якщо замовляєш більше ніж на сто доларів, вона безкоштовна.
+
+On Tuesday the driver comes in a van. | У вівторок водій приїжджає на фургоні.
+He leaves the bags at my door. | Він залишає пакети біля моїх дверей.
+I check everything. | Я все перевіряю.
+The tomatoes are a little soft. | Помідори трохи м'які.
+I report it in the app and I get my money back. | Я повідомляю про це в застосунку і отримую гроші назад.
+But on Saturdays I still like to go to the farmers market. | Але по суботах я все одно люблю ходити на фермерський ринок.
+? Коли вона робить замовлення? | У неділю ввечері ; У понеділок ; У п'ятницю | 0
+? Скільки коштує доставка? | $2 ; $5 ; $10 | 1
+? Що не так із помідорами? | Їх немає ; Вони трохи м'які ; Вони дорогі | 1
+
+## t36|A1|🤝|A new coworker|Новий колега
+A new coworker started at my job. | На моїй роботі почав працювати новий колега.
+His name is Ahmed and he is from Egypt. | Його звати Ахмед, він з Єгипту.
+He has lived in America for ten years and speaks English very well. | Він живе в Америці десять років і дуже добре говорить англійською.
+
+My boss asks me to help Ahmed. | Начальник просить мене допомогти Ахмедові.
+I show him the office: the kitchen, the printer and the meeting room. | Я показую йому офіс: кухню, принтер і переговорну.
+I explain how the computer system works. | Я пояснюю, як працює комп'ютерна система.
+
+At noon we have lunch together in the break room. | Опівдні ми разом обідаємо в кімнаті відпочинку.
+Ahmed tells me about his family. | Ахмед розповідає про свою родину.
+He has three kids and he loves soccer. | У нього троє дітей, і він любить футбол.
+I tell him about Ukraine. | Я розповідаю про Україну.
+He asks many questions and listens carefully. | Він ставить багато питань і уважно слухає.
+
+After a week Ahmed knows everything. | Через тиждень Ахмед уже все знає.
+Now he even helps me with difficult English words! | Тепер він навіть допомагає мені зі складними англійськими словами!
+On Fridays coworkers sometimes bring donuts. | По п'ятницях колеги іноді приносять пончики.
+Ahmed brings Egyptian cookies. | Ахмед приносить єгипетське печиво.
+Everybody loves them. | Усім воно дуже смакує.
+? Звідки Ахмед? | З Туреччини ; З Єгипту ; З Сирії | 1
+? Скільки в нього дітей? | Двоє ; Троє ; Четверо | 1
+? Що приносить Ахмед? | Пончики ; Єгипетське печиво ; Фрукти | 1
+
+## t37|A1|🌻|My community garden|Мій громадський город
+I live in an apartment without a yard. | Я живу в квартирі без двору.
+So I rent a small plot in a community garden. | Тому я орендую маленьку ділянку в громадському городі.
+It costs fifty dollars a year. | Це коштує п'ятдесят доларів на рік.
+
+My plot is ten feet by ten feet. | Моя ділянка десять на десять футів.
+I grow tomatoes, lettuce, beans and strawberries. | Я вирощую помідори, салат, квасолю і полуницю.
+There are also sunflowers. | Там ростуть і соняшники.
+They are already six feet tall! | Вони вже шість футів заввишки!
+
+In the spring I plant the seeds. | Навесні я сію насіння.
+In the summer I have to water often. | Улітку треба часто поливати.
+When I'm on vacation, my garden neighbor helps. | Коли я у відпустці, допомагає сусід по ділянці.
+
+People from many countries garden here. | Тут городничають люди з багатьох країн.
+We trade vegetables and give each other tips. | Ми обмінюємося овочами і даємо одне одному поради.
+A Mexican neighbor taught me how to grow hot peppers. | Сусідка-мексиканка навчила мене вирощувати гострий перець.
+I taught her how to make borscht. | Я навчила її варити борщ.
+
+In the fall I pick the last vegetables. | Восени я збираю останні овочі.
+I make soup and jam for the winter. | Я роблю суп і варення на зиму.
+The garden is my place to relax. | Город — моє місце для відпочинку.
+? Скільки коштує ділянка? | $50 на рік ; $50 на місяць ; Безкоштовно | 0
+? Що вже шість футів заввишки? | Помідори ; Соняшники ; Квасоля | 1
+? Чого авторка навчила сусідку? | Варити борщ ; Вирощувати перець ; Пекти хліб | 0
+
+## t38|A1|🎄|Christmas in America|Різдво в Америці
+Christmas is on December twenty-fifth. | Різдво — двадцять п'ятого грудня.
+It's the biggest holiday of the year for many Americans. | Для багатьох американців це найбільше свято року.
+
+After Thanksgiving the stores fill up with decorations. | Після Дня подяки магазини наповнюються прикрасами.
+People put lights on their houses. | Люди прикрашають будинки вогниками.
+Some streets look like a fairy tale! | Деякі вулиці схожі на казку!
+We buy a real Christmas tree and decorate it together. | Ми купуємо справжню ялинку і разом її прикрашаємо.
+
+Children write letters to Santa Claus. | Діти пишуть листи Санта-Клаусу.
+On Christmas Eve they leave cookies and milk for him. | На Святвечір вони залишають йому печиво й молоко.
+They also leave a carrot for his reindeer. | А ще моркву для його оленів.
+In the morning there are presents under the tree. | Уранці під ялинкою подарунки.
+
+On Christmas Day families eat a big dinner together. | На Різдво родини разом сідають за велику вечерю.
+We often eat ham or turkey. | Ми часто їмо шинку або індичку.
+We also hang stockings by the fireplace. | Ми також вішаємо панчохи біля каміна.
+Santa fills them with small gifts and candy. | Санта наповнює їх маленькими подарунками і цукерками.
+For me Christmas is the coziest time of the year. | Для мене Різдво — найзатишніший час року.
+? Коли Різдво в Америці? | 25 грудня ; 7 січня ; 6 грудня | 0
+? Що діти залишають Санті? | Печиво і молоко ; Цукерки ; Гроші | 0
+? Що вішають біля каміна? | Панчохи ; Прапори ; Ліхтарики | 0
+
+## t39|A1|📞|Calling customer service|Дзвінок у службу підтримки
+My internet stopped working on Monday. | У понеділок у мене перестав працювати інтернет.
+So I called customer service. | Тож я подзвонила в службу підтримки.
+
+First a robot voice answered. | Спершу відповів голос робота.
+"For billing, press one. For technical support, press two." | «Щодо рахунків — натисніть один. Технічна підтримка — два».
+I pressed two. | Я натиснула два.
+Then I waited fifteen minutes and listened to music. | Потім я чекала п'ятнадцять хвилин і слухала музику.
+
+Finally a person answered. | Нарешті відповіла людина.
+"Hi, my name is Kevin. How can I help you today?" | «Добрий день, мене звати Кевін. Чим можу допомогти?»
+I explained the problem. | Я пояснила проблему.
+He asked for my account number and my address. | Він спитав номер мого рахунку й адресу.
+
+"Can you restart your router?" he asked. | «Можете перезапустити роутер?» — спитав він.
+I unplugged it, waited thirty seconds and plugged it in again. | Я відключила його, почекала тридцять секунд і знову ввімкнула.
+It still didn't work. | Все одно не працювало.
+"Okay, I'll send a technician tomorrow between nine and twelve." | «Гаразд, я надішлю техніка завтра з дев'ятої до дванадцятої».
+
+The next day the technician came at eleven. | Наступного дня технік прийшов об одинадцятій.
+He changed a cable, and the internet worked again. | Він замінив кабель, і інтернет знову запрацював.
+I was proud that I did it all in English! | Я пишалася, що все зробила англійською!
+? Яку кнопку вона натиснула? | Один ; Два ; Три | 1
+? Скільки вона чекала? | 5 хвилин ; 15 хвилин ; Годину | 1
+? Що замінив технік? | Роутер ; Кабель ; Телефон | 1

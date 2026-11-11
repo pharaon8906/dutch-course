@@ -1,0 +1,26 @@
+const fs=require('fs');
+const src=['words.js','content.js','emoji.js','content2.js','content3.js','texts.js','texts_more.js','gloss.js','examples.js','wex.js'].map(f=>fs.readFileSync(f,'utf8')).join('\n');
+eval(src+';globalThis.D={WEX,RAW,DIALOGS,GRAMMAR2,SOUNDS,FALSE_FRIENDS,EXPR_RAW,NEW_DIALOGS,ALPHABET,PHONICS,TEXTS}');
+const {WEX,RAW,DIALOGS,GRAMMAR2,SOUNDS,FALSE_FRIENDS,EXPR_RAW,NEW_DIALOGS,ALPHABET,PHONICS,TEXTS}=D;
+const clean=t=>t.replace(/\s\/\s/g,', ').replace(/\s*[→—]\s*/g,', ').replace(/\(.*?\)/g,'').replace(/\.\.\.|…|___/g,'').replace(/[„”“"]/g,'').replace(/\s+/g,' ').replace(/^,\s*|,\s*$/g,'').trim();
+const old=fs.existsSync('tts/items.json')?JSON.parse(fs.readFileSync('tts/items.json')):[];
+const oldId=new Map(old.map(o=>[o.k,o.id]));let next=Math.max(-1,...old.map(o=>o.id))+1;
+const items=new Map();
+function add(text,voice,chunk){const c=clean(text);if(!c||!/[a-zA-ZÀ-ÿ]/.test(c))return;const k=voice+'|'+c;if(items.has(k))return;let id=oldId.has(k)?oldId.get(k):next++;items.set(k,{k,text:c,voice,chunk,id})}
+const cats=Object.entries(RAW).concat([["Розмовні вирази",EXPR_RAW]]);
+cats.forEach(([cat,txt],ci)=>txt.trim().split('\n').forEach(l=>{const nl=l.split('|')[0].trim();add(nl,'m','w'+ci);const m=nl.match(/^(a|an|to|the) (.*)$/);if(m&&!nl.includes('?'))add(m[2],'m','w'+ci)}));
+DIALOGS.forEach(d=>d.lines.forEach(([who,nl])=>add(nl,who==='A'?'f':'m','d')));
+NEW_DIALOGS.forEach(d=>d.lines.forEach(([who,nl])=>add(nl,who==='A'?'f':'m','d2')));
+GRAMMAR2.forEach(g=>{g.ex.forEach(([nl])=>add(nl,'m','g'));add(g.mistake[1],'m','g');(g.verbs||[]).forEach(r=>add(r[0]+', '+r[1]+', '+r[2],'m','g'))});
+SOUNDS.forEach(s=>{s.ex.forEach(w=>add(w,'m','x'));add(s.ex.join(', '),'m','x')});
+ALPHABET.forEach(([L,r,sp])=>add(sp||('the letter '+L),'m','p'));
+PHONICS.forEach(g=>g.items.forEach(it=>{it.ex.forEach(([w])=>add(w.replace(/-/g,''),'m','p'));add(it.ex.map(e=>e[0].replace(/-/g,'')).join(', '),'m','p')}));
+FALSE_FRIENDS.forEach(f=>add(f[0],'m','x'));
+["I'd like ...",'Can I have ...?','How much is it?','Where is ...?','Can you repeat that, please?','Can you speak more slowly, please?','How do you say ... in English?','What does that mean?','I speak a little English.','I want to practice my English.','She sells seashells by the seashore.','Thirty-three thirsty thinkers thought about Thursday.','Peter Piper picked a peck of pickled peppers.','Hello! Welcome to the English course.','Hello! I speak English.'].forEach(t=>add(t,'m','x'));
+const tok=s=>(s.match(/[A-Za-zÀ-ÿ]+(?:['’][A-Za-z]+)*/g)||[]).map(x=>x.toLowerCase().replace(/’/g,"'"));
+Object.values(WEX).forEach(([nl,uk,v],i)=>add(nl,v,'e'+(i%8)));
+TEXTS.forEach(t=>t.p.flat().forEach(([nl])=>{add(nl,'m',t.id);tok(nl).forEach(w=>add(w,'m',t.id))}));
+const arr=[...items.values()].sort((a,b)=>a.id-b.id);
+fs.writeFileSync('tts/items.json',JSON.stringify(arr));
+const nw=arr.filter(a=>!oldId.has(a.k));
+console.log(arr.length,'clips;',nw.length,'new;',nw.reduce((s,a)=>s+a.text.length,0),'new chars');

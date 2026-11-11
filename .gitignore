@@ -6,3 +6,7 @@ src/voices/
 src/tts/gmp3/
 src/tts/mp3/
 src/audio/
+english/src/tts/gmp3/
+english/src/tts/mp3/
+english/src/tts/native_mp3/
+english/src/audio/

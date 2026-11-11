@@ -1,0 +1,480 @@
+## t0|A0|👩|I'm Olena|Я Олена
+Hello! | Привіт!
+My name is Olena. | Мене звати Олена.
+I'm from Ukraine, from Kyiv. | Я з України, з Києва.
+Now I live in the United States. | Тепер я живу в Сполучених Штатах.
+I live in Chicago. | Я живу в Чикаго.
+Chicago is a big and beautiful city. | Чикаго — велике і гарне місто.
+
+I'm thirty years old. | Мені тридцять років.
+I'm married. | Я заміжня.
+My husband's name is Andriy. | Мого чоловіка звати Андрій.
+We have a son and a daughter. | У нас є син і донька.
+My son is eight. | Моєму синові вісім.
+My daughter is five. | Моїй доньці п'ять.
+
+We live in a small apartment. | Ми живемо в маленькій квартирі.
+It has two bedrooms and a little balcony. | У ній дві спальні і маленький балкон.
+
+I work in a bakery. | Я працюю в пекарні.
+I start at six o'clock. | Я починаю о шостій.
+That's early! | Це рано!
+My husband works in an office. | Мій чоловік працює в офісі.
+
+I'm learning English. | Я вчу англійську.
+It's sometimes difficult, but it's fun. | Іноді це важко, але цікаво.
+Every day I learn ten new words. | Щодня я вчу десять нових слів.
+My neighbor helps me. | Мені допомагає сусідка.
+She is very kind. | Вона дуже добра.
+I'm happy here. | Я тут щаслива.
+? Звідки Олена? | З Польщі ; З України ; З Канади | 1
+? Скільки років її синові? | 5 ; 8 ; 30 | 1
+? Де працює Олена? | В офісі ; У школі ; У пекарні | 2
+
+## t1|A0|⏰|My day|Мій день
+I get up at seven o'clock. | Я встаю о сьомій.
+I go to the bathroom. | Я йду у ванну.
+I take a shower and brush my teeth. | Я приймаю душ і чищу зуби.
+Then I have breakfast. | Потім я снідаю.
+I eat cereal with milk and I drink coffee. | Я їм пластівці з молоком і п'ю каву.
+
+At eight o'clock I go to work. | О восьмій я йду на роботу.
+I take the bus. | Я їду автобусом.
+The bus is often full. | Автобус часто повний.
+I work from nine to five. | Я працюю з дев'ятої до п'ятої.
+At noon I have lunch. | Опівдні я обідаю.
+I eat a sandwich and an apple. | Я їм сендвіч і яблуко.
+
+After work I go to the supermarket. | Після роботи я йду в супермаркет.
+I buy milk, eggs and vegetables. | Я купую молоко, яйця і овочі.
+At six o'clock I cook dinner. | О шостій я готую вечерю.
+We eat at seven. | Ми вечеряємо о сьомій.
+
+After dinner I watch TV. | Після вечері я дивлюся телевізор.
+Sometimes I read a book. | Іноді я читаю книжку.
+Sometimes I call my mother in Ukraine. | Іноді я дзвоню мамі в Україну.
+At eleven I go to bed. | Об одинадцятій я лягаю спати.
+I'm tired, but happy. | Я втомлений, але щасливий.
+? О котрій він встає? | О 6 ; О 7 ; О 8 | 1
+? Як він їде на роботу? | Велосипедом ; Автобусом ; Потягом | 1
+? Що він їсть на обід? | Суп ; Сендвіч і яблуко ; Піцу | 1
+
+## t2|A0|👨‍👩‍👧|My family|Моя родина
+My name is Sarah. | Мене звати Сара.
+I'm twenty years old. | Мені двадцять років.
+I live with my family in Denver. | Я живу з родиною в Денвері.
+
+My father's name is Peter. | Мого тата звати Пітер.
+He is fifty. | Йому п'ятдесят.
+He works in a store. | Він працює в магазині.
+My mother's name is Linda. | Маму звати Лінда.
+She is a teacher. | Вона вчителька.
+
+I have a brother and a sister. | У мене є брат і сестра.
+My brother's name is Tim. | Брата звати Тім.
+He is sixteen and he loves basketball. | Йому шістнадцять, і він любить баскетбол.
+My sister's name is Lisa. | Сестру звати Ліза.
+She is ten. | Їй десять.
+Lisa has a dog. | У Лізи є собака.
+
+My grandparents live in Florida. | Мої дідусь і бабуся живуть у Флориді.
+It's always warm there. | Там завжди тепло.
+We visit them every summer. | Ми навідуємо їх щоліта.
+Grandma always makes apple pie. | Бабуся завжди пече яблучний пиріг.
+I love my family. | Я люблю свою родину.
+? Скільки років Сарі? | 20 ; 16 ; 10 | 0
+? Хто працює в магазині? | Мама ; Тато ; Брат | 1
+? Де живуть дідусь і бабуся? | У Флориді ; У Денвері ; У Чикаго | 0
+
+## t3|A0|🏠|My house|Мій дім
+I live in a house in a small town. | Я живу в будинку в маленькому містечку.
+The house is old, but beautiful. | Будинок старий, але гарний.
+It has a red door. | У нього червоні двері.
+
+Downstairs is the living room. | Унизу вітальня.
+There is a sofa, a table and four chairs. | Там є диван, стіл і чотири стільці.
+The kitchen is next to the living room. | Кухня поруч із вітальнею.
+We cook and drink coffee in the kitchen. | На кухні ми готуємо і п'ємо каву.
+
+Upstairs there are three bedrooms and a bathroom. | Нагорі три спальні і ванна.
+My bedroom is small. | Моя спальня маленька.
+There is a bed, a closet and a desk. | Там ліжко, шафа і письмовий стіл.
+The window is big. | Вікно велике.
+I can see the garden. | Мені видно сад.
+
+Behind the house there is a garden. | За будинком є сад.
+There are flowers and an apple tree. | Там квіти і яблуня.
+In the summer we sit in the garden. | Улітку ми сидимо в саду.
+My house is very cozy. | Мій дім дуже затишний.
+? Якого кольору двері? | Червоні ; Сині ; Білі | 0
+? Скільки спалень нагорі? | Дві ; Три ; Чотири | 1
+? Що росте в саду? | Яблуня ; Груша ; Слива | 0
+
+## t4|A0|🛒|At the supermarket|У супермаркеті
+It's Saturday. | Субота.
+I go to the supermarket. | Я йду в супермаркет.
+I have a shopping list. | У мене є список покупок.
+
+I take a cart. | Я беру візок.
+First I buy vegetables: tomatoes, onions and a cucumber. | Спершу я купую овочі: помідори, цибулю й огірок.
+Then I buy fruit: apples and bananas. | Потім фрукти: яблука й банани.
+I also need milk, cheese and bread. | Мені також потрібні молоко, сир і хліб.
+
+The cheese is on sale. | Сир по знижці.
+Buy one, get one free! | Купи один — другий безкоштовно!
+That's cheap. | Це дешево.
+I take two packs. | Я беру дві упаковки.
+
+There is a long line at the checkout. | Біля каси довга черга.
+I wait five minutes. | Я чекаю п'ять хвилин.
+The cashier asks: "Paper or plastic?" | Касир питає: «Паперовий чи пластиковий пакет?»
+"I have a bag, thanks," I say. | «У мене є сумка, дякую», — кажу я.
+I pay by card. | Я плачу карткою.
+It's thirty-two dollars. | Це тридцять два долари.
+? Що сьогодні по знижці? | Хліб ; Сир ; Молоко | 1
+? Скільки вона чекає біля каси? | 5 хвилин ; 10 хвилин ; 1 хвилину | 0
+? Як вона платить? | Готівкою ; Карткою ; Телефоном | 1
+
+## t5|A0|🧑|My friend Tom|Мій друг Том
+This is my friend Tom. | Це мій друг Том.
+Tom is from Canada. | Том з Канади.
+Now he lives in Seattle. | Тепер він живе в Сіетлі.
+
+Tom is tall and he has short brown hair. | Том високий, у нього коротке каштанове волосся.
+He always wears glasses. | Він завжди носить окуляри.
+He is funny and very kind. | Він смішний і дуже добрий.
+
+Tom studies history at the university. | Том вивчає історію в університеті.
+He reads a lot of books. | Він читає багато книжок.
+He speaks English, French and a little Spanish. | Він говорить англійською, французькою і трохи іспанською.
+
+On Wednesdays we play tennis together. | По середах ми разом граємо в теніс.
+Tom almost always wins. | Том майже завжди виграє.
+After that we drink coffee in a café. | Після цього ми п'ємо каву в кафе.
+Tom drinks coffee with milk and sugar. | Том п'є каву з молоком і цукром.
+I drink black coffee. | Я п'ю чорну каву.
+Tom is my best friend. | Том мій найкращий друг.
+? Звідки Том? | З Канади ; З Франції ; З Англії | 0
+? Що він вивчає? | Мови ; Історію ; Математику | 1
+? Коли вони грають у теніс? | У понеділок ; У середу ; У суботу | 1
+
+## t6|A0|🛌|My weekend|Мої вихідні
+I love the weekend. | Я люблю вихідні.
+On Saturday I sleep late. | У суботу я довго сплю.
+I get up at ten o'clock. | Я встаю о десятій.
+
+I have breakfast with my husband. | Я снідаю з чоловіком.
+We eat pancakes. | Ми їмо млинці.
+Then we go for a walk in the park. | Потім ми йдемо гуляти в парк.
+The park is big and quiet. | Парк великий і тихий.
+
+In the afternoon I go shopping. | Вдень я ходжу по магазинах.
+In the evening our friends come for dinner. | Увечері до нас приходять друзі на вечерю.
+I cook pasta with vegetables. | Я готую пасту з овочами.
+We drink wine and talk a lot. | Ми п'ємо вино і багато розмовляємо.
+
+On Sunday it's quiet. | У неділю спокійно.
+I read a book on the sofa. | Я читаю книжку на дивані.
+My husband watches football on TV. | Мій чоловік дивиться футбол по телевізору.
+At nine o'clock I go to bed. | О дев'ятій я лягаю спати.
+On Monday I go back to work. | У понеділок знову на роботу.
+? О котрій вона встає в суботу? | О 8 ; О 10 ; О 12 | 1
+? Що вони їдять на сніданок? | Млинці ; Яйця ; Кашу | 0
+? Що робить чоловік у неділю? | Читає ; Дивиться футбол ; Готує | 1
+
+## t7|A0|🏫|At school|У школі
+My son Daniel is seven years old. | Моєму синові Деніелу сім років.
+He is in second grade. | Він у другому класі.
+His school is near our house. | Його школа поруч із нашим домом.
+
+Daniel goes to school by school bus. | Деніел їздить до школи шкільним автобусом.
+The bus is yellow. | Автобус жовтий.
+School starts at eight thirty. | Школа починається о пів на дев'яту.
+His teacher's name is Mrs. Brown. | Його вчительку звати місіс Браун.
+She is young and very nice. | Вона молода і дуже мила.
+
+There are twenty-two children in his class. | У класі двадцять двоє дітей.
+Daniel learns to read, write and count. | Деніел вчиться читати, писати і рахувати.
+He likes math. | Йому подобається математика.
+Reading is hard for him. | Читання йому дається важко.
+
+At noon the kids eat lunch in the cafeteria. | Опівдні діти обідають у шкільній їдальні.
+Then they play outside. | Потім граються надворі.
+School ends at three o'clock. | Школа закінчується о третій.
+Then I pick Daniel up. | Тоді я забираю Деніела.
+? У якому класі Деніел? | У першому ; У другому ; У сьомому | 1
+? Якого кольору шкільний автобус? | Жовтий ; Синій ; Червоний | 0
+? Що Деніелові подобається? | Читати ; Математика ; Писати | 1
+
+## t8|A0|🐱|My cat Fluffy|Моя кішка Пухнастик
+I have a cat. | У мене є кішка.
+Her name is Fluffy. | Її звати Флафі.
+Fluffy is three years old. | Флафі три роки.
+
+Fluffy is white with black spots. | Флафі біла з чорними плямами.
+She has green eyes. | У неї зелені очі.
+She is small, but very smart. | Вона маленька, але дуже розумна.
+
+In the morning Fluffy wants food. | Уранці Флафі хоче їсти.
+She says: "Meow!" | Вона каже: «Няв!»
+I give her fish from a can. | Я даю їй рибу з бляшанки.
+
+During the day Fluffy sleeps a lot. | Удень Флафі багато спить.
+She likes to lie in the sun by the window. | Вона любить лежати на сонці біля вікна.
+Sometimes she plays with a ball. | Іноді вона грається з м'ячиком.
+
+In the evening Fluffy sits on my lap. | Увечері Флафі сидить у мене на колінах.
+I pet her and she purrs. | Я гладжу її, і вона муркоче.
+Fluffy is my best friend. | Флафі — моя найкраща подруга.
+? Якого кольору очі в кішки? | Зелені ; Сині ; Жовті | 0
+? Що кішка їсть уранці? | М'ясо ; Рибу ; Молоко | 1
+? Де вона любить лежати? | На ліжку ; На сонці біля вікна ; У саду | 1
+
+## t9|A0|🍽️|Food and drinks|Їжа і напої
+I eat three meals a day. | Я їм тричі на день.
+
+Breakfast is at seven. | Сніданок о сьомій.
+I eat toast with peanut butter or cereal. | Я їм тост з арахісовою пастою або пластівці.
+I drink a cup of coffee. | Я п'ю чашку кави.
+
+Lunch is at noon. | Обід опівдні.
+I eat a sandwich or a salad. | Я їм сендвіч або салат.
+I drink water or juice. | Я п'ю воду або сік.
+American lunch is usually quick. | Американський обід зазвичай швидкий.
+
+Dinner is at six thirty. | Вечеря о пів на сьому.
+We eat chicken or fish with rice and vegetables. | Ми їмо курку або рибу з рисом і овочами.
+Sometimes we eat pasta. | Іноді ми їмо пасту.
+On Friday we often order pizza. | У п'ятницю ми часто замовляємо піцу.
+
+After dinner I drink tea. | Після вечері я п'ю чай.
+With a cookie, of course! | З печивом, звісно!
+Enjoy your meal! | Смачного!
+? О котрій вечеря? | О 18:30 ; О 20:00 ; О 12:00 | 0
+? Яким зазвичай є американський обід? | Довгим ; Швидким ; Гарячим | 1
+? Що вони часто замовляють у п'ятницю? | Суші ; Піцу ; Суп | 1
+
+## t10|A0|🗽|My city: New York|Моє місто — Нью-Йорк
+I live in New York City. | Я живу в Нью-Йорку.
+It's the biggest city in the United States. | Це найбільше місто Сполучених Штатів.
+More than eight million people live here. | Тут живе понад вісім мільйонів людей.
+
+In the harbor there is the Statue of Liberty. | У гавані стоїть Статуя Свободи.
+She is green and very tall. | Вона зелена і дуже висока.
+You can take a boat to see her. | До неї можна попливти на човні.
+
+In Manhattan there are many tall buildings. | На Мангеттені багато високих будівель.
+They are called skyscrapers. | Їх називають хмарочосами.
+In the middle there is a big park: Central Park. | Посередині великий парк — Центральний парк.
+People walk, run and ride bikes there. | Люди там гуляють, бігають і катаються на велосипедах.
+
+New York has a big subway. | У Нью-Йорку велике метро.
+It's open twenty-four hours a day! | Воно працює цілодобово!
+The yellow taxis are famous too. | Жовті таксі теж знамениті.
+The city never sleeps. | Місто ніколи не спить.
+I love New York. | Я люблю Нью-Йорк.
+? Скільки людей живе в Нью-Йорку? | 2 мільйони ; 8 мільйонів ; 20 мільйонів | 1
+? Як називають високі будівлі? | Хмарочоси ; Палаци ; Вежі | 0
+? Коли працює метро? | До опівночі ; Цілодобово ; Тільки вдень | 1
+
+## t11|A0|📅|My week|Мій тиждень
+My week is busy. | Мій тиждень насичений.
+
+On Monday and Tuesday I work in a hotel. | У понеділок і вівторок я працюю в готелі.
+I clean the rooms. | Я прибираю номери.
+On Wednesday I have an English class. | У середу в мене урок англійської.
+The class is from nine to twelve. | Урок з дев'ятої до дванадцятої.
+
+On Thursday I work in the hotel again. | У четвер я знову працюю в готелі.
+On Friday I go to the farmers market. | У п'ятницю я йду на фермерський ринок.
+I buy fruit and vegetables there. | Там я купую фрукти і овочі.
+
+On Saturday I go swimming with my daughter. | У суботу я йду плавати з донькою.
+She swims very well. | Вона дуже добре плаває.
+On Sunday I call my family in Ukraine. | У неділю я дзвоню родині в Україну.
+We talk for an hour. | Ми розмовляємо годину.
+Then I cook and do my homework. | Потім я готую і роблю домашнє завдання.
+Sunday is my favorite day. | Неділя — мій улюблений день.
+? Де вона працює? | У школі ; У готелі ; На ринку | 1
+? Коли урок англійської? | У середу ; У п'ятницю ; У неділю | 0
+? Що вона робить у неділю? | Плаває ; Дзвонить родині ; Працює | 1
+
+## t12|A0|🥐|At the bakery|У пекарні
+Every morning I go to the bakery. | Щоранку я ходжу до пекарні.
+The bakery is on the corner of my street. | Пекарня на розі моєї вулиці.
+It smells wonderful. | Там чудово пахне.
+
+The baker's name is Mr. Johnson. | Пекаря звати містер Джонсон.
+He is old and friendly. | Він старий і привітний.
+He starts at four in the morning! | Він починає о четвертій ранку!
+
+"Good morning! What can I get you?" he asks. | «Доброго ранку! Що вам дати?» — питає він.
+"A loaf of bread, please," I say. | «Буханець хліба, будь ласка», — кажу я.
+"Sliced?" | «Нарізати?»
+"Yes, please. And two croissants." | «Так, будь ласка. І два круасани.»
+
+"That's six fifty." | «Це шість п'ятдесят.»
+I pay and say: "See you tomorrow!" | Я плачу і кажу: «До завтра!»
+At home I eat a croissant with jam. | Удома я їм круасан з джемом.
+Delicious! | Смачно!
+? Де пекарня? | На розі вулиці ; Біля вокзалу ; У центрі | 0
+? О котрій починає пекар? | О 4 ранку ; О 6 ранку ; О 8 ранку | 0
+? Скільки коштує покупка? | $6.50 ; $5.60 ; $2.50 | 0
+
+## t13|A0|👕|My clothes|Мій одяг
+It's cold today. | Сьогодні холодно.
+I put on warm clothes. | Я вдягаю теплий одяг.
+
+I wear jeans and a thick sweater. | Я вдягаю джинси і товстий светр.
+The sweater is blue. | Светр синій.
+My grandmother made it. | Його зробила моя бабуся.
+
+I also wear a coat, a scarf and a hat. | Я також вдягаю пальто, шарф і шапку.
+The coat is black and long. | Пальто чорне і довге.
+My shoes are brown. | Мої черевики коричневі.
+
+My sister always wears pretty dresses. | Моя сестра завжди носить гарні сукні.
+She likes pink and yellow. | Вона любить рожевий і жовтий.
+I like dark colors more. | Я більше люблю темні кольори.
+
+At the store I buy new gloves. | У магазині я купую нові рукавички.
+They are gray and soft. | Вони сірі й м'які.
+Now my hands are not cold. | Тепер мої руки не мерзнуть.
+? Якого кольору светр? | Синій ; Червоний ; Сірий | 0
+? Хто зробив светр? | Мама ; Бабуся ; Сестра | 1
+? Що вона купує в магазині? | Шапку ; Рукавички ; Черевики | 1
+
+## t14|A0|🌧️|The weather today|Погода сьогодні
+I look out the window. | Я дивлюся у вікно.
+The sky is gray. | Небо сіре.
+It's raining. | Іде дощ.
+
+On the radio they say: "Today it's fifty degrees." | По радіо кажуть: «Сьогодні п'ятдесят градусів».
+In America they use Fahrenheit. | В Америці використовують Фаренгейт.
+Fifty degrees is about ten degrees Celsius. | П'ятдесят градусів — це приблизно десять за Цельсієм.
+
+I take my raincoat and my umbrella. | Я беру дощовик і парасольку.
+I walk to the bus stop. | Я йду до автобусної зупинки.
+The wind is strong. | Вітер сильний.
+My umbrella breaks! | Моя парасолька ламається!
+
+But in the afternoon the rain stops. | Але вдень дощ припиняється.
+The sun comes out. | Виходить сонце.
+There is a rainbow! | З'являється веселка!
+Now the weather is nice. | Тепер гарна погода.
+? Скільки градусів за Цельсієм? | Приблизно 10 ; Приблизно 50 ; Приблизно 30 | 0
+? Що ламається? | Парасолька ; Автобус ; Вікно | 0
+? Що з'являється вдень? | Сніг ; Веселка ; Туман | 1
+
+## t15|A0|📱|My phone|Мій телефон
+My phone is very important to me. | Мій телефон для мене дуже важливий.
+I use it all day. | Я користуюся ним цілий день.
+
+In the morning it wakes me up. | Уранці він мене будить.
+I read the news and check the weather. | Я читаю новини і дивлюся погоду.
+On the bus I listen to music. | В автобусі я слухаю музику.
+
+At work I send emails. | На роботі я надсилаю листи.
+I text my friends. | Я пишу повідомлення друзям.
+I video call my mother. | Я дзвоню мамі по відео.
+Then I can see her face. | Тоді я бачу її обличчя.
+
+I also learn English on my phone. | Я також вчу англійську на телефоні.
+Ten minutes every day. | Щодня по десять хвилин.
+
+But in the evening I put my phone away. | Але ввечері я відкладаю телефон.
+Then I read a book. | Тоді я читаю книжку.
+It's better for my eyes. | Це краще для моїх очей.
+And I sleep better. | І я краще сплю.
+? Що вона робить в автобусі? | Читає ; Слухає музику ; Спить | 1
+? Як вона дзвонить мамі? | По відео ; Звичайним дзвінком ; Не дзвонить | 0
+? Що вона робить увечері? | Дивиться відео ; Читає книжку ; Працює | 1
+
+## t16|A0|🎂|A birthday|День народження
+Today is my mother's birthday. | Сьогодні в мами день народження.
+She is sixty years old. | Їй шістдесят років.
+
+At three o'clock the family comes. | О третій приходить родина.
+Everybody says: "Happy birthday!" | Усі кажуть: «З днем народження!»
+There are balloons in the living room. | У вітальні повітряні кульки.
+
+We eat a big chocolate cake. | Ми їмо великий шоколадний торт.
+There are sixty candles on it! | На ньому шістдесят свічок!
+My mother makes a wish and blows out the candles. | Мама загадує бажання і задуває свічки.
+We all sing "Happy Birthday to You". | Ми всі співаємо «З днем народження тебе».
+
+My mother gets many presents: flowers, a book and a nice scarf. | Мама отримує багато подарунків: квіти, книжку і гарний шарф.
+She is very happy. | Вона дуже щаслива.
+At six o'clock we have dinner together. | О шостій ми разом вечеряємо.
+It's a wonderful day. | Це чудовий день.
+? Скільки років мамі? | 50 ; 60 ; 70 | 1
+? Що кажуть усі? | З днем народження! ; Смачного! ; До побачення! | 0
+? Який торт? | Шоколадний ; Яблучний ; Сирний | 0
+
+## t17|A0|🌳|In the park|У парку
+It's Sunday and the sun is shining. | Неділя, світить сонце.
+I go to the park with my children. | Я йду з дітьми в парк.
+
+The park is big and green. | Парк великий і зелений.
+There is a pond with ducks. | Там є ставок з качками.
+The children look at the ducks. | Діти дивляться на качок.
+
+There is also a playground. | Є також дитячий майданчик.
+My son goes on the swing. | Мій син гойдається на гойдалці.
+My daughter plays in the sand. | Моя донька грається в піску.
+
+I sit on a bench and read. | Я сиджу на лавці і читаю.
+An old man sits next to me. | Поруч зі мною сидить старий чоловік.
+He says: "Beautiful day, isn't it?" | Він каже: «Гарний день, правда?»
+"Yes, it's lovely!" I say. | «Так, чудовий!» — кажу я.
+
+At four o'clock we buy ice cream. | О четвертій ми купуємо морозиво.
+Then we go home, tired and happy. | Потім ідемо додому втомлені й щасливі.
+? Хто живе у ставку? | Риби ; Качки ; Жаби | 1
+? Що робить донька? | Гойдається ; Грається в піску ; Читає | 1
+? Що вони купують о четвертій? | Каву ; Морозиво ; Квіти | 1
+
+## t18|A0|🏘️|My neighbor Henry|Мій сусід Генрі
+My neighbor's name is Henry. | Мого сусіда звати Генрі.
+He is eighty years old. | Йому вісімдесят років.
+He lives alone. | Він живе сам.
+
+Henry has a small dog. | У Генрі маленький песик.
+The dog's name is Max. | Песика звати Макс.
+Every morning Henry walks Max down the street. | Щоранку Генрі вигулює Макса вулицею.
+
+Henry is always cheerful. | Генрі завжди веселий.
+Every day he says: "Good morning, neighbor!" | Щодня він каже: «Доброго ранку, сусідко!»
+Sometimes we drink coffee together. | Іноді ми разом п'ємо каву.
+He tells me stories about the old days. | Він розповідає мені історії про давні часи.
+
+Henry can't walk very well. | Генрі погано ходить.
+So sometimes I go shopping for him. | Тому іноді я купую для нього продукти.
+He gives me flowers from his garden. | Він дає мені квіти зі свого саду.
+Henry helps me with my English. | Генрі допомагає мені з англійською.
+He is a good neighbor. | Він добрий сусід.
+? Скільки років Генрі? | 70 ; 80 ; 90 | 1
+? Як звати песика? | Макс ; Генрі ; Флафі | 0
+? Що Генрі дає авторці? | Гроші ; Квіти ; Книжки | 1
+
+## t19|A0|🚗|My first car|Моя перша машина
+I have a car! | У мене є машина!
+It's not new, but it's mine. | Вона не нова, але моя.
+It's blue and small. | Вона синя і маленька.
+
+In America many people need a car. | В Америці багатьом людям потрібна машина.
+The cities are big and the distances are long. | Міста великі, а відстані довгі.
+In my town there is no subway. | У моєму місті немає метро.
+
+First I got my driver's license. | Спершу я отримала водійські права.
+I took a test at the DMV. | Я склала іспит у відділі транспорту.
+It was difficult, but I passed! | Було важко, але я склала!
+
+Now I drive to work every day. | Тепер я щодня їжджу на роботу машиною.
+It takes twenty minutes. | Це двадцять хвилин.
+On the weekend we drive to the lake. | На вихідних ми їздимо до озера.
+Gas is not cheap, but it's okay. | Бензин недешевий, але нічого.
+I love my little blue car. | Я люблю свою маленьку синю машину.
+? Якого кольору машина? | Синя ; Червона ; Чорна | 0
+? Чому багатьом потрібна машина? | Великі відстані ; Немає автобусів ; Холодно | 0
+? Куди вони їздять на вихідних? | До моря ; До озера ; У гори | 1

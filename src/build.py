@@ -1,6 +1,6 @@
 import json,base64,re,os
 s=open('app.html').read()
-data='\n'.join(open(f).read() for f in ['words.js','content.js','emoji.js','content2.js','texts.js','gloss.js'])
+data='\n'.join(open(f).read() for f in ['words.js','content.js','emoji.js','content2.js','content3.js','texts.js','gloss.js'])
 idx=open('tts/index.json').read()
 sil='data:audio/mpeg;base64,'+base64.b64encode(open('tts/silent.mp3','rb').read()).decode()
 s=s.replace('/*DATA*/',data).replace('/*AIDX*/{}',idx)

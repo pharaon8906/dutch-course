@@ -264,9 +264,9 @@ const GS={lv:null};
 function vGrammar(){
   const f=GS.lv||S.level;
   $('#view').innerHTML=`<section class="card"><div class="small">Кожна тема: <b>простими словами</b> → правило → приклади з озвучкою → <b>типова помилка</b> → лайфхак → тест.</div>${lvChips(f,'glv')}</section>
-  ${GRAMMAR2.map((g,i)=>[g,i]).filter(([g])=>inLv(g.lv,f)).map(([g,i],n)=>`<details class="g" ${n===0?'open':''}><summary><span class="e">${g.e}</span><span style="flex:1">${esc(g.t)}</span>${S.gdone[i]?'<span class="pill ok">✓</span>':`<span class="pill">${g.lv}</span>`}</summary><div class="gb">
+  ${GRAMMAR2.map((g,i)=>[g,i]).filter(([g])=>inLv(g.lv,f)).sort((a,b)=>LVO[a[0].lv]-LVO[b[0].lv]).map(([g,i],n)=>`<details class="g" ${n===0?'open':''}><summary><span class="e">${g.e}</span><span style="flex:1">${esc(g.t)}</span>${S.gdone[i]?'<span class="pill ok">✓</span>':`<span class="pill">${g.lv}</span>`}</summary><div class="gb">
     <div class="simple"><b>Простими словами:</b> ${g.simple}</div>
-    <div class="scroll">${g.rules}</div>
+    <div class="scroll">${g.rules}</div>${g.verbs?verbTable(g.verbs):''}
     <div class="label">🔊 Приклади</div>
     ${g.ex.map(([nl,uk])=>`<div class="ex">${spkBtn(nl)}<div style="min-width:0"><div class="nl">${esc(nl)}</div><div class="small muted">${esc(uk)}</div></div></div>`).join('')}
     <div class="mist"><div>❌ <s>${esc(g.mistake[0])}</s></div><div>✅ <b>${esc(g.mistake[1])}</b> ${spkBtn(g.mistake[1])}</div><div class="small muted">${esc(g.mistake[2])}</div></div>
@@ -284,6 +284,9 @@ function vGrammar(){
   });
 }
 
+function verbTable(v){return `<div class="scroll"><table class="gt vt"><tr><th></th><th>Інфінітив</th><th>Минулий</th><th>Perfectum</th><th>UA</th></tr>${v.map(r=>`<tr><td><button class="sp" data-say="${esc(r[0]+', '+r[1]+', '+r[2])}" aria-label="Слухати ${esc(r[0])}">▶</button></td><td><b>${esc(r[0])}</b></td><td>${esc(r[1])}</td><td>${esc(r[2])}</td><td class="muted">${esc(r[3])}</td></tr>`).join('')}</table></div><button class="btn sunny" data-qmode="verbs">🎯 Тренувати неправильні дієслова</button>`}
+document.addEventListener('click',e=>{const b=e.target.closest('[data-qmode]');if(b){go('quiz');startQuiz(b.dataset.qmode)}});
+const VERBS=GRAMMAR2.filter(g=>g.verbs).flatMap(g=>g.verbs);
 /* ---------- hacks ---------- */
 const HEMO=['🏷️','⏱️','🔁','🗣️','👥','🌍','📝','📱','📻','🙌','🧩','🤪','⏲️'];
 function vHacks(){
@@ -390,6 +393,8 @@ const MODES=[
  ['type','⌨️','Напиши слово','Пишеш нідерландською. Артикль можна не писати.','c2'],
  ['article','🎲','De чи het?','Гра на артиклі.','c3'],
  ['dict','📝','Диктант','Чуєш речення з діалогів і текстів — записуєш його.','c4'],
+ ['gram','📘','Граматика','Питання з усіх тем граматики твого рівня.','c3'],
+ ['verbs','📋','Неправильні дієслова','Обери правильну форму минулого часу.','c1'],
  ['speak','🎤','Скажи вголос','Бачиш слово — кажеш його в мікрофон, програма перевіряє вимову.','c5']
 ];
 function vQuiz(){
@@ -407,6 +412,8 @@ function vQuiz(){
 function dictPool(){const out=[];ALLD.forEach(d=>{if(LVO[d.lv]<=LVO[S.level])d.lines.forEach(([who,nl,uk])=>{if(nl.split(' ').length<=9)out.push({nl,uk,voice:who==='A'?'f':'m'})})});TEXTS.forEach(t=>{if(LVO[t.lv]<=LVO[S.level])t.p.flat().forEach(([nl,uk])=>{if(nl.split(' ').length<=9&&!/[„”]/.test(nl))out.push({nl,uk,voice:'m'})})});return out}
 function startQuiz(mode){
   let pool;
+  if(mode==='gram'){pool=GRAMMAR2.filter(g=>LVO[g.lv]<=LVO[S.level]).flatMap(g=>g.q.map(q=>Object.assign({t:g.t,e:g.e},q)));Object.assign(QZ,{mode,qs:shuffle(pool).slice(0,10),i:0,score:0,answered:false,hint:0,pool});vQuiz();return}
+  if(mode==='verbs'){pool=VERBS.flatMap(v=>[{v,k:2},{v,k:1}]);Object.assign(QZ,{mode,qs:shuffle(pool).slice(0,10),i:0,score:0,answered:false,hint:0,pool});vQuiz();return}
   if(mode==='dict'){pool=dictPool();Object.assign(QZ,{mode,qs:shuffle(pool).slice(0,8),i:0,score:0,answered:false,hint:0,pool});vQuiz();return}
   pool=(mode==='article'?NOUNS:WORDS).filter(w=>QZ.cat?w.cat===QZ.cat:LVO[lvOf(w.cat)]<=LVO[S.level]);
   if(pool.length<4)pool=mode==='article'?NOUNS:WORDS;
@@ -428,6 +435,21 @@ function drawQ(){
   const w=QZ.qs[QZ.i];QZ.answered=false;QZ.hint=0;
   const head=`<div class="row" style="justify-content:space-between"><span class="small muted">Питання ${QZ.i+1} / ${QZ.qs.length} · ✅ ${Math.round(QZ.score*10)/10}</span><button class="btn" id="quit">✕ Вийти</button></div><div class="bar"><i style="width:${QZ.i/QZ.qs.length*100}%"></i></div>`;
   let body='';
+  if(QZ.mode==='gram'||QZ.mode==='verbs'){
+    let qt,opts,ans,expl;
+    if(QZ.mode==='gram'){qt=`<div class="small muted">${w.e} ${esc(w.t)}</div><div class="q-big" style="font-size:1.3rem">${esc(w.q)}</div>`;opts=w.o;ans=w.a}
+    else{const v=w.v,k=w.k;const right=v[k];const others=shuffle(VERBS.filter(x=>x!==v)).slice(0,2).map(x=>x[k]);const fake=k===2?(v[2].split(' ')[0]+' ge'+v[0].replace(/en$/,'')+(k===2?'d':'')):(v[0].replace(/en$/,'')+'de');opts=shuffle([right,others[0],fake!==right?fake:others[1]]);ans=opts.indexOf(right);
+      qt=`<div class="q-pic">📋</div><div class="q-big" style="font-size:1.4rem">${esc(v[0])} <span class="muted small">(${esc(v[3])})</span></div><div style="text-align:center;font-weight:800">${k===2?'Perfectum (я зробив)?':'Минулий простий (ik / wij)?'}</div>`}
+    v.innerHTML=`<section class="card">${head}${qt}<div class="opts">${opts.map((o,k)=>`<button class="opt" data-k="${k}">${esc(o)}</button>`).join('')}</div><div id="fb" class="feedback" aria-live="polite"></div><div class="row" id="nextRow" hidden><button class="btn primary" id="next">Далі →</button></div></section>`;
+    $('#quit').onclick=()=>{QZ.mode=null;vQuiz()};
+    document.querySelectorAll('.opt').forEach(b=>b.onclick=()=>{if(QZ.answered)return;QZ.answered=true;const ok=+b.dataset.k===ans;
+      document.querySelectorAll('.opt').forEach(x=>{if(+x.dataset.k===ans)x.classList.add('right')});if(!ok)b.classList.add('wrong');else{QZ.score++;const r=b.getBoundingClientRect();confetti(24,r.left+r.width/2,r.top);xpFloat(b,'+10')}
+      credit(ok?10:1);const fb=$('#fb');fb.className='feedback '+(ok?'ok':'no');
+      fb.innerHTML=(ok?'🎉 Goed zo!':'😅 Ні.')+(QZ.mode==='verbs'?` <b>${esc(w.v[0])} — ${esc(w.v[1])} — ${esc(w.v[2])}</b>`:` Правильно: <b>${esc(opts[ans])}</b>`);
+      if(QZ.mode==='verbs')say(w.v[0]+', '+w.v[1]+', '+w.v[2],{auto:true});
+      $('#nextRow').hidden=false;$('#next').onclick=()=>{QZ.i++;drawQ()}});
+    return;
+  }
   if(QZ.mode==='choice'){const o=shuffle([w,...distractors(w,'uk')]);body=`<div class="q-pic">${w.em}</div><div class="row" style="justify-content:center;gap:12px"><div class="q-big">${artHTML(w.nl)}</div>${spkBtn(w.nl)}</div><div class="opts">${o.map(x=>`<button class="opt" data-a="${x===w}">${esc(x.uk)}</button>`).join('')}</div>`}
   else if(QZ.mode==='listen'){const o=shuffle([w,...distractors(w,'nl')]);body=`<div class="q-pic">🎧</div><div class="row" style="justify-content:center"><button class="btn primary" id="play">${SPK} Слухати</button><button class="btn" data-say="${esc(w.nl)}" data-rate="0.7">🐢 Повільно</button></div><div class="opts">${o.map(x=>`<button class="opt" data-a="${x===w}">${artHTML(x.nl)}</button>`).join('')}</div>`}
   else if(QZ.mode==='type'){body=`<div class="q-pic">${w.em}</div><div class="q-big">${esc(w.uk)}</div><form id="tf" class="row" style="flex-wrap:nowrap"><input type="text" id="ans" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="нідерландською…" aria-label="Відповідь"><button class="btn primary">OK</button></form>`}

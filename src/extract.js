@@ -1,5 +1,5 @@
 const fs=require('fs');
-const src=['words.js','content.js','emoji.js','content2.js','texts.js','gloss.js'].map(f=>fs.readFileSync(f,'utf8')).join('\n');
+const src=['words.js','content.js','emoji.js','content2.js','content3.js','texts.js','gloss.js'].map(f=>fs.readFileSync(f,'utf8')).join('\n');
 eval(src+';globalThis.D={RAW,DIALOGS,GRAMMAR2,SOUNDS,FALSE_FRIENDS,EXPR_RAW,NEW_DIALOGS,ALPHABET,PHONICS,TEXTS}');
 const {RAW,DIALOGS,GRAMMAR2,SOUNDS,FALSE_FRIENDS,EXPR_RAW,NEW_DIALOGS,ALPHABET,PHONICS,TEXTS}=D;
 const clean=t=>t.replace(/\s\/\s/g,', ').replace(/\s*[→—]\s*/g,', ').replace(/\(.*?\)/g,'').replace(/\.\.\.|…|___/g,'').replace(/[„”“"]/g,'').replace(/\s+/g,' ').replace(/^,\s*|,\s*$/g,'').trim();
@@ -11,7 +11,7 @@ const cats=Object.entries(RAW).concat([["Розмовні вирази",EXPR_RAW
 cats.forEach(([cat,txt],ci)=>txt.trim().split('\n').forEach(l=>{const nl=l.split('|')[0].trim();add(nl,'m','w'+ci);const m=nl.match(/^(de|het) (.*)$/);if(m&&!nl.includes('?'))add(m[2],'m','w'+ci)}));
 DIALOGS.forEach(d=>d.lines.forEach(([who,nl])=>add(nl,who==='A'?'f':'m','d')));
 NEW_DIALOGS.forEach(d=>d.lines.forEach(([who,nl])=>add(nl,who==='A'?'f':'m','d2')));
-GRAMMAR2.forEach(g=>{g.ex.forEach(([nl])=>add(nl,'m','g'));add(g.mistake[1],'m','g')});
+GRAMMAR2.forEach(g=>{g.ex.forEach(([nl])=>add(nl,'m','g'));add(g.mistake[1],'m','g');(g.verbs||[]).forEach(r=>add(r[0]+', '+r[1]+', '+r[2],'m','g'))});
 SOUNDS.forEach(s=>{s.ex.forEach(w=>add(w,'m','x'));add(s.ex.join(', '),'m','x')});
 ALPHABET.forEach(([L])=>add(L,'m','p'));
 PHONICS.forEach(g=>g.items.forEach(it=>{it.ex.forEach(([w])=>add(w.replace(/-/g,''),'m','p'));add(it.ex.map(e=>e[0].replace(/-/g,'')).join(', '),'m','p')}));

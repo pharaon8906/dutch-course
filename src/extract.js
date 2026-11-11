@@ -13,7 +13,7 @@ DIALOGS.forEach(d=>d.lines.forEach(([who,nl])=>add(nl,who==='A'?'f':'m','d')));
 NEW_DIALOGS.forEach(d=>d.lines.forEach(([who,nl])=>add(nl,who==='A'?'f':'m','d2')));
 GRAMMAR2.forEach(g=>{g.ex.forEach(([nl])=>add(nl,'m','g'));add(g.mistake[1],'m','g');(g.verbs||[]).forEach(r=>add(r[0]+', '+r[1]+', '+r[2],'m','g'))});
 SOUNDS.forEach(s=>{s.ex.forEach(w=>add(w,'m','x'));add(s.ex.join(', '),'m','x')});
-ALPHABET.forEach(([L])=>add(L,'m','p'));
+ALPHABET.forEach(([L,r,sp])=>add(sp||L,'m','p'));
 PHONICS.forEach(g=>g.items.forEach(it=>{it.ex.forEach(([w])=>add(w.replace(/-/g,''),'m','p'));add(it.ex.map(e=>e[0].replace(/-/g,'')).join(', '),'m','p')}));
 FALSE_FRIENDS.forEach(f=>add(f[0],'m','x'));
 ['Ik wil graag ...','Mag ik ...?','Hoeveel kost het?','Waar is ...?','Kunt u dat herhalen?','Kunt u langzamer praten?','Hoe zeg je ... in het Nederlands?','Wat betekent dat?','Ik spreek een beetje Nederlands.','Ik wil graag Nederlands oefenen.','Achtentachtig angstige agenten aten achtentachtig ananassen','Scheveningen','Hallo! Welkom bij de cursus Nederlands.','Dit is mijn stem.','Hallo! Ik spreek Nederlands.'].forEach(t=>add(t,'m','x'));

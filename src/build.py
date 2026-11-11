@@ -3,7 +3,8 @@ s=open('app.html').read()
 data='\n'.join(open(f).read() for f in ['words.js','content.js','emoji.js','content2.js','content3.js','texts.js','gloss.js'])
 idx=open('tts/index.json').read()
 sil='data:audio/mpeg;base64,'+base64.b64encode(open('tts/silent.mp3','rb').read()).decode()
-s=s.replace('/*DATA*/',data).replace('/*AIDX*/{}',idx)
+cred=open('tts/credits.json').read() if os.path.exists('tts/credits.json') else '[]'
+s=s.replace('/*DATA*/',data).replace('/*AIDX*/{}',idx).replace('/*CREDITS*/[]',cred)
 s=re.sub(r"const SILENT='[^']*';","const SILENT='"+sil+"';",s)
 open('course.html','w').write(s.replace('/*AUDIO*/null','null'))
 chunks={f[:-5]:json.load(open('audio/'+f)) for f in os.listdir('audio')}

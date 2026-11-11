@@ -4,3 +4,4 @@ src/tts/mp3/
 src/tts/*.wav
 src/voices/
 src/tts/gmp3/
+src/tts/mp3/

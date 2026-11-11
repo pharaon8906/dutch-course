@@ -21,6 +21,6 @@ if __name__=='__main__':
     else:
         items=json.load(open('tts/items.json'));os.makedirs('tts/gmp3',exist_ok=True)
         # words & examples: female Kore; dialogs keep A=female, B=male
-        jobs=[(it['text'],'f' if it['voice']=='f' or it['chunk']!='d' else 'm','tts/gmp3/%d.mp3'%it['id']) for it in items if not os.path.exists('tts/gmp3/%d.mp3'%it['id'])]
+        jobs=[(it['text'],'m' if (it['voice']=='m' and it['chunk'] in ('d','d2')) else 'f','tts/gmp3/%d.mp3'%it['id']) for it in items if not os.path.exists('tts/gmp3/%d.mp3'%it['id'])]
         with cf.ThreadPoolExecutor(int(os.environ.get("TH","6"))) as ex: res=list(ex.map(lambda j:synth(*j),jobs))
         print('ok',sum(res),'of',len(jobs))

@@ -8,5 +8,9 @@ def enc(it):
 with cf.ThreadPoolExecutor(8) as ex: list(ex.map(enc,items))
 chunks={}
 for it in items: chunks.setdefault(it['chunk'],{})[str(it['id'])]=base64.b64encode(open(f"tts/mp3/{it['id']}.mp3",'rb').read()).decode()
+import shutil;shutil.rmtree('audio',ignore_errors=True);os.makedirs('audio')
 for c,d in chunks.items(): json.dump(d,open(f'audio/{c}.json','w'))
 print(sum(os.path.getsize('audio/'+f) for f in os.listdir('audio'))//1024,'KB audio')
+
+idx={it['k']:[it['chunk'],it['id']] for it in items}
+json.dump(idx,open('tts/index.json','w'),ensure_ascii=False)

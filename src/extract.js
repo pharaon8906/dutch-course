@@ -1,16 +1,25 @@
 const fs=require('fs');
-eval(fs.readFileSync('words.js','utf8')+fs.readFileSync('content.js','utf8')+fs.readFileSync('emoji.js','utf8')+';globalThis.D={RAW,DIALOGS,GRAMMAR,SOUNDS,HACKS,FALSE_FRIENDS}');
-const {RAW,DIALOGS,GRAMMAR,SOUNDS,FALSE_FRIENDS}=D;
-const clean=t=>t.replace(/\s\/\s/g,', ').replace(/\(.*?\)/g,'').replace(/\.\.\.|…|___/g,'').replace(/\s+/g,' ').trim();
+const src=['words.js','content.js','emoji.js','content2.js','texts.js','gloss.js'].map(f=>fs.readFileSync(f,'utf8')).join('\n');
+eval(src+';globalThis.D={RAW,DIALOGS,GRAMMAR2,SOUNDS,FALSE_FRIENDS,EXPR_RAW,NEW_DIALOGS,ALPHABET,PHONICS,TEXTS}');
+const {RAW,DIALOGS,GRAMMAR2,SOUNDS,FALSE_FRIENDS,EXPR_RAW,NEW_DIALOGS,ALPHABET,PHONICS,TEXTS}=D;
+const clean=t=>t.replace(/\s\/\s/g,', ').replace(/\s*[→—]\s*/g,', ').replace(/\(.*?\)/g,'').replace(/\.\.\.|…|___/g,'').replace(/[„”“"]/g,'').replace(/\s+/g,' ').replace(/^,\s*|,\s*$/g,'').trim();
+const old=fs.existsSync('tts/items.json')?JSON.parse(fs.readFileSync('tts/items.json')):[];
+const oldId=new Map(old.map(o=>[o.k,o.id]));let next=Math.max(-1,...old.map(o=>o.id))+1;
 const items=new Map();
-function add(text,voice,chunk){const c=clean(text);if(!c)return;const k=voice+'|'+c;if(!items.has(k))items.set(k,{k,text:c,voice,chunk})}
-Object.entries(RAW).forEach(([cat,txt],ci)=>txt.trim().split('\n').forEach(l=>{const nl=l.split('|')[0].trim();add(nl,'m','w'+ci);const m=nl.match(/^(de|het) (.*)$/);if(m&&!nl.includes('?'))add(m[2],'m','w'+ci)}));
-DIALOGS.forEach((d,i)=>d.lines.forEach(([who,nl])=>add(nl,who==='A'?'f':'m','d')));
-GRAMMAR.forEach(g=>g.ex.forEach(([nl])=>add(nl.split('→').pop().split('—')[0].trim(),'m','x')));
+function add(text,voice,chunk){const c=clean(text);if(!c||!/[a-zA-ZÀ-ÿ]/.test(c))return;const k=voice+'|'+c;if(items.has(k))return;let id=oldId.has(k)?oldId.get(k):next++;items.set(k,{k,text:c,voice,chunk,id})}
+const cats=Object.entries(RAW).concat([["Розмовні вирази",EXPR_RAW]]);
+cats.forEach(([cat,txt],ci)=>txt.trim().split('\n').forEach(l=>{const nl=l.split('|')[0].trim();add(nl,'m','w'+ci);const m=nl.match(/^(de|het) (.*)$/);if(m&&!nl.includes('?'))add(m[2],'m','w'+ci)}));
+DIALOGS.forEach(d=>d.lines.forEach(([who,nl])=>add(nl,who==='A'?'f':'m','d')));
+NEW_DIALOGS.forEach(d=>d.lines.forEach(([who,nl])=>add(nl,who==='A'?'f':'m','d2')));
+GRAMMAR2.forEach(g=>{g.ex.forEach(([nl])=>add(nl,'m','g'));add(g.mistake[1],'m','g')});
 SOUNDS.forEach(s=>{s.ex.forEach(w=>add(w,'m','x'));add(s.ex.join(', '),'m','x')});
+ALPHABET.forEach(([L])=>add(L,'m','p'));
+PHONICS.forEach(g=>g.items.forEach(it=>{it.ex.forEach(([w])=>add(w.replace(/-/g,''),'m','p'));add(it.ex.map(e=>e[0].replace(/-/g,'')).join(', '),'m','p')}));
 FALSE_FRIENDS.forEach(f=>add(f[0],'m','x'));
-const extra=['Ik wil graag ...','Mag ik ...?','Hoeveel kost het?','Waar is ...?','Kunt u dat herhalen?','Kunt u langzamer praten?','Hoe zeg je ... in het Nederlands?','Wat betekent dat?','Ik spreek een beetje Nederlands.','Ik wil graag Nederlands oefenen.','Achtentachtig angstige agenten aten achtentachtig ananassen','Scheveningen','Hallo! Welkom bij de cursus Nederlands.','Dit is mijn stem.','Hallo! Ik spreek Nederlands.'];
-extra.forEach(t=>add(t,'m','x'));
-const arr=[...items.values()];arr.forEach((it,i)=>it.id=i);
+['Ik wil graag ...','Mag ik ...?','Hoeveel kost het?','Waar is ...?','Kunt u dat herhalen?','Kunt u langzamer praten?','Hoe zeg je ... in het Nederlands?','Wat betekent dat?','Ik spreek een beetje Nederlands.','Ik wil graag Nederlands oefenen.','Achtentachtig angstige agenten aten achtentachtig ananassen','Scheveningen','Hallo! Welkom bij de cursus Nederlands.','Dit is mijn stem.','Hallo! Ik spreek Nederlands.'].forEach(t=>add(t,'m','x'));
+const tok=s=>(s.match(/'s|[A-Za-zÀ-ÿ]+(?:'s)?/g)||[]).map(x=>x.toLowerCase()).filter(x=>x!=="'s");
+TEXTS.forEach(t=>t.p.flat().forEach(([nl])=>{add(nl,'m',t.id);tok(nl).forEach(w=>add(w,'m',t.id))}));
+const arr=[...items.values()].sort((a,b)=>a.id-b.id);
 fs.writeFileSync('tts/items.json',JSON.stringify(arr));
-console.log(arr.length,'clips;',[...new Set(arr.map(a=>a.chunk))].length,'chunks; female',arr.filter(a=>a.voice==='f').length);
+const nw=arr.filter(a=>!oldId.has(a.k));
+console.log(arr.length,'clips;',nw.length,'new;',nw.reduce((s,a)=>s+a.text.length,0),'new chars');

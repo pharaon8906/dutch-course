@@ -241,7 +241,8 @@ table.gt th{color:var(--blue);font-size:.82rem;text-transform:uppercase;letter-s
 #talkPanel{position:sticky;bottom:calc(84px + env(safe-area-inset-bottom,0px));z-index:4}
 #talkPanel:empty{display:none}
 .talk{box-shadow:0 14px 30px -12px rgba(20,30,90,.45);background:linear-gradient(135deg,var(--sun-soft),var(--pink-soft));border-radius:20px;padding:16px;display:grid;gap:10px;justify-items:center;text-align:center;animation:rise .3s both}
-.say-uk{font-size:1.15rem;font-weight:800}
+.say-uk{font-size:1.05rem;font-weight:700;color:var(--muted)}
+.say-nl{font-size:1.3rem;font-weight:800;font-family:var(--f-display);line-height:1.35}
 .heard{min-height:28px;font-size:1.05rem}
 .micbtn{width:78px;height:78px;border-radius:50%;border:0;cursor:pointer;background:linear-gradient(135deg,var(--orange),var(--pink));color:#fff;display:grid;place-items:center;box-shadow:0 12px 24px -10px var(--pink);transition:transform .12s;margin:0 auto}
 .micbtn svg{width:34px;height:34px}
@@ -2103,7 +2104,7 @@ function listen({onPartial,onDone,onError}){
     maxT=setTimeout(()=>micStop&&micStop(),15000);
   };
   if(DICT){
-    unsubs.push(DICT.onFinal(({text:t})=>{text+=t;clearTimeout(timer);timer=setTimeout(()=>DICT.stop().then(finish,finish),1400)}));
+    unsubs.push(DICT.onFinal(({text:t})=>{text+=t;clearTimeout(timer);timer=setTimeout(()=>DICT.stop().then(finish,finish),2300)}));
     unsubs.push(DICT.onPartial(({text:t})=>{onPartial&&onPartial((text+' '+t).trim());if(t){clearTimeout(timer)}}));
     unsubs.push(DICT.onState(({state,reason})=>{if(state==='idle'&&!done){if(reason&&!['stopped','viewer_stopped'].includes(reason)&&!text){done=true;unsubs.forEach(u=>{try{u()}catch(e){}});micStop=null;onError(reason)}else finish()}}));
     micStop=()=>DICT.stop().then(finish,finish);
@@ -2117,10 +2118,11 @@ function listen({onPartial,onDone,onError}){
 const NUM={0:'nul',1:'een',2:'twee',3:'drie',4:'vier',5:'vijf',6:'zes',7:'zeven',8:'acht',9:'negen',10:'tien',11:'elf',12:'twaalf',13:'dertien',14:'veertien',15:'vijftien',16:'zestien',17:'zeventien',18:'achttien',19:'negentien',20:'twintig',30:'dertig',40:'veertig',50:'vijftig',60:'zestig',70:'zeventig',80:'tachtig',90:'negentig',100:'honderd'};
 function numNl(n){if(NUM[n])return NUM[n];if(n<100){const t=Math.floor(n/10)*10,u=n%10;return NUM[u]+(u===2||u===3?'ën':'en')+NUM[t]}return String(n)}
 function wnorm(s){return s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/(\d+)/g,(m)=>' '+numNl(+m)+' ').replace(/[^a-z' ]/g,' ').replace(/'/g,'').split(/\s+/).filter(Boolean)}
+function phon(w){return w.replace(/ij|y/g,'ei').replace(/ch/g,'g').replace(/au/g,'ou').replace(/dt$|d$/,'t').replace(/v/g,'f').replace(/z/g,'s').replace(/(.)\1/g,'$1')}
 function compare(expected,heard){
   const E=wnorm(expected),H=wnorm(heard);const n=E.length,m=H.length;
   const d=Array.from({length:n+1},()=>new Array(m+1).fill(0));
-  const eq=(a,b)=>a===b||(a.length>3&&b.length>3&&lev(a,b)<=1);
+  const eq=(a,b)=>{if(a===b)return true;const pa=phon(a),pb=phon(b);if(pa===pb)return true;const L=Math.max(pa.length,pb.length);return lev(pa,pb)<=(L>=7?2:L>=3?1:0)};
   for(let i=n-1;i>=0;i--)for(let j=m-1;j>=0;j--)d[i][j]=eq(E[i],H[j])?d[i+1][j+1]+1:Math.max(d[i+1][j],d[i][j+1]);
   const ok=new Array(n).fill(false);let i=0,j=0;while(i<n&&j<m){if(eq(E[i],H[j])){ok[i]=true;i++;j++}else if(d[i+1][j]>=d[i][j+1])i++;else j++}
   const score=n?ok.filter(Boolean).length/n:0;
@@ -2373,7 +2375,7 @@ function vHacks(){
 }
 
 /* ---------- dialogs with microphone ---------- */
-const DS={i:null,trans:true,role:null,lv:null,talk:null};
+const DS={i:null,trans:true,role:null,lv:null,talk:null,hard:false};
 function vDialogs(){
   if(DS.i===null){
     const f=DS.lv||S.level;
@@ -2392,7 +2394,7 @@ function vDialogs(){
       <button class="btn bad" id="talkB">🎤 Говорити за 👨 B</button>
       <button class="btn" id="tr">${DS.trans?'🙈':'👀'} Переклад</button>
     </div>
-    <div class="chat" id="lines">${d.lines.map(([who,nl,uk],k)=>{const mine=T&&T.role===who;const hide=mine&&k>=T.k&&!(T.revealed&&k===T.k);return `<div class="line ${who} ${T&&k===T.k?'playing':''} ${T&&T.okLines&&T.okLines[k]?'okline':''}" data-k="${k}"><span class="ava">${who==='A'?'👩':'👨'}</span><div class="bubble"><div style="min-width:0;flex:1"><div class="nl ${hide?'hidden-text':''}">${esc(nl)}</div>${DS.trans||mine?`<div class="uk">${esc(uk)}</div>`:''}</div>${hide?'':spkBtn(nl,nl,who==='A'?'f':'m')}</div></div>`}).join('')}</div>
+    <div class="chat" id="lines">${d.lines.map(([who,nl,uk],k)=>{const mine=T&&T.role===who;const hide=DS.hard&&mine&&k>=T.k&&!(T.revealed&&k===T.k);return `<div class="line ${who} ${T&&k===T.k?'playing':''} ${T&&T.okLines&&T.okLines[k]?'okline':''}" data-k="${k}"><span class="ava">${who==='A'?'👩':'👨'}</span><div class="bubble"><div style="min-width:0;flex:1"><div class="nl ${hide?'hidden-text':''}">${esc(nl)}</div>${DS.trans||mine?`<div class="uk">${esc(uk)}</div>`:''}</div>${hide?'':spkBtn(nl,nl,who==='A'?'f':'m')}</div></div>`}).join('')}</div>
     <div id="talkPanel"></div>
     <div class="tipbox"><b>💡 Корисно:</b> ${esc(d.tip)}</div>
     <div class="row"><button class="btn" id="prev" ${DS.i?'':'disabled'}>← Попередній</button><button class="btn" id="nextD" ${DS.i<ALLD.length-1?'':'disabled'}>Наступний →</button></div>
@@ -2430,15 +2432,19 @@ function talkPanel(msg){
   $('#talkPanel').innerHTML=`<div class="talk">
     <div class="label">Твоя черга (${who==='A'?'👩 A':'👨 B'})</div>
     <div class="say-uk">«${esc(uk)}»</div>
-    <div id="heard" class="heard">${msg||(T.revealed?`<div class="nl">${esc(nl)}</div>`:'<span class="muted small">Скажи це нідерландською</span>')}</div>
+    ${DS.hard&&!T.revealed?'':`<div class="say-nl">${esc(nl)}</div>`}
+    <div id="heard" class="heard">${msg||'<span class="muted small">Скажи цю фразу нідерландською</span>'}</div>
     ${mic?`<button class="micbtn" id="micb" aria-label="Говорити">${MIC}</button><div class="small muted" id="micst">Натисни і говори</div>`:`<div class="small muted">Мікрофон тут недоступний. Скажи фразу вголос, а тоді перевір себе.</div>`}
     <div class="row" style="justify-content:center">
-      <button class="btn" id="hintb">👀 Підказка</button>
+      ${DS.hard&&!T.revealed?'<button class="btn" id="hintb">👀 Показати текст</button>':''}
       <button class="btn" id="modelb">${SPK} Як сказати</button>
       ${!mic?`<button class="btn good" id="selfok">✅ Я сказав(ла) правильно</button>`:''}
+      ${mic&&T.tries>=1?`<button class="btn good" id="selfok">✅ Зарахувати</button>`:''}
       ${T.tries>=2||!mic?`<button class="btn" id="skipb">Пропустити →</button>`:''}
-    </div></div>`;
-  $('#hintb').onclick=()=>{T.revealed=true;const h=document.querySelector(`.line[data-k="${T.k}"] .nl`);h&&h.classList.remove('hidden-text');talkPanel(`<div class="nl">${esc(nl)}</div>`)};
+    </div>
+    <label class="small muted"><input type="checkbox" id="hardt" ${DS.hard?'checked':''}> Складніше: ховати нідерландський текст</label></div>`;
+  if($('#hintb'))$('#hintb').onclick=()=>{T.revealed=true;const h=document.querySelector(`.line[data-k="${T.k}"] .nl`);h&&h.classList.remove('hidden-text');talkPanel()};
+  $('#hardt').onchange=e=>{DS.hard=e.target.checked;const keep=DS.talk;vDialogs();DS.talk=keep;talkPanel()};
   $('#modelb').onclick=()=>say(nl,{voice:who==='A'?'f':'m'});
   if($('#skipb'))$('#skipb').onclick=()=>advance(false);
   if($('#selfok'))$('#selfok').onclick=()=>advance(true);
@@ -2448,8 +2454,8 @@ function talkPanel(msg){
     listen({onPartial:t=>{$('#heard').innerHTML=`<span class="muted">${esc(t)}</span>`},
       onDone:text=>{b.classList.remove('on');if(!text){$('#micst').textContent='Нічого не почув. Натисни і говори голосніше.';return}
         const r=compare(nl,text);
-        if(r.score>=0.7){T.score+=r.score;T.okLines[T.k]=1;$('#heard').innerHTML=`<div class="nl">${markWords(nl,r)}</div><div class="feedback ok">🎉 Goed zo! ${Math.round(r.score*100)}%</div>`;$('#micst').textContent='Правильно! Ідемо далі…';xpFloat(b,'+10');const rr=b.getBoundingClientRect();confetti(24,rr.left+rr.width/2,rr.top);setTimeout(()=>advance(true,true),1300)}
-        else{T.tries++;$('#heard').innerHTML=`<div class="small muted">Ти сказав(ла): «${esc(text)}»</div><div class="nl">${markWords(nl,r)}</div><div class="feedback no">🔁 Спробуй ще раз (${Math.round(r.score*100)}%). Червоні слова — пропущені.</div>`;$('#micst').textContent='Послухай і повтори';
+        if(r.score>=0.6){T.score+=r.score;T.okLines[T.k]=1;$('#heard').innerHTML=`<div class="nl">${markWords(nl,r)}</div><div class="feedback ok">🎉 Goed zo! ${Math.round(r.score*100)}%</div>`;$('#micst').textContent='Правильно! Ідемо далі…';xpFloat(b,'+10');const rr=b.getBoundingClientRect();confetti(24,rr.left+rr.width/2,rr.top);setTimeout(()=>advance(true,true),1300)}
+        else{T.tries++;$('#heard').innerHTML=`<div class="small muted">Ти сказав(ла): «${esc(text)}»</div><div class="nl">${markWords(nl,r)}</div><div class="feedback no">🔁 Спробуй ще раз (${Math.round(r.score*100)}%). Червоні слова не розпізнано.</div><div class="small muted">Якщо ти сказав(ла) правильно, а програма не зрозуміла, натисни «✅ Зарахувати».</div>`;$('#micst').textContent='Послухай і повтори';if(!$('#selfok')){const ok=document.createElement('button');ok.className='btn good';ok.id='selfok';ok.textContent='✅ Зарахувати';ok.onclick=()=>advance(true);$('#modelb').after(ok)}
           const h=document.querySelector(`.line[data-k="${T.k}"] .nl`);h&&h.classList.remove('hidden-text');
           say(nl,{voice:who==='A'?'f':'m',onend:()=>{if(T.tries>=2&&!$('#skipb')&&$('#modelb')){const sb=document.createElement('button');sb.className='btn';sb.id='skipb';sb.textContent='Пропустити →';sb.onclick=()=>advance(false);$('#modelb').after(sb)}}})}},
       onError:code=>{b.classList.remove('on');$('#micst').textContent=micErrText(code);if(code==='not_granted'||code==='unavailable'){DICT=null}}});
@@ -2555,7 +2561,7 @@ function drawQ(){
   }
   if($('#micb'))$('#micb').onclick=()=>{const b=$('#micb');if(b.classList.contains('on')){micStop&&micStop();return}stopSpeech();b.classList.add('on');$('#micst').textContent='🔴 Слухаю…';
     listen({onPartial:t=>{$('#heard').textContent=t},onDone:text=>{b.classList.remove('on');if(!text){$('#micst').textContent='Нічого не почув. Спробуй ще.';return}const r=compare(w.nl.replace(/^(de|het) /,''),text.replace(/^(de|het) /i,''));
-      if(r.score>=0.7){$('#heard').innerHTML=`<span class="w-ok">${esc(text)}</span>`;confetti(24);xpFloat(b,'+10');finish(w,true)}else{$('#heard').innerHTML=`<span class="small muted">Почув: «${esc(text)}»</span>`;$('#micst').textContent='Не зовсім. Послухай і спробуй ще';say(w.nl);QZ.hint++;if(QZ.hint>=3)finish(w,false)}},
+      if(r.score>=0.6){$('#heard').innerHTML=`<span class="w-ok">${esc(text)}</span>`;confetti(24);xpFloat(b,'+10');finish(w,true)}else{$('#heard').innerHTML=`<span class="small muted">Почув: «${esc(text)}»</span>`;$('#micst').textContent='Не зовсім. Послухай і спробуй ще';say(w.nl);QZ.hint++;if(QZ.hint>=3)finish(w,false)}},
       onError:c=>{b.classList.remove('on');$('#micst').textContent=micErrText(c)}})};
 }
 function hintFor(w,n){

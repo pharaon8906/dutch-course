@@ -54,6 +54,29 @@ def build_index():
     json.dump(idx, open('tts/commons_index.json', 'w'), ensure_ascii=False)
     print('words in index:', len(idx))
 
+
+def dataset():
+    """Download Lingua Libre's Dutch dataset (one zip) and index it locally."""
+    import zipfile
+    html = get('https://lingualibre.org/datasets/', binary=True).decode('utf-8', 'replace')
+    links = re.findall(r'href="([^"]*(?:nld|Q7411)[^"]*\.zip)"', html)
+    print('dataset links:', links, flush=True)
+    if not links: raise SystemExit('no Dutch dataset link found')
+    url = urllib.parse.urljoin('https://lingualibre.org/datasets/', links[0])
+    data = get(url, binary=True)
+    open('/tmp/nld.zip', 'wb').write(data); print('zip MB', len(data) // 1048576, flush=True)
+    os.makedirs('/tmp/nld', exist_ok=True)
+    zipfile.ZipFile('/tmp/nld.zip').extractall('/tmp/nld')
+    idx = {}
+    for root, _, files in os.walk('/tmp/nld'):
+        for fn in files:
+            if not fn.lower().endswith(('.ogg', '.wav', '.flac', '.mp3', '.opus')): continue
+            sp = os.path.basename(root); word = os.path.splitext(fn)[0]
+            idx.setdefault(key(word), []).append({'t': 'LL-Q7411 (nld)-%s-%s.wav' % (sp, word), 'sp': sp, 'src': 'Lingua Libre',
+                                                   'local': os.path.join(root, fn), 'license': 'CC BY-SA 4.0 (Lingua Libre)'})
+    json.dump(idx, open('tts/commons_index.json', 'w'), ensure_ascii=False)
+    print('words in dataset:', len(idx), flush=True)
+
 def file_url(title):
     name = title.replace(' ', '_')
     h = hashlib.md5(name.encode('utf-8')).hexdigest()
@@ -79,7 +102,7 @@ def fetch():
         best = sorted(idx[k], key=lambda f: (f['src'] != 'Lingua Libre', -score.get(f['sp'], 0)))[0]
         ext = best['t'].rsplit('.', 1)[1].lower()
         out = 'tts/native/%d.%s' % (iid, ext)
-        data = get(file_url(best['t']), binary=True)
+        data = open(best['local'], 'rb').read() if best.get('local') else get(file_url(best['t']), binary=True)
         if not data: print('  404', best['t']); continue
         open(out, 'wb').write(data)
         mp3 = 'tts/native_mp3/%d.mp3' % iid
@@ -90,16 +113,16 @@ def fetch():
         os.remove(out)
         if r.returncode != 0 or not os.path.exists(mp3) or os.path.getsize(mp3) < 1500:
             print('  bad audio', best['t']); continue
-        meta[str(iid)] = {'file': best['t'], 'speaker': best['sp'], 'src': best['src'], 'text': it_text[iid]}
+        meta[str(iid)] = {'file': best['t'], 'speaker': best['sp'], 'src': best['src'], 'text': it_text[iid], 'license': best.get('license', ''), 'artist': best['sp'] or ''}
         if n % 20 == 0:
             json.dump(meta, open('tts/native.json', 'w'), ensure_ascii=False); print(n, '/', len(want), flush=True)
-        time.sleep(0.7)
+        if not best.get('local'): time.sleep(0.7)
     json.dump(meta, open('tts/native.json', 'w'), ensure_ascii=False)
     print('native clips:', len(meta), 'of', len(want), 'matched; items total', len(items))
 
 def licenses():
     meta = json.load(open('tts/native.json'))
-    files = sorted({m['file'] for m in meta.values()})
+    files = sorted({m['file'] for m in meta.values() if not m.get('license')})
     lic = {}
     for i in range(0, len(files), 50):
         q = {'action': 'query', 'prop': 'imageinfo', 'iiprop': 'extmetadata', 'iiextmetadatafilter': 'LicenseShortName|Artist',
@@ -116,4 +139,4 @@ def licenses():
     print('licenses:', len(lic))
 
 if __name__ == '__main__':
-    {'list': build_index, 'fetch': fetch, 'licenses': licenses}[sys.argv[1]]()
+    {'list': build_index, 'dataset': dataset, 'fetch': fetch, 'licenses': licenses}[sys.argv[1]]()

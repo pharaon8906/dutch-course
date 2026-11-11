@@ -6,14 +6,14 @@ permissions:
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
       - name: Install ffmpeg
         run: sudo apt-get update && sudo apt-get install -y ffmpeg
-      - name: Index Dutch recordings on Wikimedia Commons
+      - name: Get Lingua Libre Dutch dataset
         working-directory: src
-        run: python3 native.py list
+        run: python3 native.py dataset
       - name: Download and convert matching recordings
         working-directory: src
         run: python3 native.py fetch

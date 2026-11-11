@@ -1,0 +1,30 @@
+name: Native speaker audio
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - name: Index Dutch recordings on Wikimedia Commons
+        working-directory: src
+        run: python3 native.py list
+      - name: Download and convert matching recordings
+        working-directory: src
+        run: python3 native.py fetch
+      - name: Read licenses
+        working-directory: src
+        run: python3 native.py licenses
+      - name: Commit results to branch native-audio
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898+github-actions[bot]@users.noreply.github.com"
+          git checkout -b native-audio
+          git add -f src/tts/native_mp3 src/tts/native.json src/tts/commons_index.json
+          git commit -m "Native speaker recordings from Wikimedia Commons"
+          git push -f origin native-audio

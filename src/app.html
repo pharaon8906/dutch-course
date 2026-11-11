@@ -611,7 +611,7 @@ function vGrammar(){
 function vSounds(){
   $('#view').innerHTML=`<section class="card"><h2>🎙️ Лабораторія вимови</h2><div class="small muted">Торкнись слова, щоб почути. «🐢 Повільно» вимовляє вдвічі повільніше — повторюй за диктором.</div>
   <label class="small" for="rate" style="font-weight:800">Швидкість мовлення: <span id="rv">${S.rate.toFixed(2)}</span></label><input type="range" id="rate" min="0.6" max="1.2" step="0.05" value="${S.rate}" style="width:100%;accent-color:var(--pink)">
-  <div class="small muted">🎧 Вимова записана природними нейромережевими голосами носіїв мови.</div></section>
+  <div class="small muted">🎧 Вимова записана природними голосами Google HD.</div></section>
   <div class="grid2">${SOUNDS.map((s,i)=>`<section class="card sound"><div class="s">${esc(s.s)}</div><div class="small">${esc(s.how)}</div><div class="row">${s.ex.map(w=>`<button class="chip" data-say="${esc(w)}">🔊 ${esc(w)}</button>`).join('')}</div><button class="btn sunny" data-say="${esc(s.ex.join(', '))}" data-rate="0.7">🐢 Повільно всі</button></section>`).join('')}</div>
   <section class="card" style="background:linear-gradient(135deg,var(--orange-soft),var(--pink-soft))"><h2>🌀 Скоромовки для сміливих</h2><div class="ex">${spkBtn('Achtentachtig angstige agenten aten achtentachtig ananassen')}<div><div class="nl">Achtentachtig angstige agenten aten achtentachtig ananassen.</div><div class="small muted">88 наляканих поліцейських з'їли 88 ананасів 🍍. Тренує горлове g/ch.</div></div></div>
   <div class="ex">${spkBtn('Scheveningen')}<div><div class="nl">Scheveningen</div><div class="small muted">Курорт біля Гааги 🏖️. Слово, яке видає іноземця за секунду.</div></div></div></section>`;
@@ -647,7 +647,7 @@ function vProgress(){
   <section class="card"><h2>⚙️ Налаштування</h2>
     <label class="small" for="goal" style="font-weight:800">Денна ціль (вправ)</label><select id="goal">${[10,20,30,50].map(n=>`<option ${S.goal===n?'selected':''}>${n}</option>`).join('')}</select>
     <label class="small" for="rate2" style="font-weight:800">Швидкість вимови: <span id="rv2">${S.rate.toFixed(2)}</span></label><input type="range" id="rate2" min="0.6" max="1.2" step="0.05" value="${S.rate}" style="width:100%;accent-color:var(--pink)">
-    <div class="small muted">🎧 Озвучка — природні нейромережеві голоси (чоловічий для слів, жіночий і чоловічий у діалогах). Працює однаково на будь-якому телефоні, нічого встановлювати не треба.</div>
+    <div class="small muted">🎧 Озвучка — природні голоси Google HD (жіночий для слів, жіночий і чоловічий у діалогах). Працює однаково на будь-якому телефоні, нічого встановлювати не треба.</div>
     <div class="row"><button class="btn primary" data-say="Hallo! Welkom bij de cursus Nederlands.">${SPK} Перевірити звук</button></div>
     <div class="row" id="resetRow"><button class="btn" id="reset">Скинути прогрес</button></div>
   </section>`;

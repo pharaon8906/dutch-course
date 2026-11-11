@@ -25,7 +25,9 @@
 | `src/content.js` | Діалоги, граматика, звуки, лайфхаки, фальшиві друзі |
 | `src/emoji.js` | Картинки до слів і тем |
 | `src/extract.js` | Збирає всі фрази для озвучки у `src/tts/items.json` |
-| `src/gen.py` | Записує аудіо голосами Piper у `src/audio/*.json` |
+| `src/gtts.py` | Записує аудіо голосами Google Chirp 3 HD у `src/tts/gmp3/` |
+| `src/pack.py` | Обрізає тишу, вирівнює гучність, пакує в `src/audio/*.json` |
+| `src/gen.py` | Запасний варіант: офлайн-голоси Piper |
 | `src/build.py` | Збирає `index.html` |
 
 ## Як перезібрати
@@ -33,9 +35,13 @@
 ```bash
 cd src
 node extract.js        # після зміни слів чи діалогів
-python3 gen.py         # потрібні piper-tts, ffmpeg і голоси в src/voices/
+GKEY=ваш_ключ python3 gtts.py all   # Google Cloud Text-to-Speech, ключ API
+python3 pack.py        # потрібен ffmpeg
 python3 build.py       # створює ../index.html
 ```
 
-Голоси Piper (`nl-rdh-medium`, `nl-mls_7432-low`) беруться з релізу
-[rhasspy/piper v0.0.2](https://github.com/rhasspy/piper/releases/tag/v0.0.2) і розпаковуються в `src/voices/`.
+Озвучка: Google Chirp 3 HD, голоси `nl-NL-Chirp3-HD-Kore` (жіночий) і `nl-NL-Chirp3-HD-Charon` (чоловічий).
+Ключ API передається тільки через змінну `GKEY` і ніколи не зберігається в репозиторії.
+
+Запасний офлайн-варіант — `gen.py` з голосами Piper (`nl-rdh-medium`, `nl-mls_7432-low`) з релізу
+[rhasspy/piper v0.0.2](https://github.com/rhasspy/piper/releases/tag/v0.0.2), розпакованими в `src/voices/`.
